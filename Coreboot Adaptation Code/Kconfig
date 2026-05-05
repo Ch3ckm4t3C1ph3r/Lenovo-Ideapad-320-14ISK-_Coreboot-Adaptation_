@@ -1,0 +1,61 @@
+# SPDX-License-Identifier: GPL-2.0-only
+
+config BOARD_LENOVO_SKL_IDEAPAD_320_14ISK
+	bool
+	#select AZALIA_USE_LEGACY_VERB_TABLE
+	#select BOARD_ROMSIZE_KB_16384
+	#select DRIVERS_OPTION_CFR_ENABLED if PAYLOAD_EDK2 && SMMSTORE
+	#select EC_LENOVO_H8
+	#select EC_LENOVO_MEC1653
+	#select EC_LENOVO_PMH7
+	#select H8_HAS_BAT_THRESHOLDS_IMPL
+	#select H8_HAS_LEDLOGO
+	#select H8_HAS_PRIMARY_FN_KEYS
+	#select H8_SUPPORT_BT_ON_WIFI
+	#select HAVE_ACPI_RESUME
+	select HAVE_ACPI_TABLES
+	#select INTEL_GMA_HAVE_VBT
+	#select MAINBOARD_HAS_LIBGFXINIT
+	select SOC_INTEL_COMMON_BLOCK_HDA_VERB
+	select SOC_INTEL_SKYLAKE
+	#select SPD_READ_BY_WORD
+	select SYSTEM_TYPE_LAPTOP
+
+config MAINBOARD_DIR
+	default "lenovo/skl_ideapad320-14isk"
+
+config MAINBOARD_PART_NUMBER
+	default "320-14isk"
+
+config CBFS_SIZE
+	default 0x900000
+
+config DIMM_MAX
+	default 2
+
+config DIMM_SPD_SIZE
+	default 512	# DDR4
+
+config CONSOLE_SERIAL
+	default y
+
+config NO_POST
+	default n
+
+config EDK2_BOOT_MANAGER_ESCAPE
+	default y
+
+config EDK2_FOLLOW_BGRT_SPEC
+	default y
+
+config EDK2_FULL_SCREEN_SETUP
+	default n
+
+config PS2K_EISAID
+	default "LEN0071"
+
+config PS2M_EISAID
+	default "LEN0094"
+
+config CONFIG_CBMEM_CHECKS
+	default y

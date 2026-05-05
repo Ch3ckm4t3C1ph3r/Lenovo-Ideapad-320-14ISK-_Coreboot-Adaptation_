@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: GPL-2.0-only
+
+config BOARD_LENOVO_IDEAPAD_320_14ISK
+	bool "Ideapad 320-14ISK"
