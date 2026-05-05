@@ -15,7 +15,7 @@ This chip support the <code>PREW</code> permitions and the SPI protocol.
 i5-6200U
 
 ## OS Used
-Linux based systems (everyone).
+Linux-based systems (every distro).
 
 ## Flash Program
 ```bash
