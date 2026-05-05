@@ -1,0 +1,40 @@
+[Product]
+Vendor name: LENOVO
+Product Model: Ideapad 320 14-ISK
+Category: laptop (notebook)
+Release year: 2017
+Product URL: https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/300-series/320-14ikb/solutions/pd104915-product-overview-ideapad-320-14ikb-320-14isk
+
+[Processor]
+Vendor name: Intel (R) Corporation
+ID: i5-6200U
+Max Speed: 2.30GHz
+Signature:
+    * Type: 0
+    * Family: 6
+    * Model: 78
+    * Stepping: 3
+
+[Motheboard]
+Vendor name: ASK
+Manufacturer: LENOVO
+Socket designation: U3E1
+Name: LNVNB161216
+Model: NM-B241
+ID: DG241 DG521 DG721
+SKU version: SDK0J40679 WIN
+Revision: 1.0
+Assembly date: 2017-02-17
+Machine type: 80XG
+
+[BIOS/UEFI]
+Vendor name: LENOVO
+Manufacturer: winbond
+Version: 4WCN41WW
+Release date: 2018-07-23
+Revision: 1.41
+ROM IC: W25Q64JVSIQ
+ROM protocol: SPI
+ROM socketed: no
+ROM package: SOIC-8 (208mil)
+Flashrom support: yes
