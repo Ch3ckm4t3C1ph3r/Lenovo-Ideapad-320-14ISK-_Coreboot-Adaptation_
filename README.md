@@ -44,37 +44,37 @@ The tool we used are the logical analyzer of 8 channels.
 ## Compilation
 If you want to modify the code to configure the boot process as you want. Then this section provide the steps to correctly compile the C code for you to flash in the chip.
 
-1. Clone the Coreboot repository
+**1.** Clone the Coreboot repository
 ```bash
 git clone https://review.coreboot.org/coreboot.git
 ```
 
-2. Change the current directory to <code>coreboot/src/mainboard/lenovo</code>
+**2.** Change the current directory to <code>coreboot/src/mainboard/lenovo</code>
 ```bash
 cd coreboot/src/mainboard/lenovo
 ```
 
-3. Make the proper directory
+**3.** Make the proper directory
 ```bash
 mkdir skl_ideapad320-14isk
 ```
 
-4. Change to the created directory
+**4.** Change to the created directory
 ```
 cd skl_ideapad320-14isk
 ```
 
-5. Clone this repository
+**5.** Clone this repository
 ```bash
 git clone https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_.git
 ```
 
-5. Change to the Coreboot root directory
+**6.** Change to the Coreboot root directory
 ```bash
 cd ../../../../
 ```
 
-6. Compile with <code>make</code>
+**7.** Compile with <code>make</code>
 ```bash
 make
 ```
