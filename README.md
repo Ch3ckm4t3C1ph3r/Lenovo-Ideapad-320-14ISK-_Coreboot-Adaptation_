@@ -18,7 +18,9 @@ i5-6200U
 Linux based systems (everyone).
 
 ## Flash Program
-```flashrom```
+```bash
+flashrom
+```
 (linux command).
 
 ## Flash Tool
