@@ -22,7 +22,7 @@ Linux-based systems (every distro).
 ```bash
 flashrom
 ```
-**Warning** You need to verify that the firm of the contents of your chip is the same as one of the BIN files I give you.
+**Warning** You need to verify that the firm of the contents of your chip is the same as one of the BIN files I give you. By, first, making copies of the contents of your BIOS-UEFI chip with <code>flashrom -p ch341a_spi -c W25Q64JV-.Q -r</code>
 
 ## Flash Tool
 CH341A Pro Kit
