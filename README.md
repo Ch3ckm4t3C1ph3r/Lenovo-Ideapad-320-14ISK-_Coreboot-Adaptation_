@@ -22,7 +22,7 @@ Linux-based systems (every distro).
 ```bash
 flashrom
 ```
-(linux command).
+**Warning** You need to verify that the firm of the contents of your chip is the same as one of the BIN files I give you.
 
 ## Flash Tool
 CH341A Pro Kit
