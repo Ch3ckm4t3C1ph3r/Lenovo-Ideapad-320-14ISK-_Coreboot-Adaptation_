@@ -4,7 +4,7 @@ This repository holds the information that we find from the reverese enginering 
 **Info** This adaptation is based on the Thinkpad Skylake t470s computer.
 
 Also you find a file called board_info.txt that saves the general information of the board for reference.
-You can find more information, about the datasheets, schematic, boardview (i recommend to use FlexBV5 to open the TVW file) and hardware info files, in the open-source provider cloud file repository in this link: https://eli.it.tabdigital.cloud/s/ci6C8onocRfkkLb 
+You can find more information, about the datasheets, schematic, boardview (i recommend to use FlexBV5 to open the TVW file) and hardware info files, in the open-source provider cloud file repository in this link: [Cloud File Space](https://eli.it.tabdigital.cloud/s/ci6C8onocRfkkLb) 
 
 You cand find the lastest updated in the publications of my mastodon social site.
 
