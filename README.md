@@ -66,7 +66,7 @@ cd skl_ideapad320-14isk
 
 5. Clone this repository
 ```bash
-git clone ...
+git clone https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_.git
 ```
 
 5. Change to the Coreboot root directory
