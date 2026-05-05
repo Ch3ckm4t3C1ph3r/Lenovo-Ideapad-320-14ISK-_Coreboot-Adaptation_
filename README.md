@@ -39,8 +39,12 @@ We reverse engineering the EC (Embeded Controller) chip by getting the expected 
 
 The tool we used are the logical analyzer of 8 channels.
 
+<!-- TO DO: Five all detailed information in the directory when the Reversing are completed. -->
+
 ## Compilation
 If you want to modify the code to configure the boot process as you want. Then this section provide the steps to correctly compile the C code for you to flash in the chip.
+
+<!-- TO DO: Give a step-by-step process of compilation of Coreboot targeting the apropiate file for the board in title. -->
 
 ## Configure the boot process to enable the UART messages
 If you want to configure Coreboot to enable the UART protocol to see real-time events of the board these are the requirements and steps of doing so.
@@ -48,3 +52,8 @@ Requirements:
 * Magnetic wires of 0.1mm.
 * Welder of intechangable tips (preferable) with a fine tip (needed).
 * Debugger probe based on FT2232H chips (FT2232HL). Note: You can find the config and the C files for use with OpenOCD, also.
+
+
+<!-- TO DO: Give a step-by-step instructions to configure the coreboot program to enable UART protocol. -->
+
+<!-- TO DO: Give problems finded when test the program. -->
