@@ -11,6 +11,9 @@ You cand find the lastest updated in the publications of my mastodon social site
 The chip that this specific board of the adaptation has are the W25Q64JVSIQ (you should select W25Q64JV-.Q if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
 This chip support the <code>PREW</code> permitions and the SPI protocol.
 
+## Board Processor
+i5-6200U
+
 ## OS Used
 Linux based systems (everyone).
 
