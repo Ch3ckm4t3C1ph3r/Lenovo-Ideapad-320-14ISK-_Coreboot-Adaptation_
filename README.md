@@ -14,7 +14,7 @@ Linux based systems (everyone).
 <code>flashrom</code> (linux command).
 
 # Flash Tool
-CH341A Pro
+CH341A Pro Kit
 
 # BIOS-UEFI BIN Files
 You find a directory that save the flat binary files that are in the BIOS-UEFI (has the both boot modes; can emulate the realmode legacy boot by enabled the proper option in UI menu) chip.
@@ -22,3 +22,8 @@ You find a directory that save the flat binary files that are in the BIOS-UEFI (
 The HAP enabled bit BIN files has the great content of the Intel ME removed and the HAP bit set by me_cleaner.py script.
 
 I recommend you to use UEFI Tool to view the contents of the chip BIN files. The structure of regions.
+
+# Reverse Engineering
+We reverse engineering the EC (Embeded Controller) chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip.
+
+The tool we used are the logical analyzer of 8 channels.
