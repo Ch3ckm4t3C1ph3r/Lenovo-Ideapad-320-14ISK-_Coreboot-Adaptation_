@@ -44,6 +44,41 @@ The tool we used are the logical analyzer of 8 channels.
 ## Compilation
 If you want to modify the code to configure the boot process as you want. Then this section provide the steps to correctly compile the C code for you to flash in the chip.
 
+1. Clone the Coreboot repository
+```bash
+git clone https://review.coreboot.org/coreboot.git
+```
+
+2. Change the current directory to <code>coreboot/src/mainboard/lenovo</code>
+```bash
+cd coreboot/src/mainboard/lenovo
+```
+
+3. Make the proper directory
+```bash
+mkdir skl_ideapad320-14isk
+```
+
+4. Change to the created directory
+```
+cd skl_ideapad320-14isk
+```
+
+5. Clone this repository
+```bash
+git clone ...
+```
+
+5. Change to the Coreboot root directory
+```bash
+cd ../../../../
+```
+
+6. Compile with <code>make</code>
+```bash
+make
+```
+
 <!-- TO DO: Give a step-by-step process of compilation of Coreboot targeting the apropiate file for the board in title. -->
 
 ## Configure the boot process to enable the UART messages
