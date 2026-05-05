@@ -6,7 +6,7 @@ You can find more information, about the datasheets, schematic, boardview (i rec
 
 You cand find the lastest updated in the publications of my mastodon social site.
 
-# Target Chip
+## Target Chip
 The chip that this specific board of the adaptation has are the W25Q64JVSIQ. You can find this information and more in the board_info.txt file.
 
 # OS Used
