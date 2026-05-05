@@ -4,6 +4,8 @@ This repository holds the information that we find from the reverese enginering 
 Also you find a file called board_info.txt that saves the general information of the board for reference.
 You can find more information, about the datasheets, schematic, boardview (i recommend to use FlexBV5 to open the TVW file) and hardware info files, in the open-source provider cloud file repository in this link: ... 
 
+You cand find the lastest updated in the publications of my mastodon social site.
+
 # Target Chip
 The chip that this specific board of the adaptation has are the W25Q64JVSIQ. You can find this information and more in the board_info.txt file.
 
