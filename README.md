@@ -4,14 +4,14 @@ This repository holds the information that we find from the reverese enginering 
 Also you find a file called board_info.txt that saves the general information of the board for reference.
 You can find more information in the open-source provider cloud file repository in this link: ... 
 
-Target Chip
+# Target Chip
 The chip that this specific board of the adaptation has are the W25Q64JVSIQ. You can find this information and more in the board_info.txt file.
 
-OS Used
+# OS Used
 Linux based systems (everyone).
 
-Flash Program
+# Flash Program
 <code>flashrom</code> (linux command).
 
-Flash Tool
+# Flash Tool
 CH341A Pro
