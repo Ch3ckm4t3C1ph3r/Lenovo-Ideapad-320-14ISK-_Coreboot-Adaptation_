@@ -14,7 +14,7 @@ This chip support the <code>PREW</code> permitions and the SPI protocol.
 Linux based systems (everyone).
 
 ## Flash Program
-```bashflashrom```
+```flashrom```
 (linux command).
 
 ## Flash Tool
