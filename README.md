@@ -19,7 +19,7 @@ Linux based systems (everyone).
 CH341A Pro Kit
 
 # BIOS-UEFI BIN Files
-You find a directory that save the flat binary files that are in the BIOS-UEFI (has the both boot modes; can emulate the realmode legacy boot by enabled the proper option in UI menu) chip.
+You find a directory that save the flat binary files that are in the BIOS-UEFI (has the both boot modes; can emulate the real-mode legacy boot by enabled the proper option in UI menu) chip.
 
 The HAP enabled bit BIN files has the great content of the Intel ME removed and the HAP bit set by me_cleaner.py script.
 
