@@ -106,7 +106,7 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 config:
   theme: 'base'
   themeVariables:
-    edgeLabelBackground: '#ff0000'
+    edgeLabelBackground: '#B3ADAD'
 ---
 flowchart LR;
     %% Definition of style (and class of style) of each element by id (or by class name)
