@@ -134,7 +134,6 @@ flowchart LR;
         end
         
         p1{GRUB} e3@---->|The user selects the second payload from the menu|UNION((*)) e4@--> p2_1[SeaBIOS] & p2_2[TianoCore]
-        linkStyle 2 background-color:#ff0000
     
         subgraph sbg4[Second Payload]
         p2_1[SeaBIOS] & p2_2[TianoCore]
@@ -145,6 +144,7 @@ flowchart LR;
     class sbg1,sbg2,sbg3,sbg4 sbgStyle
     class n1,n2,p1,p2_1,p2_2,UNION nodeStyle
     class e1,e2,e3 edgeStyle
+    linkStyle 2 background-color:#ff0000
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
