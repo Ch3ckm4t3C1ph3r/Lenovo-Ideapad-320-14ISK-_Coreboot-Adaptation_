@@ -41,7 +41,9 @@ We reverse engineering the EC (Embeded Controller) chip by getting the expected 
 
 The tool we used are the logical analyzer Lakeview Research Saleae Logic of 8 channels.
 
-<!-- TO DO: Five all detailed information in the directory when the Reversing are completed. -->
+**[Still in Process]**
+
+<!-- TO DO: Give all detailed information in the directory when the Reversing are completed. -->
 
 ## Compilation :hammer_and_wrench:
 
@@ -131,6 +133,7 @@ Requirements:
 * Welder of intechangable tips (preferable) with a fine tip (needed).
 * Debugger probe based on FT2232H chips (FT2232HL). Note: You can find the config and the C files for use with OpenOCD, also.
 
+**[Here you will find the instructions to enable the UART protocol]**
 
 <!-- TO DO: Give a step-by-step instructions to configure the coreboot program to enable UART protocol. -->
 
