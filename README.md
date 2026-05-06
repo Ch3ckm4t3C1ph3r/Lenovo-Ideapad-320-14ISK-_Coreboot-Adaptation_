@@ -106,7 +106,7 @@ flowchart LR;
     %% Definition of style of each element by id
     style cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
     style p1 fill:#8CEDC5,stroke:#00331E,stroke-width:1px
-    style sbg1,sbg2,sbg3,sbgp4 fill:#F7BB99,stroke:#8F6C59,stroke-width:1px
+    style sbg1,sbg2,sbg3,sbg4 fill:#F7BB99,stroke:#8F6C59,stroke-width:1px
     
     subgraph cbfs[CBFS]
         direction LR
