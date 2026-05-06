@@ -133,9 +133,6 @@ flowchart LR;
         p2_1[SeaBIOS] & p2_2[TianoCore]
         end
     end
-
-    %% Define the members of the sytle class
-    %%class CBFS cbfs
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
