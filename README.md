@@ -103,6 +103,7 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 
 ```mermaid
 flowchart LR;
+    %% Definition of style class and their characteristics
     classDef cbfs fill:#f7f7f7,stroke:#000000,stroke-width:2px;
     
     subgraph CBFS
@@ -132,6 +133,7 @@ flowchart LR;
         end
     end
 
+    %% Define the members of the sytle class
     class CBFS cbfs
 ```
 
