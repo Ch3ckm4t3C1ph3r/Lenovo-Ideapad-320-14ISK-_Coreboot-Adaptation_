@@ -105,7 +105,7 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 flowchart LR;
     %% Definition of style class and their characteristics
     classDef cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
-    style p1 fill:#545751,stroke:#00331E,stroke-width:1px
+    style p1 fill:#8CEDC5,stroke:#00331E,stroke-width:1px
     
     subgraph CBFS
         direction LR
