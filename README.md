@@ -11,13 +11,14 @@ You cand find the lastest updated in the publications of my mastodon social site
 
 ## Target Chip
 The chip that this specific board of the adaptation has are the W25Q64JVSIQ (you should select W25Q64JV-.Q if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
-This chip support the <code>PREW</code> permitions and the SPI protocol.
+This chip support the <code>PREW</code> permissions and the SPI protocol.
 
 ## Board Processor
 Core (Inside) i5-6200U Skylake Arch
 
 ## OS Used
-Linux-based systems (every distro). :penguin:
+Linux Mint.
+<br>However, you can use any Linux-based operating system (every distro). :penguin:
 
 ## Flash Program
 ```bash
@@ -94,7 +95,7 @@ make
 Here is a diagram of the boot process using the GRUB as the primary payload an then, either seabios or tianocore, for ilustration of the default CBFS maked to boot steps. In this manner you can select boot in legacy mode or the native mode (UEFI). Saving the capability of select the boot mode of the original propietary BIOS firmware. 
 
 > [!NOTE]
-> Unfortunately, the CBFS needs not only have the Coreboot code because the Intel ME blob is necesarily to turn on the RAM memory, not public data available to doing this, to use it in RAM stage.
+> Unfortunately, the CBFS needs not only have the Coreboot code because the Intel ME blob is necessary to turn on the RAM memory, not public data available to doing this, to use it in RAM stage.
 
 ```mermaid
 flowchart LR;
