@@ -32,8 +32,10 @@ This section provides the informations of the UART ports. This ports gives you t
 |  UART_TX  | Output of serial console  |                       |
 
 ## LPC Ports
-> [!IMPORTANT]
+> [!CAUTION]
 > This ports give you the capability of do lower-level tasks that are esential to manage your computer.
+> <br> Then not attempt to change the values that the EC chips expects to recieve to make this tasks.
+> <br> Otherwise your computer no longer works or not work properly.
 
 This section provides the information of the LPC ports.
 
