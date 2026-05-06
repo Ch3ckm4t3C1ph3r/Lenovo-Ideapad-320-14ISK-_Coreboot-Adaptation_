@@ -39,7 +39,7 @@ I recommend you to use UEFI Tool to view the contents of the chip BIN files. The
 ## Reverse Engineering
 We reverse engineering the EC (Embeded Controller) chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip.
 
-The tool we used are the logical analyzer of 8 channels.
+The tool we used are the logical analyzer Lakeview Research Saleae Logic of 8 channels.
 
 <!-- TO DO: Five all detailed information in the directory when the Reversing are completed. -->
 
