@@ -115,13 +115,13 @@ flowchart LR;
         Coreboot-->GRUB
     
         subgraph First Payload
-        GRUB
+        p1{GRUB}
         end
     
         GRUB-->SeaBIOS & Tianocore
     
         subgraph Second Payload
-        SeaBIOS & Tianocore
+        p2_1[SeaBIOS] & p2_2[Tianocore]
         end
     end
 ```
