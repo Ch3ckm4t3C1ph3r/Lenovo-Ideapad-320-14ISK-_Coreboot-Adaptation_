@@ -102,13 +102,12 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 
 
 ```mermaid
-classDef cbfs
-  fill:#f7f7f7
-  stroke:#000000
-  stroke-width:2px
-
 flowchart LR;
-    
+    classDef cbfs
+      fill:#f7f7f7
+      stroke:#000000
+      stroke-width:2px
+
     subgraph CBFS:::cbfs
         direction LR
 
