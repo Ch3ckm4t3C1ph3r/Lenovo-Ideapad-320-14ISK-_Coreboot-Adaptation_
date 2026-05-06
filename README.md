@@ -112,7 +112,7 @@ flowchart LR;
         Coreboot
         end
     
-        Coreboot-->GRUB
+        Coreboot-->p1{GRUB}
     
         subgraph First Payload
         p1{GRUB}
