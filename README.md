@@ -93,20 +93,22 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 
 ```mermaid
 flowchart LR;
-    subgraph Coreboot Process
-    Coreboot
-    end
-
-    Coreboot-->GRUB
-
-    subgraph First Payload
-    GRUB
-    end
-
-    GRUB-->SeaBIOS & Tianocore
-
-    subgraph Second Payload
-    SeaBIOS & Tianocore
+    subgraph CBFS (CoreBoot File System)
+        subgraph Coreboot Process
+        Coreboot
+        end
+    
+        Coreboot-->GRUB
+    
+        subgraph First Payload
+        GRUB
+        end
+    
+        GRUB-->SeaBIOS & Tianocore
+    
+        subgraph Second Payload
+        SeaBIOS & Tianocore
+        end
     end
 ```
 
