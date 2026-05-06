@@ -107,7 +107,7 @@ flowchart LR;
     style cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
     classDef sbgStyle fill:#F7BB99,stroke:#8F6C59,stroke-width:1px
     classDef nodeStyle fill:#FF5D3B,stroke:#FF3008,stroke-width:1px
-    classDef edgeStyle fill:#000000,stroke:#000000,stroke-width:0px
+    classDef edgeStyle fill:#000000,stroke:#000000,stroke-width:1px
     
     subgraph cbfs[CBFS]
         direction LR
@@ -139,7 +139,7 @@ flowchart LR;
     %% Defining the members of each class
     class sbg1,sbg2,sbg3,sbg4 sbgStyle
     class n1,n2,p1,p2_1,p2_2,UNION nodeStyle
-    class e1,e2,e3,e4 edgeStyle
+    class e1,e2,e3 edgeStyle
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
