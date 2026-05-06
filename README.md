@@ -92,7 +92,7 @@ make
 Here is a diagram of the boot process using the GRUB as the primary payload an then, either seabios or tianocore, for ilustration of the default CBFS maked to boot steps. In this manner you can select boot in legacy mode or the native mode (UEFI). Saving the capability of select the boot mode of the original propietary BIOS firmware.
 
 ```mermaid
-graph TD;
+graph LR;
     Coreboot-->GRUB;
     GRUB-->SeaBIOS;
     GRUB-->Tianocore;
