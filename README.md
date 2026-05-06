@@ -103,8 +103,7 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 
 ```mermaid
 flowchart LR;
-    %%{Definition of style of each element by id
-        Continue comment.}%%
+    %% Definition of style of each element by id
     style cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
     style p1 fill:#8CEDC5,stroke:#00331E,stroke-width:1px
     
