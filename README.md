@@ -133,7 +133,9 @@ If you want to configure Coreboot to enable the UART protocol to see real-time e
 <br><br>Requirements:
 * Magnetic wires of 0.1mm.
 * Welder of intechangable tips (preferable) with a fine tip (needed).
-* Debugger probe based on FT2232H chips (FT2232HL). Note: You can find the config and the C files for use with OpenOCD, also.
+* Debugger probe based on FT2232H chips (FT2232HL).
+> [!NOTE]
+> You can find the config and the C files for use with OpenOCD, also.
 
 **[Here you will find the instructions to enable the UART protocol]**
 
