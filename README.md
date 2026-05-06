@@ -34,7 +34,7 @@ You find a directory that save the flat binary files that are in the BIOS-UEFI (
 
 The HAP enabled bit BIN files has the great content of the Intel ME removed and the HAP bit set by me_cleaner.py script.
 
-I recommend you to use UEFI Tool to view the contents of the chip BIN files. The structure of regions.
+I recommend you to use UEFI Tool to view the contents of the BIN files chip. The structure of regions.
 
 ## Reverse Engineering :symbols: :microscope: :shipit:
 We reverse engineering the EC (Embeded Controller) chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip through LPC protocol.
