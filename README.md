@@ -78,9 +78,6 @@ cd ../../../../
 ```bash
 make
 ```
-### References
-[^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
-[^2]: [Coreboot for Developers](https://www.coreboot.org/developers.html).
 
 <!-- TO DO: Give a step-by-step process of compilation of Coreboot targeting the apropiate file for the board in title. -->
 
@@ -95,3 +92,7 @@ Requirements:
 <!-- TO DO: Give a step-by-step instructions to configure the coreboot program to enable UART protocol. -->
 
 <!-- TO DO: Give problems finded when test the program. -->
+
+### References
+[^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
+[^2]: [Coreboot for Developers](https://www.coreboot.org/developers.html).
