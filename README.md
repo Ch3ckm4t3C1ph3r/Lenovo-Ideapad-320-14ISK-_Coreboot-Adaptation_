@@ -1,7 +1,7 @@
 # Coreboot Adaptation (Lenovo Ideapad 320-14ISK NM-B241 -> Board)
 This repository holds the information that we find from the reverese enginering process for the notebook in the repository title and the code you can compile to test it or modify it.  Even so you will find pre-compiled files that you can use to now flash to the chip.
 
-> [!Information]
+> [!NOTE]
 > This adaptation is based on the Thinkpad Skylake t470s computer.
 
 Also you find a file called board_info.txt that saves the general information of the board for reference.
@@ -23,7 +23,7 @@ Linux-based systems (every distro).
 ```bash
 flashrom
 ```
-> [!Warning]
+> [!WARNING]
 > You need to verify that the firm of the contents of your chip is the same as one of the BIN files I give you. By, first, making copies of the contents of your BIOS-UEFI chip with <code>flashrom -p ch341a_spi -c W25Q64JV-.Q -r</code>
 
 ## Flash Tool
