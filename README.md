@@ -94,6 +94,7 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 ```mermaid
 flowchart LR;
     subgraph CBFS
+        direction LR
         subgraph Coreboot Process
         Coreboot
         end
