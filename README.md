@@ -88,6 +88,15 @@ make
 ```
 
 <!-- TO DO: Give a step-by-step process of compilation of Coreboot targeting the apropiate file for the board in title. -->
+## Boot Process Architrecture
+Here is a diagram of the boot process using the GRUB as the primary payload an then, either seabios or tianocore, for ilustration of the default CBFS maked to boot steps.
+
+```mermaid
+graph TD;
+    Coreboot-->GRUB;
+    GRUB-->SeaBIOS;
+    GRUB-->Tianocore;
+```
 
 ## Configure the boot process to enable the UART messages :toolbox:
 If you want to configure Coreboot to enable the UART protocol to see real-time events of the board these are the requirements and steps of doing so.
