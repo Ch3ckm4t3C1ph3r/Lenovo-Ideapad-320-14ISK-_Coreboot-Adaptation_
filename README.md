@@ -44,6 +44,12 @@ The tool we used are the logical analyzer of 8 channels.
 <!-- TO DO: Five all detailed information in the directory when the Reversing are completed. -->
 
 ## Compilation
+
+> [!CAUTION]
+> Please don't try this compilation because this adaptation is still in process.
+> If you try it probably Coreboot doesn't work because the propetary, publicly missing information, of the board
+> change the hex command values that board expects to for example communicate correctly to the EC and CORRECTLY POWER UP your computer! 
+
 If you want to modify the code to configure the boot process as you want. Then this section provide the steps to correctly compile the C code for you to flash in the chip.
 
 **1.** Clone the Coreboot repository[^2]
