@@ -103,7 +103,7 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 
 ```mermaid
 flowchart LR;
-    %% Definition of style of each element by id
+    %% Definition of style (and class of style) of each element by id (or by class name)
     style cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
     style p1 fill:#8CEDC5,stroke:#00331E,stroke-width:1px
     classDef sbgStyle fill:#F7BB99,stroke:#8F6C59,stroke-width:1px
@@ -135,6 +135,7 @@ flowchart LR;
         end
     end
 
+    %% Defining the members of each class
     class sbg1,sbg2,sbg3,sbg4 sbgStyle
 ```
 
