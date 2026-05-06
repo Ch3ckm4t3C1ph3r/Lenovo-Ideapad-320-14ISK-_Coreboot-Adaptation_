@@ -31,6 +31,9 @@ flashrom
 ### Flash Tool
 CH341A Pro Kit
 
+### Special Ports
+You can find more information of UART, JTAG and LPC ports in [this document](HARDWARE.md).
+
 ## BIOS-UEFI BIN Files
 You find a directory that save the flat binary files that are in the BIOS-UEFI (has the both boot modes; can emulate the real-mode legacy boot by enabled the proper option in UI menu) chip.
 
