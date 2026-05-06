@@ -111,7 +111,7 @@ flowchart LR;
     style cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
     classDef sbgStyle fill:#F7BB99,stroke:#8F6C59,stroke-width:1px
     classDef nodeStyle fill:#FF5D3B,stroke:#FF3008,stroke-width:1px
-    classDef edgeStyle fill:#000000,stroke:#000000,stroke-width:1px,background-color:#ff0000
+    classDef edgeStyle fill:#000000,stroke:#000000,stroke-width:1px,color:#ff0000
     
     subgraph cbfs[CBFS]
         direction LR
