@@ -9,25 +9,26 @@ You can find more information, about the datasheets, schematic, boardview (i rec
 
 You cand find the lastest updated in the publications of my mastodon social site.
 
-## Target Chip
+## Specifications
+### Target Chip
 The chip that this specific board of the adaptation has are the W25Q64JVSIQ (you should select W25Q64JV-.Q if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
 This chip support the <code>PREW</code> permissions and the SPI protocol.
 
-## Board Processor
+### Board Processor
 Core (Inside) i5-6200U Skylake Arch
 
-## OS Used
+### OS Used
 Linux Mint.
 <br>However, you can use any Linux-based operating system (every distro). :penguin:
 
-## Flash Program
+### Flash Program
 ```bash
 flashrom
 ```
 > [!WARNING]
 > You need to verify that the firm of the contents of your chip is the same as one of the BIN files I give you. By, first, making copies of the contents of your BIOS-UEFI chip with <code>flashrom -p ch341a_spi -c W25Q64JV-.Q -r</code>
 
-## Flash Tool
+### Flash Tool
 CH341A Pro Kit
 
 ## BIOS-UEFI BIN Files
