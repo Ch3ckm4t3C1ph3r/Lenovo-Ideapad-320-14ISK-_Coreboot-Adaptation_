@@ -105,7 +105,9 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 flowchart LR;
     classDef cbfs fill:#f7f7f7,stroke:#000000,stroke-width:2px
 
-    subgraph CBFS:::cbfs
+    class CBFS cbfs
+    
+    subgraph CBFS
         direction LR
 
         %% Not publicly documented boot process
