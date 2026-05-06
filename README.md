@@ -104,10 +104,10 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 ```mermaid
 flowchart LR;
     %% Definition of style class and their characteristics
-    classDef cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
+    style cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
     style p1 fill:#8CEDC5,stroke:#00331E,stroke-width:1px
     
-    subgraph CBFS
+    subgraph cbfs[CBFS]
         direction LR
 
         %% Not publicly documented boot process
@@ -117,13 +117,13 @@ flowchart LR;
 
         Blobs --> Coreboot
 
-        subgraph Coreboot Process
+        subgraph sbg2[Coreboot Process]
         Coreboot
         end
     
         Coreboot-->p1{GRUB}
     
-        subgraph First Payload
+        subgraph sbg3[First Payload]
         p1{GRUB}
         end
     
@@ -135,7 +135,7 @@ flowchart LR;
     end
 
     %% Define the members of the sytle class
-    class CBFS cbfs
+    %%class CBFS cbfs
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
