@@ -133,7 +133,7 @@ flowchart LR;
         p1{GRUB}
         end
         
-        p1{GRUB} e3@--The user selects the second payload from the menu--> UNION((*)) e4@--> p2_1[SeaBIOS] & p2_2[TianoCore]
+        p1{GRUB} e3@--txt[The user selects the second payload from the menu]--> UNION((*)) e4@--> p2_1[SeaBIOS] & p2_2[TianoCore]
     
         subgraph sbg4[Second Payload]
         p2_1[SeaBIOS] & p2_2[TianoCore]
