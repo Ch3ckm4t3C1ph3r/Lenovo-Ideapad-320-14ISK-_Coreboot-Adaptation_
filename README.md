@@ -37,7 +37,7 @@ The HAP enabled bit BIN files has the great content of the Intel ME removed and 
 I recommend you to use UEFI Tool to view the contents of the chip BIN files. The structure of regions.
 
 ## Reverse Engineering
-We reverse engineering the EC (Embeded Controller) chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip.
+We reverse engineering the EC (Embeded Controller) chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip through LPC protocol.
 
 The tool we used are the logical analyzer Lakeview Research Saleae Logic of 8 channels.
 
