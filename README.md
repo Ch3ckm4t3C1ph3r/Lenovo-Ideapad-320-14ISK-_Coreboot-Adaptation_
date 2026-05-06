@@ -134,7 +134,7 @@ flowchart LR;
         end
         
         p1{GRUB} e3@---->|The user selects the second payload from the menu|UNION((*)) e4@--> p2_1[SeaBIOS] & p2_2[TianoCore]
-        linkStyle 3 background-color:#ff0000
+        linkStyle 2 background-color:#ff0000
     
         subgraph sbg4[Second Payload]
         p2_1[SeaBIOS] & p2_2[TianoCore]
