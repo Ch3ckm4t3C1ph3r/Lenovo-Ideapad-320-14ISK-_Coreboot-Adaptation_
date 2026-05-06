@@ -139,7 +139,7 @@ flowchart LR;
     %% Defining the members of each class
     class sbg1,sbg2,sbg3,sbg4 sbgStyle
     class n1,n2,p1,p2_1,p2_2,UNION nodeStyle
-    class e1,e2,e3,e4 nodeStyle
+    class e1,e2,e3,e4 edgeStyle
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
