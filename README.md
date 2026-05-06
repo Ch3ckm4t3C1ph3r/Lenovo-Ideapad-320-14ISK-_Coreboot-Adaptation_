@@ -141,6 +141,6 @@ If you want to configure Coreboot to enable the UART protocol to see real-time e
 
 <!-- TO DO: Give problems finded when test the program. -->
 
-### References
+## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
 [^2]: [Coreboot for Developers](https://www.coreboot.org/developers.html).
