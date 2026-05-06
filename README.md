@@ -14,7 +14,7 @@ The chip that this specific board of the adaptation has are the W25Q64JVSIQ (you
 This chip support the <code>PREW</code> permitions and the SPI protocol.
 
 ## Board Processor
-i5-6200U
+Core (Inside) i5-6200U Skylake Arch
 
 ## OS Used
 Linux-based systems (every distro). :penguin:
@@ -89,7 +89,7 @@ make
 
 <!-- TO DO: Give a step-by-step process of compilation of Coreboot targeting the apropiate file for the board in title. -->
 
-## Configure the boot process to enable the UART messages
+## Configure the boot process to enable the UART messages :toolbox:
 If you want to configure Coreboot to enable the UART protocol to see real-time events of the board these are the requirements and steps of doing so.
 Requirements:
 * Magnetic wires of 0.1mm.
