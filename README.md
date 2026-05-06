@@ -104,8 +104,6 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 ```mermaid
 flowchart LR;
     classDef cbfs fill:#f7f7f7,stroke:#000000,stroke-width:2px;
-
-    class CBFS cbfs
     
     subgraph CBFS
         direction LR
@@ -133,6 +131,8 @@ flowchart LR;
         p2_1[SeaBIOS] & p2_2[TianoCore]
         end
     end
+
+    class CBFS cbfs
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
