@@ -106,7 +106,7 @@ flowchart LR;
     GRUB-->SeaBIOS & Tianocore
 
     subgraph Second Payload
-    SeaBIOS & Tioanocore
+    SeaBIOS & Tianocore
     end
 ```
 
