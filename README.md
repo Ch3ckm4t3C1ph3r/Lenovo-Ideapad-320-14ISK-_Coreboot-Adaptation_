@@ -102,6 +102,10 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 
 
 ```mermaid
+---
+config:
+  theme: 'base'
+---
 flowchart LR;
     %% Definition of style (and class of style) of each element by id (or by class name)
     style cbfs fill:#f7f7f7,stroke:#000000,stroke-width:1px;
