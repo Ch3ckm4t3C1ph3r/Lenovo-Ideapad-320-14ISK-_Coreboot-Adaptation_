@@ -46,7 +46,7 @@ The tool we used are the logical analyzer of 8 channels.
 ## Compilation
 
 > [!CAUTION]
-> Please don't try this compilation because this adaptation is still in process.
+> Please don't try this compilation instructions because this adaptation is still in process.
 > If you try it probably Coreboot doesn't work because the propetary, publicly missing information, of the board
 > change the hex command values that board expects to for example communicate correctly to the EC and CORRECTLY POWER UP your computer! 
 
