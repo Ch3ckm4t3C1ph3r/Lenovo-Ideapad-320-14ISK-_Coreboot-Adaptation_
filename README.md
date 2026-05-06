@@ -99,6 +99,9 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 > [!NOTE]
 > Unfortunately, the CBFS needs not only have the Coreboot code because the Intel ME blob is necessary to turn on the RAM memory, not public data available to doing this, to use it in RAM stage.
 
+
+
+```mermaid
 <style>
   .cbfs {
     fill: #f7f7f7;
@@ -106,8 +109,6 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
     stroke-width: 2px;
   }
 </style>
-
-```mermaid
 flowchart LR;
     class CBFS cbfs
     
