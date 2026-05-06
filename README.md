@@ -118,7 +118,7 @@ flowchart LR;
         p1{GRUB}
         end
     
-        p1{GRUB}--|The user selects the second payload|-->UNION(())-->p2_1[SeaBIOS] & p2_2[Tianocore]
+        p1{GRUB}--|The user selects the second payload|-->UNION((*))-->p2_1[SeaBIOS] & p2_2[Tianocore]
     
         subgraph Second Payload
         p2_1[SeaBIOS] & p2_2[Tianocore]
