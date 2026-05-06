@@ -94,7 +94,7 @@ Here is a diagram of the boot process using the GRUB as the primary payload an t
 ```mermaid
 graph LR;
     Coreboot-->GRUB;
-    GRUB-->SeaBIOS & Tianocore;
+    {GRUB}-->SeaBIOS & Tianocore;
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
