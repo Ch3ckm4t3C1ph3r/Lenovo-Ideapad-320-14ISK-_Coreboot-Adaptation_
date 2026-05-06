@@ -56,7 +56,7 @@ The tool we used are the logical analyzer Lakeview Research Saleae Logic of 8 ch
 
 If you want to modify the code to configure the boot process as you want. Then this section provide the steps to correctly compile the C code for you to flash in the chip.
 
-**(1.)** Clone the Coreboot repository[^2]
+**1.** Clone the Coreboot repository[^2]
 ```bash
 git clone https://review.coreboot.org/coreboot.git
 ```
