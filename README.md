@@ -119,7 +119,7 @@ flowchart LR;
         n1[Blobs] --> n2[Coreboot]
 
         subgraph sbg2[Coreboot Process]
-        Coreboot
+        n2[Coreboot]
         end
     
         n2[Coreboot]-->p1{GRUB}
@@ -137,7 +137,7 @@ flowchart LR;
 
     %% Defining the members of each class
     class sbg1,sbg2,sbg3,sbg4 sbgStyle
-    class n1,n2,p1,p2_1,p2_2 nodeStyle
+    class n1,n2,p1,p2_1,p2_2,UNION nodeStyle
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
