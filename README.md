@@ -113,16 +113,16 @@ flowchart LR;
 
         %% Not publicly documented boot process
         subgraph sbg1[First Initialization Process]
-        Blobs
+        n1[Blobs]
         end
 
-        Blobs --> Coreboot
+        n1[Blobs] --> n2[Coreboot]
 
         subgraph sbg2[Coreboot Process]
         Coreboot
         end
     
-        Coreboot-->p1{GRUB}
+        n2[Coreboot]-->p1{GRUB}
     
         subgraph sbg3[First Payload]
         p1{GRUB}
@@ -137,6 +137,7 @@ flowchart LR;
 
     %% Defining the members of each class
     class sbg1,sbg2,sbg3,sbg4 sbgStyle
+    class n1,n2,p1,p2_1,p2_2 nodeStyle
 ```
 
 ## Configure the boot process to enable the UART messages :toolbox:
