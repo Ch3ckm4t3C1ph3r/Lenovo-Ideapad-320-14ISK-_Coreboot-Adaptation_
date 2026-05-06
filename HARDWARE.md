@@ -23,7 +23,7 @@ This ports, in summary, give you special debug functions that old motherboards d
 ## UART Ports
 > [!TIP]
 > You can use this ports to debug software that run directly to the hardware.
-> So you can use it to debug Coreboot errors, or, also, kernels errors of some OS.
+> <br>So you can use it to debug Coreboot errors, or, also, kernels errors of some OS.
 
 This section provides the informations of the UART ports. This ports gives you the actual events that ocurrs in your system hardware, so if ocurrs an error you noticed about it and know what error ocurr.
 
