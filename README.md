@@ -111,7 +111,7 @@ flowchart LR;
         direction LR
 
         %% Not publicly documented boot process
-        subgraph First Initialization Process
+        subgraph sbg1[First Initialization Process]
         Blobs
         end
 
