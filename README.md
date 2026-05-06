@@ -118,7 +118,7 @@ flowchart LR;
         p1{GRUB}
         end
     
-        GRUB-->SeaBIOS & Tianocore
+        p1{GRUB}-->p2_1[SeaBIOS] & p2_2[Tianocore]
     
         subgraph Second Payload
         p2_1[SeaBIOS] & p2_2[Tianocore]
