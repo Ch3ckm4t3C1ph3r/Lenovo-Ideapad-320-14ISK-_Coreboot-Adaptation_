@@ -30,6 +30,8 @@ This section provides the informations of the UART ports.
 |  UART_TX  |          |                       |
 
 ## LPC Ports
+> [!IMPORTANT]
+> This ports give you the capability of do lower-level tasks that are esential to manage your computer.
 This section provides the information of the LPC ports.
 
 | LPC Port | Function | Voltage Specification |
