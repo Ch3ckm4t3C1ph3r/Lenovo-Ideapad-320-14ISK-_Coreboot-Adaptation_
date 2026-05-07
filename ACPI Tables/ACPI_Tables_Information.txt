@@ -22,9 +22,9 @@
                 Checksum               :   0xC9
                 OEM ID                 :   0x4F564F4E454C "LENOVO"
                 OEM Table ID           :   0x20202031302D4243 "CB-01   "
-                OEM Revision           :   0x00000001
+                OEM Revision           :   0x00000001 (1.0)
                 ASL Compiler ID        :   0x49504341 "ACPI"
-                ASL Compiler Revision  :   0x0004000
+                ASL Compiler Revision  :   0x0004000 (16384)
             }
 
             [ASF!]
