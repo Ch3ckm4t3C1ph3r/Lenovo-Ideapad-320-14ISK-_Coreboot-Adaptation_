@@ -20,11 +20,11 @@
                 Table Lenght           :   0x000000BC (188 bytes)
                 Revision               :   0x03 (3.0)
                 Checksum               :   0xC9
-                OEM ID                 :   0x4C454E4F564F "LENOVO"
-                OEM Table ID           :   0x43422D3031202020 "CB-01   "
-                OEM Revision           :   0x01000000
-                ASL Compiler ID        :   0x41435049 "ACPI"
-                ASL Compiler Revision  :   0x00000400
+                OEM ID                 :   0x4F564F4E454C "LENOVO"
+                OEM Table ID           :   0x20202031302D4243 "CB-01   "
+                OEM Revision           :   0x00000001
+                ASL Compiler ID        :   0x49504341 "ACPI"
+                ASL Compiler Revision  :   0x0004000
             }
 
             [ASF!]
