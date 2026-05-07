@@ -1,6 +1,6 @@
 # Command used to disassemble the ACPI table files
 # ------------------------------------------------
-# > iasl -d ACPI.dat -vt -dl -df
+# > iasl -d <DAT_File> -vt -dl -df
 # ------------------------------------------------
 
 # Command used to view the raw content (BNU BIN Util)
