@@ -3,6 +3,11 @@
 # > iasl -d ACPI.dat -vt -dl -df
 # ------------------------------------------------
 
+# Command used to view the raw content (BNU BIN Util)
+# ---------------------------------------------------
+# > hexedit --color <DAT_File>
+# ---------------------------------------------------
+
 [ACPI Tables Information]
 {
     [AML Spec : Attribute Sizes]
