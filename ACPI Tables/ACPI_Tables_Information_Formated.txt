@@ -1,3 +1,8 @@
+# Command used to disassemble the ACPI table files
+# ------------------------------------------------
+# > iasl -d ACPI.dat -vt -dl -df
+# ------------------------------------------------
+
 [ACPI Tables Information]
 {
     [AML Spec : Attribute Sizes]
