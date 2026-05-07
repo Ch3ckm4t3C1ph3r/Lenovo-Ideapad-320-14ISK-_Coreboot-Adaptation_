@@ -45,7 +45,7 @@
                 [DWORD] ASL Compiler Revision  :   0x00040000 (16384)
                 [DWORD] Local APIC Address     :   0xFEE00000
                 [DWORD] Flags                  :   0x00000001
-                [BOOL]  PC-AT Compatibility    :   1 (from the flags; PC-AT bit enabled)
+                [BIT]   PC-AT Compatibility    :   1 (from the flags; PC-AT bit enabled)
             }
 
             [ASF!]
