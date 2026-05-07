@@ -29,392 +29,392 @@
 
             [ASF!]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [ASPT]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [BOOT]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [DBG2]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [DBGP1]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [DBGP2]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [DMAR]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [DSDT]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [FACP]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [FACS]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [FPDT]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [HPET]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [LPIT]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [MCFG]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [MSDM]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT1]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT2]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT3]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT4]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT5]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT6]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT7]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT8]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT9]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT10]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT11]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [TPM2]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [UEFI1]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [UEFI2]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [WSMT]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
     }
     
@@ -422,54 +422,54 @@
     {
             [SSDT12]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT13]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT14]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
 
             [SSDT15]
             {
-                Signature                             :
-                Table Lenght                       :
-                Revision                               :
-                Checksum                               :
-                OEM ID                                     :
-                OEM Table ID                        :
-                OEM Revision                       :
-                ASL Compiler ID                 :
-                ASL Compiler Revision   :
+                Signature              :   0x43495041 "APIC"
+                Table Lenght           :   0x000000BC (188 bytes)
+                Revision               :   0x03 (3.0)
+                Checksum               :   0xC9
+                OEM ID                 :   0x4C454E4F564F "LENOVO"
+                OEM Table ID           :   0x43422D3031202020 "CB-01   "
+                OEM Revision           :   0x01000000
+                ASL Compiler ID        :   0x41435049 "ACPI"
+                ASL Compiler Revision  :   0x00000400
             }
     }
 }
