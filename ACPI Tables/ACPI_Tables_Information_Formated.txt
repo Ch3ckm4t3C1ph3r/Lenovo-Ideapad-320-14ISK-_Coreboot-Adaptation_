@@ -5,7 +5,7 @@
 
 # Command used to view the raw content (BNU BIN Util)
 # ---------------------------------------------------
-# > hexedit --color <DAT_File>
+# > hexedit -s --color <DAT_File>
 # ---------------------------------------------------
 
 [ACPI Tables Information]
