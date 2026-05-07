@@ -11,6 +11,14 @@
         OEM_Revision -->> DWORD (4 bytes)
         Creator_ID -->> DWORD (4 bytes)
         Creator_Revision -->> DWORD (4 bytes)
+        UINT8 -->> 8b (8 bits)
+        UINT8 -->> 8b (8 bits)
+        UINT8 -->> 8b (8 bits)
+        UINT8 -->> 8b (8 bits)
+        UINT64 -->> 64b (64 bits)
+        UINT32 -->> 32b (32 bits)
+        UINT8 -->> 8b (8 bits)
+        String -->> Variable Length (?)
     }
     [Location: tables]
     {
@@ -25,6 +33,7 @@
                 OEM Revision           :   0x00000001 (1.0)
                 ASL Compiler ID        :   0x49504341 "ACPI"
                 ASL Compiler Revision  :   0x0004000 (16384)
+                UINT8                  :   0x
             }
 
             [ASF!]
