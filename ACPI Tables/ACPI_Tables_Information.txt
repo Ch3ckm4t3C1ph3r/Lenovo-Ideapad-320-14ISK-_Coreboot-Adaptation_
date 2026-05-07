@@ -23,8 +23,8 @@
                 OEM ID                :   0x4C454E4F564F "LENOVO"
                 OEM Table ID          :   0x43422D3031202020 "CB-01   "
                 OEM Revision          :   0x01000000
-                ASL Compiler ID       :    0x41435049 "ACPI"
-                ASL Compiler Revision :    0x00000400
+                ASL Compiler ID       :   0x41435049 "ACPI"
+                ASL Compiler Revision :   0x00000400
             }
 
             [ASF!]
