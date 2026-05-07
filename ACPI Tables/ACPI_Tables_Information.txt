@@ -1,0 +1,475 @@
+[ACPI Tables Information]
+{
+    [AML Spec : Attribute Sizes]
+    {
+        Signature -->> DWORD (4 bytes)
+        Table Lenght -->> DWORD (4 bytes)
+        Revision -->> BYTE (1 byte)
+        Checksum -->> BYTE (1 byte)
+        OEM_ID -->> 6*BYTE (6 bytes)
+        OEM_Table_ID -->> 8*BYTE (8 bytes)
+        OEM_Revision -->> DWORD (4 bytes)
+        Creator_ID -->> DWORD (4 bytes)
+        Creator_Revision -->> DWORD (4 bytes)
+    }
+    [Location: tables]
+    {
+            [APIC]
+            {
+                Signature                             :   0x43495041 "APIC"
+                Table Lenght                       :   0x000000BC (188 bytes)
+                Revision                               :   0x03 (3.0)
+                Checksum                               :   0xC9
+                OEM ID                                     :   0x4C454E4F564F "LENOVO"
+                OEM Table ID                        :   0x43422D3031202020 "CB-01   "
+                OEM Revision                       :   0x01000000
+                ASL Compiler ID                 :    0x41435049 "ACPI"
+                ASL Compiler Revision   :    0x00000400
+            }
+
+            [ASF!]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [ASPT]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [BOOT]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [DBG2]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [DBGP1]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [DBGP2]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [DMAR]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [DSDT]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [FACP]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [FACS]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [FPDT]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [HPET]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [LPIT]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [MCFG]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [MSDM]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT1]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT2]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT3]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT4]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT5]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT6]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT7]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT8]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT9]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT10]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT11]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [TPM2]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [UEFI1]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [UEFI2]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [WSMT]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+    }
+    
+    [Location: tables\dynamic]
+    {
+            [SSDT12]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT13]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT14]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+
+            [SSDT15]
+            {
+                Signature                             :
+                Table Lenght                       :
+                Revision                               :
+                Checksum                               :
+                OEM ID                                     :
+                OEM Table ID                        :
+                OEM Revision                       :
+                ASL Compiler ID                 :
+                ASL Compiler Revision   :
+            }
+    }
+}
