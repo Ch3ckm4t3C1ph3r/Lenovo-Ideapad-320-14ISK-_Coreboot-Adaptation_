@@ -127,25 +127,25 @@ flowchart LR;
 
         %% Not publicly documented boot process
         subgraph sbg1[First Initialization Process]
-        n1[Blobs]
+          n1[Blobs]
         end
 
         n1[Blobs] e1@--> n2[Coreboot]
 
         subgraph sbg2[Coreboot Process]
-        n2[Coreboot]
+          n2[Coreboot]
         end
     
         n2[Coreboot] e2@--> p1{GRUB}
     
         subgraph sbg3[First Payload]
-        p1{GRUB}
+          p1{GRUB}
         end
         
         p1{GRUB} e3@---->|The user selects the second payload from the menu|UNION((*)) e4@--> p2_1[SeaBIOS] & p2_2[TianoCore]
     
         subgraph sbg4[Second Payload]
-        p2_1[SeaBIOS] & p2_2[TianoCore]
+          p2_1[SeaBIOS] & p2_2[TianoCore]
         end
     end
 
