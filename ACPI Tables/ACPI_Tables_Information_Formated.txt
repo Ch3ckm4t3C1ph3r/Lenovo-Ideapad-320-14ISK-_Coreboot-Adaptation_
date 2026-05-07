@@ -10,7 +10,7 @@
 
 [ACPI Tables Information]
 {
-    [AML Spec : Attribute Sizes]
+    [AML Spec : Attribute Sizes (General Table)]
     {
         Signature -->> DWORD (4 bytes)
         Table Lenght -->> DWORD (4 bytes)
@@ -43,7 +43,8 @@
                 OEM Revision           :   0x00000001 (1.0)
                 ASL Compiler ID        :   0x49504341 "ACPI"
                 ASL Compiler Revision  :   0x0004000 (16384)
-                UINT8                  :   0x
+                Local APIC Address     :   0xFEE0000
+                Flags                  :   0x01
             }
 
             [ASF!]
