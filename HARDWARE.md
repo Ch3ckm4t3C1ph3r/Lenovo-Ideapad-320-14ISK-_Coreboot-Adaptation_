@@ -50,8 +50,8 @@ This section provides the informations of the UART ports.
 
 This section provides the information of the LPC ports.
 
-| LPC Port | Function | Voltage Specification |
-|:---------:|:--------:|:--------------------:|
+|  LPC Port | Function | Voltage Specification |
+|:---------:|:---------|:--------------------:|
 |  LPC_CLK  |          |                      |
 
 [Back to main documentation](README.md)
