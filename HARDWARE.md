@@ -28,6 +28,14 @@ This ports, in summary, give you special debug functions that old motherboards d
 |      XDP Port     |           Function           | Voltage Specification |
 |:-----------------:|:-----------------------------|:---------------------:|
 |      XDP_TCK      |                              |                       |
+|      XDP_TDO      |                              |                       |
+|      XDP_TMS      |                              |                       |
+|     XDP_TRST#     |                              |                       |
+|     XDP_BMP0#     |                              |                       |
+|     XDP_BMP1#     |                              |                       |
+|     XDP_BMP2#     |                              |                       |
+|     XDP_BMP3#     |                              |                       |
+|     XDP_PRDY#     |                              |                       |
 
 ## UART Ports
 > [!TIP]
