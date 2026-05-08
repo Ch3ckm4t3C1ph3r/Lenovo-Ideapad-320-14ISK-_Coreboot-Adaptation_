@@ -28,9 +28,10 @@ This ports, in summary, give you special debug functions that old motherboards d
 This section provides the informations of the UART ports. 
 <br>This ports gives you the actual events that ocurrs in your system hardware, so if ocurrs an error you noticed about it and know what error ocurr.
 
-| UART Port |         Function          | Voltage Specification |
-|:---------:|:-------------------------:|:---------------------:|
-|  UART_TX  | Output of serial console  |                       |
+|    UART Port    |         Function          | Voltage Specification |
+|:---------------:|:-------------------------:|:---------------------:|
+|  UART_TX_DEBUG  | Output of serial console  |                       |
+|  UART_RX_DEBUG  | Input of serial console   |                       |
 
 ## LPC Ports
 > [!CAUTION]
