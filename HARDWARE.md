@@ -27,7 +27,7 @@ This ports, in summary, give you special debug functions that old motherboards d
 
 |      XDP Port     |           Function           | Voltage Specification |
 |:-----------------:|:-----------------------------|:---------------------:|
-|       JTAGX       |                              |                       |
+|      XDP_TCK      |                              |                       |
 
 ## UART Ports
 > [!TIP]
