@@ -20,10 +20,14 @@ and the location to prepare the debug port to connect it to FT2232HL debug probe
 |    PCH_JTAG_TMS   |                              |                       |
 |   PCH_JTAG_TRST#  |  Processor reset step-0      |                       |
 
-### XDBG (eXtended DeBuG) Ports
+### XDP (eXtended Debug) Ports
 Also, you can find the XDBG ports in the boardview of thi board's family.
 
 This ports, in summary, give you special debug functions that old motherboards doesn't have.
+
+|      XDP Port     |           Function           | Voltage Specification |
+|:-----------------:|:-----------------------------|:---------------------:|
+|       JTAGX       |                              |                       |
 
 ## UART Ports
 > [!TIP]
