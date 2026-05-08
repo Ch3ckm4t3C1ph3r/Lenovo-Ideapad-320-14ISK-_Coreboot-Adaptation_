@@ -69,12 +69,15 @@ This section provides the information of the LPC ports.
 |   LPC_AD2_EC     |          |                       |
 |   LPC_AD3_EC     |          |                       |
 |   LPC_AD0_EC     |          |                       |
-|  LPC_AD0_TPM     |          |                       |
-|  LPC_AD1_TPM     |          |                       |
-|  LPC_AD2_TPM     |          |                       |
-|  LPC_AD3_TPM     |          |                       |
+|  LPC_AD0_TPM     |    /     |                       |
+|  LPC_AD1_TPM     |    /     |                       |
+|  LPC_AD2_TPM     |    /     |                       |
+|  LPC_AD3_TPM     |    /     |                       |
 |   LPC_FRAME#     |          |                       |
 |  LPC_FRAME#_EC   |          |                       |
-|  LPC_FRAME#_TPM  |          |                       |
+|  LPC_FRAME#_TPM  |    /     |                       |
+
+> [!NOTE]
+> The LPC pins that in its name ends with _TPM really are nos usable in this board because the component is not soldier.
 
 [Back to main documentation](README.md)
