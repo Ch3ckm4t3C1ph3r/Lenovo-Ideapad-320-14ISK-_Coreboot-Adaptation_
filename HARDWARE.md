@@ -59,7 +59,10 @@ This section provides the informations of the UART ports.
 This section provides the information of the LPC ports.
 
 |  LPC Port | Function | Voltage Specification |
-|:---------:|:---------|:--------------------:|
-|  LPC_CLK  |          |                      |
+|:---------:|:---------|:---------------------:|
+|  LPC_AD0  |          |                       |
+|  LPC_AD1  |          |                       |
+|  LPC_AD2  |          |                       |
+|  LPC_AD3  |          |                       |
 
 [Back to main documentation](README.md)
