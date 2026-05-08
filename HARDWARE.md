@@ -69,6 +69,7 @@ This section provides the information of the LPC ports.
 |   LPC_AD2_EC  |          |                       |
 |   LPC_AD3_EC  |          |                       |
 |   LPC_AD0_EC  |          |                       |
+|  LPC_AD0_TPM  |          |                       |
 |  LPC_AD1_TPM  |          |                       |
 |  LPC_AD2_TPM  |          |                       |
 |  LPC_AD3_TPM  |          |                       |
