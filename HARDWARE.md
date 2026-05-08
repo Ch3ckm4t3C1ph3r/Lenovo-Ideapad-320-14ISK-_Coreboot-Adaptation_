@@ -11,9 +11,14 @@ I discover by using the schematic, boardview , the physical motherboard and the 
 This section provides the specification of the JTAG ports 
 and the location to prepare the debug port to connect it to FT2232HL debug probe.
 
-| JTAG Port | Function | Voltage Specification |
-|:---------:|:--------:|:---------------------:|
-|   JTAGX   |          |                       |
+|     JTAG Port     |           Function           | Voltage Specification |
+|:-----------------:|:-----------------------------|:---------------------:|
+|       JTAGX       |                              |                       |
+|    PCH_JTAG_TCK   |  Current Clock Signal        |                       |
+|    PCH_JTAG_TDI   |  Command Input               |                       |
+|    PCH_JTAG_TDO   |  Command Output (Status)     |                       |
+|    PCH_JTAG_TMS   |                              |                       |
+|   PCH_JTAG_TRST#  |  Processor reset step-0      |                       |
 
 ### XDBG Ports
 Also, you can find the XDBG ports in the boardview of thi board's family.
@@ -29,7 +34,7 @@ This section provides the informations of the UART ports.
 <br>This ports gives you the actual events that ocurrs in your system hardware, so if ocurrs an error you noticed about it and know what error ocurr.
 
 |    UART Port    |         Function          | Voltage Specification |
-|:---------------:|:-------------------------:|:---------------------:|
+|:---------------:|:--------------------------|:---------------------:|
 |  UART_TX_DEBUG  | Output of serial console  |         +3VS          |
 |  UART_RX_DEBUG  | Input of serial console   |         +3VS          |
 
