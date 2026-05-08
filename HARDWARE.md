@@ -11,6 +11,8 @@ I discover by using the schematic, boardview , the physical motherboard and the 
 This section provides the specification of the JTAG ports 
 and the location to prepare the debug port to connect it to FT2232HL debug probe.
 
+<center>
+
 |     JTAG Port     |           Function           | Voltage Specification |
 |:-----------------:|:-----------------------------|:---------------------:|
 |       JTAGX       |                              |                       |
@@ -19,6 +21,8 @@ and the location to prepare the debug port to connect it to FT2232HL debug probe
 |    PCH_JTAG_TDO   |  Command Output (Status)     |                       |
 |    PCH_JTAG_TMS   |                              |                       |
 |   PCH_JTAG_TRST#  |  Processor reset step-0      |                       |
+
+</center>
 
 ### XDP (eXtended Debug) Ports
 Also, you can find the XDBG ports in the boardview of thi board's family.
