@@ -30,8 +30,8 @@ This section provides the informations of the UART ports.
 
 |    UART Port    |         Function          | Voltage Specification |
 |:---------------:|:-------------------------:|:---------------------:|
-|  UART_TX_DEBUG  | Output of serial console  |                       |
-|  UART_RX_DEBUG  | Input of serial console   |                       |
+|  UART_TX_DEBUG  | Output of serial console  |         +3VS          |
+|  UART_RX_DEBUG  | Input of serial console   |         +3VS          |
 
 ## LPC Ports
 > [!CAUTION]
