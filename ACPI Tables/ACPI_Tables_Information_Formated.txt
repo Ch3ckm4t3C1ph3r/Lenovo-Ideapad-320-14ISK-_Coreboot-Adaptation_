@@ -186,7 +186,7 @@
                     {
                         [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
                         [BYTE]  Length                 :   0x06             (6 bytes)
-                        [BYTE]  Processor ID           :   0x02             (Attributes asociates to Processor 2w)
+                        [BYTE]  Processor ID           :   0x02             (Attributes asociates to Processor 2)
                         [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
                         [BIT]   Polarity               :   1                                     * *
                         [BIT]   Trigger Mode           :   1
