@@ -146,6 +146,30 @@
                         [DWORD] Address                :   0xFEC00000       (MEMIO Addr)
                         [DWORD] Interrupt              :   0x00000000       (INT#0)
                     }
+                    
+                    [INTERRUPT#]
+                    {
+                        [BYTE]  Subtable Type          :   0x02             (Interrupt Source Override)
+                        [BYTE]  Length                 :   0x0A             (10 bytes)
+                        [BYTE]  Bus                    :   0x00             (Bus#0)
+                        [BYTE]  Source                 :   0x00             (Offset From The First Interrupt#; Start of the table register)
+                        [DWORD] Interrupt              :   0x00000002       (INT#2)             * *
+                        [WORD]  Flags                  :   0x0000           (0000b 0000b, 0000b 0000b)
+                        [BIT]   Polarity               :   00
+                        [BIT]   Trigger Mode           :   00
+                    }
+                    
+                    [INTERRUPT#]
+                    {
+                        [BYTE]  Subtable Type          :   0x02
+                        [BYTE]  Length                 :   0x0A             (10 bytes)
+                        [BYTE]  Bus                    :   0x00             (Bus#0)
+                        [BYTE]  Source                 :   0x09             (Offset From The First Interrupt#; Start of the table register)
+                        [DWORD] Interrupt              :   0x00000009       (INT#9)             *  *
+                        [WORD]  Flags                  :   0x000D           (0000b 0000b, 0000b 1101b)
+                        [BIT]   Polarity               :   01               (1)
+                        [BIT]   Trigger Mode           :   11               (3)
+                    }
                 }
             }
 
