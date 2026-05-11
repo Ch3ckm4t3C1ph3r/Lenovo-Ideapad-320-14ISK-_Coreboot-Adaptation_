@@ -95,6 +95,12 @@ cd ../../../../
 ```
 
 **7.** Compile the menu configuration with <code>make</code> to configure the envorinment to compile the firmware (selecting the general base code of coreboot with specific source code for manage the board; select the code behind <code>src/soc/intel/skylake</code> and <code>behid src/mainboard/lenovo/skl_ideapad320-14isk</code>).
+
+> [!NOTE]
+> If you want to disable the TPM initialization and override the generation of TPM2 ACPI table you need to deselect the TPM Option. As appears in the following image.
+
+**[Image of the deselected TPM compilation option in menuconfig of coreboot]**
+
 ```bash
 make menuconfig
 ```
