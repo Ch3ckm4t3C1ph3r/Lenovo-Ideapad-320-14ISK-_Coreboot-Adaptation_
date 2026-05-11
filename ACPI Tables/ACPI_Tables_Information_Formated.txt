@@ -43,7 +43,7 @@
                 [DWORD] OEM Revision           :   0x00000001 (1.0)
                 [DWORD] ASL Compiler ID        :   0x49504341 "ACPI"
                 [DWORD] ASL Compiler Revision  :   0x00040000 (ACPI Specification v4.0; 4 major [H16b], 0 minor [L16b])
-                [DWORD] Local APIC Address     :   0xFEE00000
+                [DWORD] Local APIC Address     :   0xFEE00000                                                   *
                 [DWORD] Flags                  :   0xx00000001 (0000b 0000b, 0000b 0000b, 0000b 0000b, 0000b 0001b)
                 [BIT]   PC-AT Compatibility    :   1 (from the flags; PC-AT bit enabled)
 
@@ -54,7 +54,7 @@
                         [BYTE]  Subtable Type          :   0x00 (Processor Local APIC)
                         [BYTE]  Length                 :   0x08 (8 bytes)
                         [BYTE]  Processor ID           :   0x01 (Processor 1)
-                        [BYTE]  Local APIC ID          :   0x00
+                        [BYTE]  Local APIC ID          :   0x00                                                       **
                         [DWORD] Flags                  :   0x00000001 (0000b 0000b, 0000b 0000b, 0000b 0000b, 0000b 0001b)
                         [BIT]   Processor Enabled      :   1    (Usable processor)
                         [BIT]   Runtime Online Capable :   0
