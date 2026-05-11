@@ -94,7 +94,7 @@ git clone https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-
 cd ../../../../
 ```
 
-**7.** Compile the menu configuration with <code>make</code> to configure the envorinment to compile the firmware (selecting the general base code of coreboot with specific source code for manage the board; select the code behind <code>src/soc/intel/skylake</code> and <code>behid src/mainboard/lenovo/skl_ideapad320-14isk</code>)
+**7.** Compile the menu configuration with <code>make</code> to configure the envorinment to compile the firmware (selecting the general base code of coreboot with specific source code for manage the board; select the code behind <code>src/soc/intel/skylake</code> and <code>behid src/mainboard/lenovo/skl_ideapad320-14isk</code>).
 ```bash
 make menuconfig
 ```
