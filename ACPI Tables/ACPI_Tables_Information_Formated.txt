@@ -181,6 +181,83 @@
                         [BIT]   Trigger Mode           :   1
                         [BIT]   Interrupts Input LINT  :   01
                     }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x02             (Attributes asociates to Processor 2w)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
+                    }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x03             (Attributes asociates to Processor 3)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
+                    }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x04             (Attributes asociates to Processor 4)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
+                    }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x05             (Attributes asociates to Processor 5)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
+                    }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x06             (Attributes asociates to Processor 6)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
+                    }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x07             (Attributes asociates to Processor 7)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
+                    }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x08             (Attributes asociates to Processor 8)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
+                    }
                 }
             }
 
