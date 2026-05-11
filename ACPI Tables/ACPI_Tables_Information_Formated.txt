@@ -38,7 +38,7 @@
                 [DWORD] Table Lenght           :   0x000000BC (188 bytes)
                 [BYTE]  Revision               :   0x03 (3.0)
                 [BYTE]  Checksum               :   0xC9
-                [BYTE6] OEM ID                 :   0x4F564F4E454C "LENOVO"
+                [BYTE6] OEM ID                 :   0x4F 0x56 0x4F 0x4E 0x45 0x4C "LENOVO"
                 [QWORD] OEM Table ID           :   0x20202031302D4243 "CB-01   "
                 [DWORD] OEM Revision           :   0x00000001 (1.0)
                 [DWORD] ASL Compiler ID        :   0x49504341 "ACPI"
