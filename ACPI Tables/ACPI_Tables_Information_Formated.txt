@@ -34,37 +34,37 @@
     {
             [APIC]
             {
-                [DWORD] Signature              :   0x43495041 "APIC" (Multiple APIC Description Table [MADT])
-                [DWORD] Table Lenght           :   0x000000BC (188 bytes)
-                [BYTE]  Revision               :   0x03 (3.0)
+                [DWORD] Signature              :   0x43495041                                "APIC" (Multiple APIC Description Table [MADT])
+                [DWORD] Table Lenght           :   0x000000BC                                (188 bytes)
+                [BYTE]  Revision               :   0x03                                      (3.0)
                 [BYTE]  Checksum               :   0xC9
-                [BYTE6] OEM ID                 :   0x4F 0x56 0x4F 0x4E 0x45 0x4C "LENOVO"
-                [QWORD] OEM Table ID           :   0x20202031302D4243 "CB-01   "
-                [DWORD] OEM Revision           :   0x00000001 (1.0)
-                [DWORD] ASL Compiler ID        :   0x49504341 "ACPI"
-                [DWORD] ASL Compiler Revision  :   0x00040000 (ACPI Specification v4.0; 4 major [H16b], 0 minor [L16b])
-                [DWORD] Local APIC Address     :   0xFEE00000                                                   *
-                [DWORD] Flags                  :   0xx00000001 (0000b 0000b, 0000b 0000b, 0000b 0000b, 0000b 0001b)
-                [BIT]   PC-AT Compatibility    :   1 (from the flags; PC-AT bit enabled)
+                [BYTE6] OEM ID                 :   0x4F 0x56 0x4F 0x4E 0x45 0x4C             "LENOVO"
+                [QWORD] OEM Table ID           :   0x20202031302D4243                        "CB-01   "
+                [DWORD] OEM Revision           :   0x00000001                                (1.0)
+                [DWORD] ASL Compiler ID        :   0x49504341                                "ACPI"
+                [DWORD] ASL Compiler Revision  :   0x00040000                                (ACPI Specification v4.0; 4 major [H16b], 0 minor [L16b])
+                [DWORD] Local APIC Address     :   0xFEE00000                                                                                 *
+                [DWORD] Flags                  :   0xx00000001                               (0000b 0000b, 0000b 0000b, 0000b 0000b, 0000b 0001b)
+                [BIT]   PC-AT Compatibility    :   1                                         (from the flags; PC-AT bit enabled)
 
                 [DEVICES]
                 {
                     [PROCESSOR_1]
                     {
-                        [BYTE]  Subtable Type          :   0x00 (Processor Local APIC)
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x01 (Processor 1)
-                        [BYTE]  Local APIC ID          :   0x00                                                       **
-                        [DWORD] Flags                  :   0x00000001 (0000b 0000b, 0000b 0000b, 0000b 0000b, 0000b 0001b)
-                        [BIT]   Processor Enabled      :   1    (Usable processor)
+                        [BYTE]  Subtable Type          :   0x00             (Processor Local APIC)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x01             (Processor 1)
+                        [BYTE]  Local APIC ID          :   0x00                                                             **
+                        [DWORD] Flags                  :   0x00000001       (0000b 0000b, 0000b 0000b, 0000b 0000b, 0000b 0001b)
+                        [BIT]   Processor Enabled      :   1                (Usable processor)
                         [BIT]   Runtime Online Capable :   0
                     }
 
                     [PROCESSOR_2]
                     {
                         [BYTE]  Subtable Type          :   0x00
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x02 (Processor 2)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x02             (Processor 2)
                         [BYTE]  Local APIC ID          :   0x02
                         [DWORD] Flags                  :   0x00000001
                         [BIT]   Processor Enabled      :   1
@@ -74,8 +74,8 @@
                     [PROCESSOR_3]
                     {
                         [BYTE]  Subtable Type          :   0x00
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x03 (Processor 3)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x03             (Processor 3)
                         [BYTE]  Local APIC ID          :   0x01
                         [DWORD] Flags                  :   0x00000001
                         [BIT]   Processor Enabled      :   1
@@ -85,8 +85,8 @@
                     [PROCESSOR_4]
                     {
                         [BYTE]  Subtable Type          :   0x00
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x04 (Processor 4)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x04             (Processor 4)
                         [BYTE]  Local APIC ID          :   0x03
                         [DWORD] Flags                  :   0x00000001
                         [BIT]   Processor Enabled      :   1
@@ -96,19 +96,19 @@
                     [PROCESSOR_5]
                     {
                         [BYTE]  Subtable Type          :   0x00
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x05 (Processor 5)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x05             (Processor 5)
                         [BYTE]  Local APIC ID          :   0xFF
                         [DWORD] Flags                  :   0x00000000
-                        [BIT]   Processor Enabled      :   0 (Processor Not Usable)
+                        [BIT]   Processor Enabled      :   0                (Processor Not Usable)
                         [BIT]   Runtime Online Capable :   0
                     }
 
                     [PROCESSOR_6]
                     {
                         [BYTE]  Subtable Type          :   0x00
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x06 (Processor 6)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x06             (Processor 6)
                         [BYTE]  Local APIC ID          :   0xFF
                         [DWORD] Flags                  :   0x00000000
                         [BIT]   Processor Enabled      :   0
@@ -118,8 +118,8 @@
                     [PROCESSOR_7]
                     {
                         [BYTE]  Subtable Type          :   0x00
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x07 (Processor 7)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x07             (Processor 7)
                         [BYTE]  Local APIC ID          :   0xFF
                         [DWORD] Flags                  :   0x00000000
                         [BIT]   Processor Enabled      :   0
@@ -129,8 +129,8 @@
                     [PROCESSOR_8]
                     {
                         [BYTE]  Subtable Type          :   0x00
-                        [BYTE]  Length                 :   0x08 (8 bytes)
-                        [BYTE]  Processor ID           :   0x08 (Processor 8)
+                        [BYTE]  Length                 :   0x08             (8 bytes)
+                        [BYTE]  Processor ID           :   0x08             (Processor 8)
                         [BYTE]  Local APIC ID          :   0xFF
                         [DWORD] Flags                  :   0x00000000
                         [BIT]   Processor Enabled      :   0
@@ -139,12 +139,12 @@
 
                     [I/O DEVICE]
                     {
-                        [BYTE]  Subtable Type          :   0x01 (I/O APIC)
-                        [BYTE]  Length                 :   0x0C (12 bytes)
-                        [BYTE]  I/O APIC ID            :   0x02 (I/O Device 2)
-                        [BYTE]  Reserved               :   0x00 (0 bytes in RAM)
-                        [DWORD] Address                :   0xFEC00000 (MEMIO Addr)
-                        [DWORD] Interrupt              :   0x00000000 (INT#0)
+                        [BYTE]  Subtable Type          :   0x01             (I/O APIC)
+                        [BYTE]  Length                 :   0x0C             (12 bytes)
+                        [BYTE]  I/O APIC ID            :   0x02             (I/O Device 2)
+                        [BYTE]  Reserved               :   0x00             (0 bytes in RAM)
+                        [DWORD] Address                :   0xFEC00000       (MEMIO Addr)
+                        [DWORD] Interrupt              :   0x00000000       (INT#0)
                     }
                 }
             }
