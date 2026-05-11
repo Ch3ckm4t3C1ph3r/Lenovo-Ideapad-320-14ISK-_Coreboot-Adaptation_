@@ -136,6 +136,16 @@
                         [BIT]   Processor Enabled      :   0
                         [BIT]   Runtime Online Capable :   0
                     }
+
+                    [I/O DEVICE]
+                    {
+                        [BYTE]  Subtable Type          :   0x01 (I/O APIC)
+                        [BYTE]  Length                 :   0x0C (12 bytes)
+                        [BYTE]  I/O APIC ID            :   0x02 (I/O Device 2)
+                        [BYTE]  Reserved               :   0x00
+                        [DWORD] Address                :   0xFEC00000
+                        [DWORD] Interrupt              :   0x00000000
+                    }
                 }
             }
 
