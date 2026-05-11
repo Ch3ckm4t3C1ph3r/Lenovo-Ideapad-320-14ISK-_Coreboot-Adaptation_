@@ -165,10 +165,21 @@
                         [BYTE]  Length                 :   0x0A             (10 bytes)
                         [BYTE]  Bus                    :   0x00             (Bus#0)
                         [BYTE]  Source                 :   0x09             (Offset From The First Interrupt#; Start of the table register)
-                        [DWORD] Interrupt              :   0x00000009       (INT#9)             *  *
+                        [DWORD] Interrupt              :   0x00000009       (INT#9)             * *
                         [WORD]  Flags                  :   0x000D           (0000b 0000b, 0000b 1101b)
-                        [BIT]   Polarity               :   01               (1)
+                        [BIT]   Polarity               :   01
                         [BIT]   Trigger Mode           :   11               (3)
+                    }
+                    
+                    [APIC_NMI]
+                    {
+                        [BYTE]  Subtable Type          :   0x04             (Local APIC NMI)
+                        [BYTE]  Length                 :   0x06             (6 bytes)
+                        [BYTE]  Processor ID           :   0x01             (Attributes asociates to Processor 1)
+                        [WORD]  Flags                  :   0x0005           (0000b 0000b, 0000b 0101b)
+                        [BIT]   Polarity               :   1                                     * *
+                        [BIT]   Trigger Mode           :   1
+                        [BIT]   Interrupts Input LINT  :   01
                     }
                 }
             }
