@@ -70,6 +70,72 @@
                         [BIT]   Processor Enabled      :   1
                         [BIT]   Runtime Online Capable :   0
                     }
+                    
+                    [PROCESSOR_3]
+                    {
+                        [BYTE]  Subtable Type          :   0x00
+                        [BYTE]  Length                 :   0x08 (8 bytes)
+                        [BYTE]  Processor ID           :   0x03 (Processor 3)
+                        [BYTE]  Local APIC ID          :   0x01
+                        [DWORD] Flags                  :   0x00000001
+                        [BIT]   Processor Enabled      :   1
+                        [BIT]   Runtime Online Capable :   0
+                    }
+                    
+                    [PROCESSOR_4]
+                    {
+                        [BYTE]  Subtable Type          :   0x00
+                        [BYTE]  Length                 :   0x08 (8 bytes)
+                        [BYTE]  Processor ID           :   0x04 (Processor 4)
+                        [BYTE]  Local APIC ID          :   0x03
+                        [DWORD] Flags                  :   0x00000001
+                        [BIT]   Processor Enabled      :   1
+                        [BIT]   Runtime Online Capable :   0
+                    }
+
+                    [PROCESSOR_5]
+                    {
+                        [BYTE]  Subtable Type          :   0x00
+                        [BYTE]  Length                 :   0x08 (8 bytes)
+                        [BYTE]  Processor ID           :   0x05 (Processor 5)
+                        [BYTE]  Local APIC ID          :   0xFF
+                        [DWORD] Flags                  :   0x00000000
+                        [BIT]   Processor Enabled      :   0 (Processor Not Usable)
+                        [BIT]   Runtime Online Capable :   0
+                    }
+
+                    [PROCESSOR_6]
+                    {
+                        [BYTE]  Subtable Type          :   0x00
+                        [BYTE]  Length                 :   0x08 (8 bytes)
+                        [BYTE]  Processor ID           :   0x06 (Processor 6)
+                        [BYTE]  Local APIC ID          :   0xFF
+                        [DWORD] Flags                  :   0x00000000
+                        [BIT]   Processor Enabled      :   0
+                        [BIT]   Runtime Online Capable :   0
+                    }
+
+                    [PROCESSOR_7]
+                    {
+                        [BYTE]  Subtable Type          :   0x00
+                        [BYTE]  Length                 :   0x08 (8 bytes)
+                        [BYTE]  Processor ID           :   0x07 (Processor 7)
+                        [BYTE]  Local APIC ID          :   0xFF
+                        [DWORD] Flags                  :   0x00000000
+                        [BIT]   Processor Enabled      :   0
+                        [BIT]   Runtime Online Capable :   0
+                    }
+
+                    [PROCESSOR_8]
+                    {
+                        [BYTE]  Subtable Type          :   0x00
+                        [BYTE]  Length                 :   0x08 (8 bytes)
+                        [BYTE]  Processor ID           :   0x08 (Processor 8)
+                        [BYTE]  Local APIC ID          :   0xFF
+                        [DWORD] Flags                  :   0x00000000
+                        [BIT]   Processor Enabled      :   0
+                        [BIT]   Runtime Online Capable :   0
+                    }
                 }
             }
 
