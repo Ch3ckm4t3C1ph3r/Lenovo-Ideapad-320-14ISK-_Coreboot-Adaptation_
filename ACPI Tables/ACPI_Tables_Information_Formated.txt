@@ -59,6 +59,17 @@
                         [BIT]   Processor Enabled      :   1    (Usable processor)
                         [BIT]   Runtime Online Capable :   0
                     }
+
+                    [PROCESSOR_2]
+                    {
+                        [BYTE]  Subtable Type          :   0x00
+                        [BYTE]  Length                 :   0x08 (8 bytes)
+                        [BYTE]  Processor ID           :   0x02 (Processor 2)
+                        [BYTE]  Local APIC ID          :   0x02
+                        [DWORD] Flags                  :   0x00000001
+                        [BIT]   Processor Enabled      :   1
+                        [BIT]   Runtime Online Capable :   0
+                    }
                 }
             }
 
