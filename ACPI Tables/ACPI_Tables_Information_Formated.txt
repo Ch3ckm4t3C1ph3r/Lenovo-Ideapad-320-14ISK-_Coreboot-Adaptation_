@@ -42,7 +42,7 @@
                 [QWORD] OEM Table ID           :   0x20202031302D4243 "CB-01   "
                 [DWORD] OEM Revision           :   0x00000001 (1.0)
                 [DWORD] ASL Compiler ID        :   0x49504341 "ACPI"
-                [DWORD] ASL Compiler Revision  :   0x00040000 (ACPI Specification 4.0; 4 major [16b], 0 minor [16b])
+                [DWORD] ASL Compiler Revision  :   0x00040000 (ACPI Specification 4.0; 4 major [H16b], 0 minor [L16b])
                 [DWORD] Local APIC Address     :   0xFEE00000
                 [DWORD] Flags                  :   0x00000001
                 [BIT]   PC-AT Compatibility    :   1 (from the flags; PC-AT bit enabled)
