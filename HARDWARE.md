@@ -64,16 +64,11 @@ This section provides the information of the LPC ports.
 |    LPC_AD1       |          |                       |
 |    LPC_AD2       |          |                       |
 |    LPC_AD3       |          |                       |
-|   LPC_AD0_EC     |          |                       |
-|   LPC_AD1_EC     |          |                       |
-|   LPC_AD2_EC     |          |                       |
-|   LPC_AD3_EC     |          |                       |
 |  LPC_AD0_TPM     |    *     |                       |
 |  LPC_AD1_TPM     |    *     |                       |
 |  LPC_AD2_TPM     |    *     |                       |
 |  LPC_AD3_TPM     |    *     |                       |
 |   LPC_FRAME#     |          |                       |
-|  LPC_FRAME#_EC   |          |                       |
 |  LPC_FRAME#_TPM  |    *     |                       |
 
 > [!NOTE]
