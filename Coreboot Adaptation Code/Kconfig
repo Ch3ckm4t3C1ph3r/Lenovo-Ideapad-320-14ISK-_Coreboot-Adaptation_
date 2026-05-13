@@ -4,7 +4,6 @@ config BOARD_LENOVO_SKL_IDEAPAD_320_14ISK
 	bool
 	#select AZALIA_USE_LEGACY_VERB_TABLE
 	select BOARD_ROMSIZE_KB_8192
-	#select DRIVERS_OPTION_CFR_ENABLED if PAYLOAD_EDK2 && SMMSTORE
 	#select HAVE_ACPI_RESUME
 	select HAVE_ACPI_TABLES
 	#select INTEL_GMA_HAVE_VBT
@@ -38,11 +37,14 @@ config CONSOLE_SERIAL
 config NO_POST
 	default n
 
-config PS2K_EISAID
-	default "LEN0071"
-
-config PS2M_EISAID
-	default "LEN0094"
-
 config CONFIG_CBMEM_CHECKS
 	default y
+
+config SUPERIO_ITE_COMMON_PRE_RAM
+	bool
+	default y
+
+config SUPERIO_ITE_ENV_CTRL
+	bool
+	default y
+
