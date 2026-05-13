@@ -143,5 +143,6 @@ chip soc/intel/skylake
 				end
 			end
 		end
+
 	end
 end
