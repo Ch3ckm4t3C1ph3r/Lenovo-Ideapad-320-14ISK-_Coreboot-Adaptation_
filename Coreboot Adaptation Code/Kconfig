@@ -3,15 +3,8 @@
 config BOARD_LENOVO_SKL_IDEAPAD_320_14ISK
 	bool
 	#select AZALIA_USE_LEGACY_VERB_TABLE
-	#select BOARD_ROMSIZE_KB_16384
+	select BOARD_ROMSIZE_KB_8192
 	#select DRIVERS_OPTION_CFR_ENABLED if PAYLOAD_EDK2 && SMMSTORE
-	#select EC_LENOVO_H8
-	#select EC_LENOVO_MEC1653
-	#select EC_LENOVO_PMH7
-	#select H8_HAS_BAT_THRESHOLDS_IMPL
-	#select H8_HAS_LEDLOGO
-	#select H8_HAS_PRIMARY_FN_KEYS
-	#select H8_SUPPORT_BT_ON_WIFI
 	#select HAVE_ACPI_RESUME
 	select HAVE_ACPI_TABLES
 	#select INTEL_GMA_HAVE_VBT
@@ -28,7 +21,10 @@ config MAINBOARD_PART_NUMBER
 	default "320-14isk"
 
 config CBFS_SIZE
-	default 0x900000
+	default 0x5f0000
+
+config MAX_CPUS
+	default 8
 
 config DIMM_MAX
 	default 2
@@ -40,15 +36,6 @@ config CONSOLE_SERIAL
 	default y
 
 config NO_POST
-	default n
-
-config EDK2_BOOT_MANAGER_ESCAPE
-	default y
-
-config EDK2_FOLLOW_BGRT_SPEC
-	default y
-
-config EDK2_FULL_SCREEN_SETUP
 	default n
 
 config PS2K_EISAID
