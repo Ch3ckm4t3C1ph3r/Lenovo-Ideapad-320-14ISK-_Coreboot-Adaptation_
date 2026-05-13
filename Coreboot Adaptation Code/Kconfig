@@ -40,11 +40,8 @@ config NO_POST
 config CONFIG_CBMEM_CHECKS
 	default y
 
-config SUPERIO_ITE_COMMON_PRE_RAM
+config ITE8586E
 	bool
-	default y
-
-config SUPERIO_ITE_ENV_CTRL
-	bool
-	default y
+	select SUPERIO_ITE_COMMON_PRE_RAM
+	select ITE_ENV_CTRL
 
