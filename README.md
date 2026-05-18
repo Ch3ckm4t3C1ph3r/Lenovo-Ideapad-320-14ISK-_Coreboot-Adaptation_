@@ -133,7 +133,6 @@ flowchart LR;
     classDef nodeStyle fill:#FF5D3B,stroke:#FF3008,stroke-width:1px
     classDef edgeStyle fill:#000000,stroke:#000000,stroke-width:1px
     
-    subgraph cbfs[CBFS]
         direction LR
 
         %% Not publicly documented boot process
@@ -143,6 +142,7 @@ flowchart LR;
 
         n1[Blobs] e1@--> n2[Coreboot]
 
+    subgraph cbfs[CBFS]
         subgraph sbg2[Coreboot Process]
           n2[Coreboot]
         end
