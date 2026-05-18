@@ -6,8 +6,8 @@
 #include <soc/romstage.h>
 #include <spd_bin.h>
 #include <stdio.h>
-#include "../../spd/spd.h"
-#include "../../variant.h"
+//#include "spd.h"
+#include "variant.h"
 
 static const struct pad_config memory_id_gpio_table[] = {
 	PAD_CFG_GPI_TRIG_OWN(GPP_F16, UP_20K, DEEP, OFF, ACPI),		/* MEMORYID0 */
@@ -44,7 +44,7 @@ void mainboard_memory_init_params(FSPM_UPD *mupd)
 
 	spd_idx = variant_memory_sku();
 	printk(BIOS_DEBUG, "Detected MEMORY_ID = %d\n", spd_idx);
-	mem_cfg->MemorySpdPtr00    = (uintptr_t)mainboard_find_spd_data(spd_idx);
+	mem_cfg->MemorySpdPtr00    = 0;
 
 	/* Get SPD for memory slot (CH B) */
 	struct spd_block blk = { .addr_map = { [1] = 0x51, } };
