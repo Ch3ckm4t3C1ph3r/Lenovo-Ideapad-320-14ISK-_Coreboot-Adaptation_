@@ -1,0 +1,3901 @@
+{
+   "dmesg": [
+      {
+         "pri": 5,
+         "time":     0.000000,
+         "msg": "Linux version 7.0.3-arch1-1 (linux@archlinux) (gcc (GCC) 15.2.1 20260209, GNU ld (GNU Binutils) 2.46) #1 SMP PREEMPT_DYNAMIC Thu, 30 Apr 2026 18:41:12 +0000"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "Command line: BOOT_IMAGE=/arch/boot/x86_64/vmlinuz-linux archisobasedir=arch archisosearchuuid=2026-05-01-06-05-08-00 rdinit=/vtoy/vtoy"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-provided physical RAM map:"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000000000000-0x0000000000057fff]  System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000000058000-0x0000000000058fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000000059000-0x000000000009dfff]  System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000000009e000-0x00000000000fffff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000000100000-0x0000000073867fff]  System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000073868000-0x0000000073868fff]  ACPI NVS"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000073869000-0x0000000073869fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000007386a000-0x0000000075288fff]  System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000075289000-0x0000000075b88fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000075b89000-0x000000008bd9efff]  System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000008bd9f000-0x000000008bf9efff]  type 20"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000008bf9f000-0x000000008c78efff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000008c78f000-0x000000008ce7efff]  ACPI NVS"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000008ce7f000-0x000000008cefefff]  ACPI data"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000008ceff000-0x000000008cefffff]  System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x000000008cf00000-0x000000008fffffff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x0000000090000000-0x00000000dfffffff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x00000000f0000000-0x00000000fcffffff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000fd000000-0x00000000fe7fffff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x00000000fe800000-0x00000000febfffff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x00000000fec01000-0x00000000fecfffff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000fed00000-0x00000000fed00fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x00000000fed01000-0x00000000fed0ffff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000fed10000-0x00000000fed19fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x00000000fed1a000-0x00000000fed83fff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000fed84000-0x00000000fed84fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x00000000fed85000-0x00000000fedfffff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [gap 0x00000000fee01000-0x00000000ffa0ffff]"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x00000000ffa10000-0x00000000ffffffff]  device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "BIOS-e820: [mem 0x0000000100000000-0x000000026effffff]  System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "NX (Execute Disable) protection: active"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "APIC: Static calls initialized"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: EFI v2.5 by INSYDE Corp."
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: ACPI 2.0=0x8cefe014 SMBIOS=0x8c003000 SMBIOS 3.0=0x8c001000 ESRT=0x8c0047d8 MOKvar=0x8bff8000 "
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Remove mem46: MMIO range=[0xe0000000-0xefffffff] (256MB) from e820 map"
+      },{
+         "pri": 7,
+         "time":     0.000000,
+         "msg": "e820: remove [mem 0xe0000000-0xefffffff] device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Remove mem47: MMIO range=[0xfd000000-0xfe7fffff] (24MB) from e820 map"
+      },{
+         "pri": 7,
+         "time":     0.000000,
+         "msg": "e820: remove [mem 0xfd000000-0xfe7fffff] device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Not removing mem48: MMIO range=[0xfec00000-0xfec00fff] (4KB) from e820 map"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Not removing mem49: MMIO range=[0xfed00000-0xfed00fff] (4KB) from e820 map"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Not removing mem50: MMIO range=[0xfed10000-0xfed19fff] (40KB) from e820 map"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Not removing mem51: MMIO range=[0xfed84000-0xfed84fff] (4KB) from e820 map"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Not removing mem52: MMIO range=[0xfee00000-0xfee00fff] (4KB) from e820 map"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "efi: Remove mem53: MMIO range=[0xffa10000-0xffffffff] (5MB) from e820 map"
+      },{
+         "pri": 7,
+         "time":     0.000000,
+         "msg": "e820: remove [mem 0xffa10000-0xffffffff] device reserved"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "SMBIOS 3.0.0 present."
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "DMI: LENOVO 80XG/LNVNB161216, BIOS 4WCN41WW 07/23/2018"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "DMI: Memory slots populated: 2/2"
+      },{
+         "pri": 6,
+         "time":     0.000000,
+         "msg": "tsc: Detected 2400.000 MHz processor"
+      },{
+         "pri": 7,
+         "time":     0.000697,
+         "msg": "e820: update [mem 0x00000000-0x00000fff] System RAM ==> device reserved"
+      },{
+         "pri": 7,
+         "time":     0.000700,
+         "msg": "e820: remove [mem 0x000a0000-0x000fffff] System RAM"
+      },{
+         "pri": 6,
+         "time":     0.000713,
+         "msg": "last_pfn = 0x26f000 max_arch_pfn = 0x400000000"
+      },{
+         "pri": 6,
+         "time":     0.000718,
+         "msg": "MTRR map: 4 entries (3 fixed + 1 variable; max 23), built from 10 variable MTRRs"
+      },{
+         "pri": 6,
+         "time":     0.000721,
+         "msg": "x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  "
+      },{
+         "pri": 6,
+         "time":     0.001203,
+         "msg": "last_pfn = 0x8cf00 max_arch_pfn = 0x400000000"
+      },{
+         "pri": 6,
+         "time":     0.011359,
+         "msg": "esrt: Reserving ESRT space from 0x000000008c0047d8 to 0x000000008c004888."
+      },{
+         "pri": 6,
+         "time":     0.011368,
+         "msg": "Using GB pages for direct mapping"
+      },{
+         "pri": 6,
+         "time":     0.011862,
+         "msg": "Secure boot could not be determined"
+      },{
+         "pri": 6,
+         "time":     0.011863,
+         "msg": "RAMDISK: [mem 0x1b32d000-0x2998dfff]"
+      },{
+         "pri": 6,
+         "time":     0.012809,
+         "msg": "ACPI: Early table checksum verification disabled"
+      },{
+         "pri": 6,
+         "time":     0.012813,
+         "msg": "ACPI: RSDP 0x000000008CEFE014 000024 (v02 LENOVO)"
+      },{
+         "pri": 6,
+         "time":     0.012819,
+         "msg": "ACPI: XSDT 0x000000008CEC9188 0000EC (v01 LENOVO CB-01    00000001      01000013)"
+      },{
+         "pri": 6,
+         "time":     0.012826,
+         "msg": "ACPI: FACP 0x000000008CEF2000 00010C (v05 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012833,
+         "msg": "ACPI: DSDT 0x000000008CED2000 01CD27 (v02 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012837,
+         "msg": "ACPI: FACS 0x000000008CE5D000 000040"
+      },{
+         "pri": 6,
+         "time":     0.012841,
+         "msg": "ACPI: UEFI 0x000000008CEFD000 000236 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012845,
+         "msg": "ACPI: UEFI 0x000000008CEFC000 000042 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012849,
+         "msg": "ACPI: MSDM 0x000000008CEFB000 000055 (v03 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012852,
+         "msg": "ACPI: SSDT 0x000000008CEF7000 0030F8 (v02 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012856,
+         "msg": "ACPI: ASF! 0x000000008CEF6000 0000A5 (v32 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012860,
+         "msg": "ACPI: ASPT 0x000000008CEF5000 000034 (v07 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012864,
+         "msg": "ACPI: BOOT 0x000000008CEF4000 000028 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012868,
+         "msg": "ACPI: DBGP 0x000000008CEF3000 000034 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012872,
+         "msg": "ACPI: HPET 0x000000008CEF1000 000038 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012876,
+         "msg": "ACPI: APIC 0x000000008CEF0000 0000BC (v03 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012879,
+         "msg": "ACPI: MCFG 0x000000008CEEF000 00003C (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012883,
+         "msg": "ACPI: LPIT 0x000000008CED1000 000094 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012887,
+         "msg": "ACPI: WSMT 0x000000008CED0000 000028 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012891,
+         "msg": "ACPI: SSDT 0x000000008CECF000 00029F (v02 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012895,
+         "msg": "ACPI: SSDT 0x000000008CECE000 000346 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012899,
+         "msg": "ACPI: SSDT 0x000000008CECD000 000E41 (v02 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012902,
+         "msg": "ACPI: SSDT 0x000000008CECC000 00051E (v02 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012906,
+         "msg": "ACPI: DBGP 0x000000008CECB000 000034 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012910,
+         "msg": "ACPI: DBG2 0x000000008CECA000 000054 (v00 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012914,
+         "msg": "ACPI: SSDT 0x000000008CEC7000 00106A (v02 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012918,
+         "msg": "ACPI: SSDT 0x000000008CEC6000 000EDE (v02 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012921,
+         "msg": "ACPI: DMAR 0x000000008CEC5000 0000CC (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012925,
+         "msg": "ACPI: FPDT 0x000000008CEC4000 000044 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012929,
+         "msg": "ACPI: BGRT 0x000000008CEC3000 000038 (v01 LENOVO CB-01    00000001 ACPI 00040000)"
+      },{
+         "pri": 6,
+         "time":     0.012932,
+         "msg": "ACPI: Reserving FACP table memory at [mem 0x8cef2000-0x8cef210b]"
+      },{
+         "pri": 6,
+         "time":     0.012934,
+         "msg": "ACPI: Reserving DSDT table memory at [mem 0x8ced2000-0x8ceeed26]"
+      },{
+         "pri": 6,
+         "time":     0.012935,
+         "msg": "ACPI: Reserving FACS table memory at [mem 0x8ce5d000-0x8ce5d03f]"
+      },{
+         "pri": 6,
+         "time":     0.012936,
+         "msg": "ACPI: Reserving UEFI table memory at [mem 0x8cefd000-0x8cefd235]"
+      },{
+         "pri": 6,
+         "time":     0.012937,
+         "msg": "ACPI: Reserving UEFI table memory at [mem 0x8cefc000-0x8cefc041]"
+      },{
+         "pri": 6,
+         "time":     0.012938,
+         "msg": "ACPI: Reserving MSDM table memory at [mem 0x8cefb000-0x8cefb054]"
+      },{
+         "pri": 6,
+         "time":     0.012939,
+         "msg": "ACPI: Reserving SSDT table memory at [mem 0x8cef7000-0x8cefa0f7]"
+      },{
+         "pri": 6,
+         "time":     0.012940,
+         "msg": "ACPI: Reserving ASF! table memory at [mem 0x8cef6000-0x8cef60a4]"
+      },{
+         "pri": 6,
+         "time":     0.012941,
+         "msg": "ACPI: Reserving ASPT table memory at [mem 0x8cef5000-0x8cef5033]"
+      },{
+         "pri": 6,
+         "time":     0.012942,
+         "msg": "ACPI: Reserving BOOT table memory at [mem 0x8cef4000-0x8cef4027]"
+      },{
+         "pri": 6,
+         "time":     0.012943,
+         "msg": "ACPI: Reserving DBGP table memory at [mem 0x8cef3000-0x8cef3033]"
+      },{
+         "pri": 6,
+         "time":     0.012944,
+         "msg": "ACPI: Reserving HPET table memory at [mem 0x8cef1000-0x8cef1037]"
+      },{
+         "pri": 6,
+         "time":     0.012944,
+         "msg": "ACPI: Reserving APIC table memory at [mem 0x8cef0000-0x8cef00bb]"
+      },{
+         "pri": 6,
+         "time":     0.012945,
+         "msg": "ACPI: Reserving MCFG table memory at [mem 0x8ceef000-0x8ceef03b]"
+      },{
+         "pri": 6,
+         "time":     0.012946,
+         "msg": "ACPI: Reserving LPIT table memory at [mem 0x8ced1000-0x8ced1093]"
+      },{
+         "pri": 6,
+         "time":     0.012947,
+         "msg": "ACPI: Reserving WSMT table memory at [mem 0x8ced0000-0x8ced0027]"
+      },{
+         "pri": 6,
+         "time":     0.012948,
+         "msg": "ACPI: Reserving SSDT table memory at [mem 0x8cecf000-0x8cecf29e]"
+      },{
+         "pri": 6,
+         "time":     0.012949,
+         "msg": "ACPI: Reserving SSDT table memory at [mem 0x8cece000-0x8cece345]"
+      },{
+         "pri": 6,
+         "time":     0.012950,
+         "msg": "ACPI: Reserving SSDT table memory at [mem 0x8cecd000-0x8cecde40]"
+      },{
+         "pri": 6,
+         "time":     0.012951,
+         "msg": "ACPI: Reserving SSDT table memory at [mem 0x8cecc000-0x8cecc51d]"
+      },{
+         "pri": 6,
+         "time":     0.012952,
+         "msg": "ACPI: Reserving DBGP table memory at [mem 0x8cecb000-0x8cecb033]"
+      },{
+         "pri": 6,
+         "time":     0.012953,
+         "msg": "ACPI: Reserving DBG2 table memory at [mem 0x8ceca000-0x8ceca053]"
+      },{
+         "pri": 6,
+         "time":     0.012954,
+         "msg": "ACPI: Reserving SSDT table memory at [mem 0x8cec7000-0x8cec8069]"
+      },{
+         "pri": 6,
+         "time":     0.012955,
+         "msg": "ACPI: Reserving SSDT table memory at [mem 0x8cec6000-0x8cec6edd]"
+      },{
+         "pri": 6,
+         "time":     0.012956,
+         "msg": "ACPI: Reserving DMAR table memory at [mem 0x8cec5000-0x8cec50cb]"
+      },{
+         "pri": 6,
+         "time":     0.012957,
+         "msg": "ACPI: Reserving FPDT table memory at [mem 0x8cec4000-0x8cec4043]"
+      },{
+         "pri": 6,
+         "time":     0.012958,
+         "msg": "ACPI: Reserving BGRT table memory at [mem 0x8cec3000-0x8cec3037]"
+      },{
+         "pri": 6,
+         "time":     0.013079,
+         "msg": "No NUMA configuration found"
+      },{
+         "pri": 6,
+         "time":     0.013080,
+         "msg": "Faking a node at [mem 0x0000000000000000-0x000000026effffff]"
+      },{
+         "pri": 6,
+         "time":     0.013092,
+         "msg": "NODE_DATA(0) allocated [mem 0x26efd5280-0x26effffff]"
+      },{
+         "pri": 6,
+         "time":     0.013353,
+         "msg": "Reserving Intel graphics memory at [mem 0x8e000000-0x8fffffff]"
+      },{
+         "pri": 6,
+         "time":     0.013514,
+         "msg": "ACPI: PM-Timer IO Port: 0x1808"
+      },{
+         "pri": 6,
+         "time":     0.013524,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013525,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013526,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013527,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013528,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013529,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013530,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013531,
+         "msg": "ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])"
+      },{
+         "pri": 6,
+         "time":     0.013558,
+         "msg": "IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119"
+      },{
+         "pri": 6,
+         "time":     0.013561,
+         "msg": "ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)"
+      },{
+         "pri": 6,
+         "time":     0.013564,
+         "msg": "ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)"
+      },{
+         "pri": 6,
+         "time":     0.013569,
+         "msg": "ACPI: Using ACPI (MADT) for SMP configuration information"
+      },{
+         "pri": 6,
+         "time":     0.013571,
+         "msg": "ACPI: HPET id: 0x8086a201 base: 0xfed00000"
+      },{
+         "pri": 7,
+         "time":     0.013580,
+         "msg": "e820: update [mem 0x7c756000-0x7c7d1fff] System RAM ==> device reserved"
+      },{
+         "pri": 6,
+         "time":     0.013595,
+         "msg": "TSC deadline timer available"
+      },{
+         "pri": 6,
+         "time":     0.013599,
+         "msg": "CPU topo: Max. logical packages:   1"
+      },{
+         "pri": 6,
+         "time":     0.013600,
+         "msg": "CPU topo: Max. logical nodes:      1"
+      },{
+         "pri": 6,
+         "time":     0.013601,
+         "msg": "CPU topo: Num. nodes per package:  1"
+      },{
+         "pri": 6,
+         "time":     0.013604,
+         "msg": "CPU topo: Max. logical dies:       1"
+      },{
+         "pri": 6,
+         "time":     0.013605,
+         "msg": "CPU topo: Max. dies per package:   1"
+      },{
+         "pri": 6,
+         "time":     0.013611,
+         "msg": "CPU topo: Max. threads per core:   2"
+      },{
+         "pri": 6,
+         "time":     0.013611,
+         "msg": "CPU topo: Num. cores per package:     2"
+      },{
+         "pri": 6,
+         "time":     0.013612,
+         "msg": "CPU topo: Num. threads per package:   4"
+      },{
+         "pri": 6,
+         "time":     0.013613,
+         "msg": "CPU topo: Allowing 4 present CPUs plus 0 hotplug CPUs"
+      },{
+         "pri": 6,
+         "time":     0.013639,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]"
+      },{
+         "pri": 6,
+         "time":     0.013642,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x00058000-0x00058fff]"
+      },{
+         "pri": 6,
+         "time":     0.013644,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x0009e000-0x000fffff]"
+      },{
+         "pri": 6,
+         "time":     0.013646,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x73868000-0x73869fff]"
+      },{
+         "pri": 6,
+         "time":     0.013649,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x75289000-0x75b88fff]"
+      },{
+         "pri": 6,
+         "time":     0.013651,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x7c756000-0x7c7d1fff]"
+      },{
+         "pri": 6,
+         "time":     0.013653,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x8bd9f000-0x8cefefff]"
+      },{
+         "pri": 6,
+         "time":     0.013655,
+         "msg": "PM: hibernation: Registered nosave memory: [mem 0x8cf00000-0xffffffff]"
+      },{
+         "pri": 6,
+         "time":     0.013657,
+         "msg": "[gap 0x90000000-0xfebfffff] available for PCI devices"
+      },{
+         "pri": 6,
+         "time":     0.013659,
+         "msg": "Booting paravirtualized kernel on bare hardware"
+      },{
+         "pri": 6,
+         "time":     0.013661,
+         "msg": "clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns"
+      },{
+         "pri": 6,
+         "time":     0.023395,
+         "msg": "Zone ranges:"
+      },{
+         "pri": 6,
+         "time":     0.023396,
+         "msg": "  DMA      [mem 0x0000000000001000-0x0000000000ffffff]"
+      },{
+         "pri": 6,
+         "time":     0.023399,
+         "msg": "  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]"
+      },{
+         "pri": 6,
+         "time":     0.023401,
+         "msg": "  Normal   [mem 0x0000000100000000-0x000000026effffff]"
+      },{
+         "pri": 6,
+         "time":     0.023403,
+         "msg": "  Device   empty"
+      },{
+         "pri": 6,
+         "time":     0.023404,
+         "msg": "Movable zone start for each node"
+      },{
+         "pri": 6,
+         "time":     0.023408,
+         "msg": "Early memory node ranges"
+      },{
+         "pri": 6,
+         "time":     0.023408,
+         "msg": "  node   0: [mem 0x0000000000001000-0x0000000000057fff]"
+      },{
+         "pri": 6,
+         "time":     0.023410,
+         "msg": "  node   0: [mem 0x0000000000059000-0x000000000009dfff]"
+      },{
+         "pri": 6,
+         "time":     0.023411,
+         "msg": "  node   0: [mem 0x0000000000100000-0x0000000073867fff]"
+      },{
+         "pri": 6,
+         "time":     0.023413,
+         "msg": "  node   0: [mem 0x000000007386a000-0x0000000075288fff]"
+      },{
+         "pri": 6,
+         "time":     0.023414,
+         "msg": "  node   0: [mem 0x0000000075b89000-0x000000008bd9efff]"
+      },{
+         "pri": 6,
+         "time":     0.023415,
+         "msg": "  node   0: [mem 0x000000008ceff000-0x000000008cefffff]"
+      },{
+         "pri": 6,
+         "time":     0.023416,
+         "msg": "  node   0: [mem 0x0000000100000000-0x000000026effffff]"
+      },{
+         "pri": 6,
+         "time":     0.023418,
+         "msg": "Initmem setup node 0 [mem 0x0000000000001000-0x000000026effffff]"
+      },{
+         "pri": 6,
+         "time":     0.023424,
+         "msg": "On node 0, zone DMA: 1 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.023426,
+         "msg": "On node 0, zone DMA: 1 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.023451,
+         "msg": "On node 0, zone DMA: 98 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.027034,
+         "msg": "On node 0, zone DMA32: 2 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.027742,
+         "msg": "On node 0, zone DMA32: 2304 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.027779,
+         "msg": "On node 0, zone DMA32: 4448 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.039290,
+         "msg": "On node 0, zone Normal: 12544 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.039329,
+         "msg": "On node 0, zone Normal: 4096 pages in unavailable ranges"
+      },{
+         "pri": 6,
+         "time":     0.039337,
+         "msg": "setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1"
+      },{
+         "pri": 6,
+         "time":     0.039698,
+         "msg": "percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u524288"
+      },{
+         "pri": 7,
+         "time":     0.039707,
+         "msg": "pcpu-alloc: s221184 r8192 d28672 u524288 alloc=1*2097152"
+      },{
+         "pri": 7,
+         "time":     0.039710,
+         "msg": "pcpu-alloc: [0] 0 1 2 3 "
+      },{
+         "pri": 5,
+         "time":     0.039736,
+         "msg": "Kernel command line: BOOT_IMAGE=/arch/boot/x86_64/vmlinuz-linux archisobasedir=arch archisosearchuuid=2026-05-01-06-05-08-00 rdinit=/vtoy/vtoy"
+      },{
+         "pri": 5,
+         "time":     0.039810,
+         "msg": "Unknown kernel command line parameters \"archisobasedir=arch archisosearchuuid=2026-05-01-06-05-08-00\", will be passed to user space."
+      },{
+         "pri": 5,
+         "time":     0.039843,
+         "msg": "random: crng init done"
+      },{
+         "pri": 6,
+         "time":     0.039844,
+         "msg": "printk: log buffer data + meta data: 131072 + 557056 = 688128 bytes"
+      },{
+         "pri": 6,
+         "time":     0.040809,
+         "msg": "Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.041308,
+         "msg": "Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.041410,
+         "msg": "software IO TLB: area num 4."
+      },{
+         "pri": 6,
+         "time":     0.057487,
+         "msg": "Fallback order for Node 0: 0 "
+      },{
+         "pri": 6,
+         "time":     0.057491,
+         "msg": "Built 1 zonelists, mobility grouping on.  Total pages: 2073658"
+      },{
+         "pri": 6,
+         "time":     0.057493,
+         "msg": "Policy zone: Normal"
+      },{
+         "pri": 6,
+         "time":     0.057801,
+         "msg": "mem auto-init: stack:all(zero), heap alloc:on, heap free:off"
+      },{
+         "pri": 6,
+         "time":     0.080681,
+         "msg": "SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1"
+      },{
+         "pri": 6,
+         "time":     0.080710,
+         "msg": "Kernel/User page tables isolation: enabled"
+      },{
+         "pri": 6,
+         "time":     0.093525,
+         "msg": "ftrace: allocating 58018 entries in 228 pages"
+      },{
+         "pri": 6,
+         "time":     0.093527,
+         "msg": "ftrace: allocated 228 pages with 4 groups"
+      },{
+         "pri": 6,
+         "time":     0.093623,
+         "msg": "Dynamic Preempt: full"
+      },{
+         "pri": 6,
+         "time":     0.093669,
+         "msg": "rcu: Preemptible hierarchical RCU implementation."
+      },{
+         "pri": 6,
+         "time":     0.093670,
+         "msg": "rcu: \tRCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4."
+      },{
+         "pri": 6,
+         "time":     0.093671,
+         "msg": "rcu: \tRCU priority boosting: priority 1 delay 500 ms."
+      },{
+         "pri": 6,
+         "time":     0.093672,
+         "msg": "\tTrampoline variant of Tasks RCU enabled."
+      },{
+         "pri": 6,
+         "time":     0.093673,
+         "msg": "\tRude variant of Tasks RCU enabled."
+      },{
+         "pri": 6,
+         "time":     0.093673,
+         "msg": "\tTracing variant of Tasks RCU enabled."
+      },{
+         "pri": 6,
+         "time":     0.093674,
+         "msg": "rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies."
+      },{
+         "pri": 6,
+         "time":     0.093675,
+         "msg": "rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4"
+      },{
+         "pri": 6,
+         "time":     0.093687,
+         "msg": "RCU Tasks: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=4."
+      },{
+         "pri": 6,
+         "time":     0.093690,
+         "msg": "RCU Tasks Rude: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=4."
+      },{
+         "pri": 6,
+         "time":     0.101732,
+         "msg": "NR_IRQS: 524544, nr_irqs: 1024, preallocated irqs: 16"
+      },{
+         "pri": 6,
+         "time":     0.101966,
+         "msg": "rcu: srcu_init: Setting srcu_struct sizes based on contention."
+      },{
+         "pri": 6,
+         "time":     0.102256,
+         "msg": "kfence: initialized - using 2097152 bytes for 255 objects at 0x(____ptrval____)-0x(____ptrval____)"
+      },{
+         "pri": 6,
+         "time":     0.102314,
+         "msg": "Console: colour dummy device 80x25"
+      },{
+         "pri": 6,
+         "time":     0.102318,
+         "msg": "printk: legacy console [tty0] enabled"
+      },{
+         "pri": 6,
+         "time":     0.102388,
+         "msg": "ACPI: Core revision 20251212"
+      },{
+         "pri": 6,
+         "time":     0.102664,
+         "msg": "clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635855245 ns"
+      },{
+         "pri": 6,
+         "time":     0.102736,
+         "msg": "APIC: Switch to symmetric I/O mode setup"
+      },{
+         "pri": 6,
+         "time":     0.102739,
+         "msg": "DMAR: Host address width 39"
+      },{
+         "pri": 6,
+         "time":     0.102741,
+         "msg": "DMAR: DRHD base: 0x000000fed90000 flags: 0x0"
+      },{
+         "pri": 6,
+         "time":     0.102748,
+         "msg": "DMAR: dmar0: reg_base_addr fed90000 ver 1:0 cap 1c0000c40660462 ecap 7e3ff0505e"
+      },{
+         "pri": 6,
+         "time":     0.102751,
+         "msg": "DMAR: DRHD base: 0x000000fed91000 flags: 0x1"
+      },{
+         "pri": 6,
+         "time":     0.102756,
+         "msg": "DMAR: dmar1: reg_base_addr fed91000 ver 1:0 cap d2008c40660462 ecap f050da"
+      },{
+         "pri": 6,
+         "time":     0.102758,
+         "msg": "DMAR: RMRR base: 0x0000008c683000 end: 0x0000008c6a2fff"
+      },{
+         "pri": 6,
+         "time":     0.102761,
+         "msg": "DMAR: RMRR base: 0x0000008d800000 end: 0x0000008fffffff"
+      },{
+         "pri": 6,
+         "time":     0.102762,
+         "msg": "DMAR: ANDD device: 1 name: \\_SB.PCI0.I2C0"
+      },{
+         "pri": 6,
+         "time":     0.102765,
+         "msg": "DMAR-IR: IOAPIC id 2 under DRHD base  0xfed91000 IOMMU 1"
+      },{
+         "pri": 6,
+         "time":     0.102767,
+         "msg": "DMAR-IR: HPET id 0 under DRHD base 0xfed91000"
+      },{
+         "pri": 6,
+         "time":     0.102768,
+         "msg": "DMAR-IR: Queued invalidation will be enabled to support x2apic and Intr-remapping."
+      },{
+         "pri": 6,
+         "time":     0.104507,
+         "msg": "DMAR-IR: Enabled IRQ remapping in x2apic mode"
+      },{
+         "pri": 6,
+         "time":     0.104509,
+         "msg": "x2apic enabled"
+      },{
+         "pri": 6,
+         "time":     0.104590,
+         "msg": "APIC: Switched APIC routing to: cluster x2apic"
+      },{
+         "pri": 6,
+         "time":     0.108622,
+         "msg": "..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1"
+      },{
+         "pri": 6,
+         "time":     0.112711,
+         "msg": "clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22983777dd9, max_idle_ns: 440795300422 ns"
+      },{
+         "pri": 6,
+         "time":     0.112717,
+         "msg": "Calibrating delay loop (skipped), value calculated using timer frequency.. 4800.00 BogoMIPS (lpj=2400000)"
+      },{
+         "pri": 3,
+         "time":     0.112747,
+         "msg": "x86/cpu: VMX (outside TXT) disabled by BIOS"
+      },{
+         "pri": 3,
+         "time":     0.112752,
+         "msg": "x86/cpu: SGX disabled or unsupported by BIOS."
+      },{
+         "pri": 6,
+         "time":     0.112760,
+         "msg": "CPU0: Thermal monitoring enabled (TM1)"
+      },{
+         "pri": 6,
+         "time":     0.112812,
+         "msg": "Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8"
+      },{
+         "pri": 6,
+         "time":     0.112814,
+         "msg": "Last level dTLB entries: 4KB 64, 2MB 32, 4MB 32, 1GB 4"
+      },{
+         "pri": 6,
+         "time":     0.112824,
+         "msg": "process: using mwait in idle threads"
+      },{
+         "pri": 6,
+         "time":     0.112827,
+         "msg": "mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto"
+      },{
+         "pri": 6,
+         "time":     0.112833,
+         "msg": "Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl"
+      },{
+         "pri": 6,
+         "time":     0.112835,
+         "msg": "SRBDS: Mitigation: Microcode"
+      },{
+         "pri": 6,
+         "time":     0.112837,
+         "msg": "Spectre V2 : Mitigation: IBRS"
+      },{
+         "pri": 6,
+         "time":     0.112838,
+         "msg": "RETBleed: Mitigation: IBRS"
+      },{
+         "pri": 6,
+         "time":     0.112839,
+         "msg": "Spectre V2 : User space: Mitigation: STIBP via prctl"
+      },{
+         "pri": 6,
+         "time":     0.112840,
+         "msg": "MDS: Mitigation: Clear CPU buffers"
+      },{
+         "pri": 6,
+         "time":     0.112842,
+         "msg": "MMIO Stale Data: Mitigation: Clear CPU buffers"
+      },{
+         "pri": 6,
+         "time":     0.112843,
+         "msg": "VMSCAPE: Mitigation: IBPB before exit to userspace"
+      },{
+         "pri": 6,
+         "time":     0.112844,
+         "msg": "Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization"
+      },{
+         "pri": 6,
+         "time":     0.112846,
+         "msg": "Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT"
+      },{
+         "pri": 6,
+         "time":     0.112848,
+         "msg": "Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier"
+      },{
+         "pri": 6,
+         "time":     0.112857,
+         "msg": "GDS: Vulnerable: No microcode"
+      },{
+         "pri": 6,
+         "time":     0.112865,
+         "msg": "x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'"
+      },{
+         "pri": 6,
+         "time":     0.112868,
+         "msg": "x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'"
+      },{
+         "pri": 6,
+         "time":     0.112870,
+         "msg": "x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'"
+      },{
+         "pri": 6,
+         "time":     0.112872,
+         "msg": "x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'"
+      },{
+         "pri": 6,
+         "time":     0.112874,
+         "msg": "x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'"
+      },{
+         "pri": 6,
+         "time":     0.112876,
+         "msg": "x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256"
+      },{
+         "pri": 6,
+         "time":     0.112879,
+         "msg": "x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64"
+      },{
+         "pri": 6,
+         "time":     0.112881,
+         "msg": "x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64"
+      },{
+         "pri": 6,
+         "time":     0.112883,
+         "msg": "x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format."
+      },{
+         "pri": 6,
+         "time":     0.164931,
+         "msg": "Freeing SMP alternatives memory: 56K"
+      },{
+         "pri": 6,
+         "time":     0.164938,
+         "msg": "pid_max: default: 32768 minimum: 301"
+      },{
+         "pri": 6,
+         "time":     0.165098,
+         "msg": "landlock: Up and running."
+      },{
+         "pri": 6,
+         "time":     0.165102,
+         "msg": "Yama: becoming mindful."
+      },{
+         "pri": 6,
+         "time":     0.165371,
+         "msg": "LSM support for eBPF active"
+      },{
+         "pri": 6,
+         "time":     0.165415,
+         "msg": "Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.165427,
+         "msg": "Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.165535,
+         "msg": "VFS: Finished mounting rootfs on nullfs"
+      },{
+         "pri": 6,
+         "time":     0.166802,
+         "msg": "smpboot: CPU0: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz (family: 0x6, model: 0x4e, stepping: 0x3)"
+      },{
+         "pri": 6,
+         "time":     0.167065,
+         "msg": "Performance Events: PEBS fmt3+, Skylake events, 32-deep LBR, full-width counters, Intel PMU driver."
+      },{
+         "pri": 6,
+         "time":     0.167099,
+         "msg": "... version:                   4"
+      },{
+         "pri": 6,
+         "time":     0.167101,
+         "msg": "... bit width:                 48"
+      },{
+         "pri": 6,
+         "time":     0.167102,
+         "msg": "... generic counters:          4"
+      },{
+         "pri": 6,
+         "time":     0.167104,
+         "msg": "... generic bitmap:            000000000000000f"
+      },{
+         "pri": 6,
+         "time":     0.167106,
+         "msg": "... fixed-purpose counters:    3"
+      },{
+         "pri": 6,
+         "time":     0.167107,
+         "msg": "... fixed-purpose bitmap:      0000000000000007"
+      },{
+         "pri": 6,
+         "time":     0.167109,
+         "msg": "... value mask:                0000ffffffffffff"
+      },{
+         "pri": 6,
+         "time":     0.167110,
+         "msg": "... max period:                00007fffffffffff"
+      },{
+         "pri": 6,
+         "time":     0.167112,
+         "msg": "... global_ctrl mask:          000000070000000f"
+      },{
+         "pri": 6,
+         "time":     0.167329,
+         "msg": "signal: max sigframe size: 2032"
+      },{
+         "pri": 6,
+         "time":     0.167356,
+         "msg": "Estimated ratio of average max frequency by base frequency (times 1024): 1152"
+      },{
+         "pri": 6,
+         "time":     0.170314,
+         "msg": "rcu: Hierarchical SRCU implementation."
+      },{
+         "pri": 6,
+         "time":     0.170316,
+         "msg": "rcu: \tMax phase no-delay instances is 400."
+      },{
+         "pri": 6,
+         "time":     0.170400,
+         "msg": "Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level"
+      },{
+         "pri": 6,
+         "time":     0.171078,
+         "msg": "NMI watchdog: Enabled. Permanently consumes one hw-PMU counter."
+      },{
+         "pri": 6,
+         "time":     0.171146,
+         "msg": "smp: Bringing up secondary CPUs ..."
+      },{
+         "pri": 6,
+         "time":     0.171279,
+         "msg": "smpboot: x86: Booting SMP configuration:"
+      },{
+         "pri": 6,
+         "time":     0.171281,
+         "msg": ".... node  #0, CPUs:      #1 #2 #3"
+      },{
+         "pri": 4,
+         "time":     0.174907,
+         "msg": "MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details."
+      },{
+         "pri": 4,
+         "time":     0.174907,
+         "msg": "MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details."
+      },{
+         "pri": 4,
+         "time":     0.174907,
+         "msg": "VMSCAPE: SMT on, STIBP is required for full protection. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/vmscape.html for more details."
+      },{
+         "pri": 6,
+         "time":     0.174907,
+         "msg": "smp: Brought up 1 node, 4 CPUs"
+      },{
+         "pri": 6,
+         "time":     0.174907,
+         "msg": "smpboot: Total of 4 processors activated (19200.00 BogoMIPS)"
+      },{
+         "pri": 6,
+         "time":     0.175829,
+         "msg": "Memory: 7712996K/8294632K available (20782K kernel code, 3060K rwdata, 16844K rodata, 4804K init, 4400K bss, 567296K reserved, 0K cma-reserved)"
+      },{
+         "pri": 6,
+         "time":     0.176081,
+         "msg": "devtmpfs: initialized"
+      },{
+         "pri": 6,
+         "time":     0.176081,
+         "msg": "x86/mm: Memory block size: 128MB"
+      },{
+         "pri": 6,
+         "time":     0.177511,
+         "msg": "ACPI: PM: Registering ACPI NVS region [mem 0x73868000-0x73868fff] (4096 bytes)"
+      },{
+         "pri": 6,
+         "time":     0.177511,
+         "msg": "ACPI: PM: Registering ACPI NVS region [mem 0x8c78f000-0x8ce7efff] (7274496 bytes)"
+      },{
+         "pri": 6,
+         "time":     0.177766,
+         "msg": "clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns"
+      },{
+         "pri": 6,
+         "time":     0.177766,
+         "msg": "posixtimers hash table entries: 2048 (order: 3, 32768 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.177766,
+         "msg": "futex hash table entries: 1024 (65536 bytes on 1 NUMA nodes, total 64 KiB, linear)."
+      },{
+         "pri": 6,
+         "time":     0.178060,
+         "msg": "PM: RTC time: 03:12:57, date: 2016-01-02"
+      },{
+         "pri": 6,
+         "time":     0.178762,
+         "msg": "NET: Registered PF_NETLINK/PF_ROUTE protocol family"
+      },{
+         "pri": 6,
+         "time":     0.179067,
+         "msg": "DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations"
+      },{
+         "pri": 6,
+         "time":     0.179146,
+         "msg": "DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations"
+      },{
+         "pri": 6,
+         "time":     0.179224,
+         "msg": "DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations"
+      },{
+         "pri": 6,
+         "time":     0.179237,
+         "msg": "audit: initializing netlink subsys (disabled)"
+      },{
+         "pri": 5,
+         "time":     0.179257,
+         "msg": "audit: type=2000 audit(1451704377.073:1): state=initialized audit_enabled=0 res=1"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "thermal_sys: Registered thermal governor 'fair_share'"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "thermal_sys: Registered thermal governor 'bang_bang'"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "thermal_sys: Registered thermal governor 'step_wise'"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "thermal_sys: Registered thermal governor 'user_space'"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "thermal_sys: Registered thermal governor 'power_allocator'"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "cpuidle: using governor ladder"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "cpuidle: using governor menu"
+      },{
+         "pri": 6,
+         "time":     0.179257,
+         "msg": "Simple Boot Flag at 0x44 set to 0x80"
+      },{
+         "pri": 6,
+         "time":     0.184403,
+         "msg": "efi: Freeing EFI boot services memory: 57596K"
+      },{
+         "pri": 6,
+         "time":     0.184407,
+         "msg": "ACPI FADT declares the system doesn't support PCIe ASPM, so disable it"
+      },{
+         "pri": 6,
+         "time":     0.184409,
+         "msg": "acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5"
+      },{
+         "pri": 6,
+         "time":     0.184540,
+         "msg": "PCI: ECAM [mem 0xe0000000-0xefffffff] (base 0xe0000000) for domain 0000 [bus 00-ff]"
+      },{
+         "pri": 6,
+         "time":     0.184561,
+         "msg": "PCI: Using configuration type 1 for base access"
+      },{
+         "pri": 6,
+         "time":     0.184760,
+         "msg": "kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible."
+      },{
+         "pri": 6,
+         "time":     0.184876,
+         "msg": "HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages"
+      },{
+         "pri": 6,
+         "time":     0.184876,
+         "msg": "HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page"
+      },{
+         "pri": 6,
+         "time":     0.184876,
+         "msg": "HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages"
+      },{
+         "pri": 6,
+         "time":     0.184876,
+         "msg": "HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page"
+      },{
+         "pri": 6,
+         "time":     0.186095,
+         "msg": "raid6: skipped pq benchmark and selected avx2x4"
+      },{
+         "pri": 6,
+         "time":     0.186095,
+         "msg": "raid6: using avx2x2 recovery algorithm"
+      },{
+         "pri": 6,
+         "time":     0.186095,
+         "msg": "fbcon: Taking over console"
+      },{
+         "pri": 6,
+         "time":     0.186095,
+         "msg": "ACPI: Added _OSI(Module Device)"
+      },{
+         "pri": 6,
+         "time":     0.186095,
+         "msg": "ACPI: Added _OSI(Processor Device)"
+      },{
+         "pri": 6,
+         "time":     0.186095,
+         "msg": "ACPI: Added _OSI(Processor Aggregator Device)"
+      },{
+         "pri": 6,
+         "time":     0.235544,
+         "msg": "ACPI: 8 ACPI AML tables successfully acquired and loaded"
+      },{
+         "pri": 5,
+         "time":     0.238955,
+         "msg": "ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored"
+      },{
+         "pri": 6,
+         "time":     0.243743,
+         "msg": "ACPI: \\_SB_: platform _OSC: OS support mask [006e7eff]"
+      },{
+         "pri": 6,
+         "time":     0.243937,
+         "msg": "ACPI: \\_SB_: platform _OSC: OS control mask [0000003b]"
+      },{
+         "pri": 6,
+         "time":     0.244338,
+         "msg": "ACPI: Dynamic OEM Table Load:"
+      },{
+         "pri": 6,
+         "time":     0.244350,
+         "msg": "ACPI: SSDT 0xFFFF8AD281128800 0003FF (v02 PmRef  Cpu0Cst  00003001 INTL 20160527)"
+      },{
+         "pri": 6,
+         "time":     0.246179,
+         "msg": "ACPI: Dynamic OEM Table Load:"
+      },{
+         "pri": 6,
+         "time":     0.246189,
+         "msg": "ACPI: SSDT 0xFFFF8AD280DBD000 000651 (v02 PmRef  Cpu0Ist  00003000 INTL 20160527)"
+      },{
+         "pri": 6,
+         "time":     0.248854,
+         "msg": "ACPI: Dynamic OEM Table Load:"
+      },{
+         "pri": 6,
+         "time":     0.248864,
+         "msg": "ACPI: SSDT 0xFFFF8AD280DB9800 00065C (v02 PmRef  ApIst    00003000 INTL 20160527)"
+      },{
+         "pri": 6,
+         "time":     0.251062,
+         "msg": "ACPI: Dynamic OEM Table Load:"
+      },{
+         "pri": 6,
+         "time":     0.251071,
+         "msg": "ACPI: SSDT 0xFFFF8AD281014600 000197 (v02 PmRef  ApHwp    00003000 INTL 20160527)"
+      },{
+         "pri": 6,
+         "time":     0.252763,
+         "msg": "ACPI: Dynamic OEM Table Load:"
+      },{
+         "pri": 6,
+         "time":     0.252787,
+         "msg": "ACPI: SSDT 0xFFFF8AD281015600 00018A (v02 PmRef  ApCst    00003000 INTL 20160527)"
+      },{
+         "pri": 6,
+         "time":     0.256580,
+         "msg": "ACPI: EC: EC started"
+      },{
+         "pri": 6,
+         "time":     0.256583,
+         "msg": "ACPI: EC: interrupt blocked"
+      },{
+         "pri": 6,
+         "time":     0.257903,
+         "msg": "ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62"
+      },{
+         "pri": 6,
+         "time":     0.257908,
+         "msg": "ACPI: \\_SB_.PCI0.LPCB.EC0_: Boot DSDT EC used to handle transactions"
+      },{
+         "pri": 6,
+         "time":     0.257911,
+         "msg": "ACPI: Interpreter enabled"
+      },{
+         "pri": 6,
+         "time":     0.257967,
+         "msg": "ACPI: PM: (supports S0 S3 S4 S5)"
+      },{
+         "pri": 6,
+         "time":     0.257969,
+         "msg": "ACPI: Using IOAPIC for interrupt routing"
+      },{
+         "pri": 6,
+         "time":     0.260057,
+         "msg": "PCI: Using host bridge windows from ACPI; if necessary, use \"pci=nocrs\" and report a bug"
+      },{
+         "pri": 6,
+         "time":     0.260060,
+         "msg": "PCI: Using E820 reservations for host bridge windows"
+      },{
+         "pri": 6,
+         "time":     0.260861,
+         "msg": "ACPI: Enabled 6 GPEs in block 00 to 7F"
+      },{
+         "pri": 6,
+         "time":     0.269921,
+         "msg": "ACPI: \\_SB_.PCI0.RP01.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.270454,
+         "msg": "ACPI: \\_SB_.PCI0.RP02.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.270968,
+         "msg": "ACPI: \\_SB_.PCI0.RP03.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.271480,
+         "msg": "ACPI: \\_SB_.PCI0.RP04.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.271995,
+         "msg": "ACPI: \\_SB_.PCI0.RP05.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.272509,
+         "msg": "ACPI: \\_SB_.PCI0.RP06.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.273051,
+         "msg": "ACPI: \\_SB_.PCI0.RP07.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.273563,
+         "msg": "ACPI: \\_SB_.PCI0.RP08.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.274078,
+         "msg": "ACPI: \\_SB_.PCI0.RP09.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.274597,
+         "msg": "ACPI: \\_SB_.PCI0.RP10.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.275114,
+         "msg": "ACPI: \\_SB_.PCI0.RP11.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.275630,
+         "msg": "ACPI: \\_SB_.PCI0.RP12.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.276130,
+         "msg": "ACPI: \\_SB_.PCI0.RP13.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.276625,
+         "msg": "ACPI: \\_SB_.PCI0.RP14.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.277122,
+         "msg": "ACPI: \\_SB_.PCI0.RP15.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.277617,
+         "msg": "ACPI: \\_SB_.PCI0.RP16.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.278116,
+         "msg": "ACPI: \\_SB_.PCI0.RP17.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.278612,
+         "msg": "ACPI: \\_SB_.PCI0.RP18.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.279114,
+         "msg": "ACPI: \\_SB_.PCI0.RP19.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.279610,
+         "msg": "ACPI: \\_SB_.PCI0.RP20.PXSX.WRST: New power resource"
+      },{
+         "pri": 6,
+         "time":     0.297653,
+         "msg": "ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])"
+      },{
+         "pri": 6,
+         "time":     0.297663,
+         "msg": "acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]"
+      },{
+         "pri": 6,
+         "time":     0.301295,
+         "msg": "acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]"
+      },{
+         "pri": 6,
+         "time":     0.301298,
+         "msg": "acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration"
+      },{
+         "pri": 6,
+         "time":     0.304385,
+         "msg": "PCI host bridge to bus 0000:00"
+      },{
+         "pri": 6,
+         "time":     0.304392,
+         "msg": "pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]"
+      },{
+         "pri": 6,
+         "time":     0.304395,
+         "msg": "pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]"
+      },{
+         "pri": 6,
+         "time":     0.304398,
+         "msg": "pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000dffff window]"
+      },{
+         "pri": 6,
+         "time":     0.304401,
+         "msg": "pci_bus 0000:00: root bus resource [mem 0x90000000-0xdfffffff window]"
+      },{
+         "pri": 6,
+         "time":     0.304403,
+         "msg": "pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]"
+      },{
+         "pri": 6,
+         "time":     0.304406,
+         "msg": "pci_bus 0000:00: root bus resource [bus 00-fe]"
+      },{
+         "pri": 6,
+         "time":     0.304428,
+         "msg": "pci 0000:00:00.0: [8086:1904] type 00 class 0x060000 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.304538,
+         "msg": "pci 0000:00:02.0: [8086:1916] type 00 class 0x030000 PCIe Root Complex Integrated Endpoint"
+      },{
+         "pri": 6,
+         "time":     0.304562,
+         "msg": "pci 0000:00:02.0: BAR 0 [mem 0xb0000000-0xb0ffffff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.304566,
+         "msg": "pci 0000:00:02.0: BAR 2 [mem 0xa0000000-0xafffffff 64bit pref]"
+      },{
+         "pri": 6,
+         "time":     0.304569,
+         "msg": "pci 0000:00:02.0: BAR 4 [io  0x4000-0x403f]"
+      },{
+         "pri": 6,
+         "time":     0.304586,
+         "msg": "pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]"
+      },{
+         "pri": 6,
+         "time":     0.304949,
+         "msg": "pci 0000:00:14.0: [8086:9d2f] type 00 class 0x0c0330 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.304999,
+         "msg": "pci 0000:00:14.0: BAR 0 [mem 0xb1100000-0xb110ffff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.305045,
+         "msg": "pci 0000:00:14.0: PME# supported from D3hot D3cold"
+      },{
+         "pri": 6,
+         "time":     0.306067,
+         "msg": "pci 0000:00:14.2: [8086:9d31] type 00 class 0x118000 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.306112,
+         "msg": "pci 0000:00:14.2: BAR 0 [mem 0xb112a000-0xb112afff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.306242,
+         "msg": "pci 0000:00:15.0: [8086:9d60] type 00 class 0x118000 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.306302,
+         "msg": "pci 0000:00:15.0: BAR 0 [mem 0xb112b000-0xb112bfff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.306862,
+         "msg": "pci 0000:00:16.0: [8086:9d3a] type 00 class 0x078000 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.306949,
+         "msg": "pci 0000:00:16.0: BAR 0 [mem 0xb112c000-0xb112cfff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.307032,
+         "msg": "pci 0000:00:16.0: PME# supported from D3hot"
+      },{
+         "pri": 6,
+         "time":     0.307449,
+         "msg": "pci 0000:00:17.0: [8086:9d03] type 00 class 0x010601 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.307493,
+         "msg": "pci 0000:00:17.0: BAR 0 [mem 0xb1128000-0xb1129fff]"
+      },{
+         "pri": 6,
+         "time":     0.307498,
+         "msg": "pci 0000:00:17.0: BAR 1 [mem 0xb112f000-0xb112f0ff]"
+      },{
+         "pri": 6,
+         "time":     0.307502,
+         "msg": "pci 0000:00:17.0: BAR 2 [io  0x4080-0x4087]"
+      },{
+         "pri": 6,
+         "time":     0.307506,
+         "msg": "pci 0000:00:17.0: BAR 3 [io  0x4088-0x408b]"
+      },{
+         "pri": 6,
+         "time":     0.307510,
+         "msg": "pci 0000:00:17.0: BAR 4 [io  0x4060-0x407f]"
+      },{
+         "pri": 6,
+         "time":     0.307514,
+         "msg": "pci 0000:00:17.0: BAR 5 [mem 0xb112d000-0xb112d7ff]"
+      },{
+         "pri": 6,
+         "time":     0.307559,
+         "msg": "pci 0000:00:17.0: PME# supported from D3hot"
+      },{
+         "pri": 6,
+         "time":     0.308033,
+         "msg": "pci 0000:00:1c.0: [8086:9d14] type 01 class 0x060400 PCIe Root Port"
+      },{
+         "pri": 6,
+         "time":     0.308058,
+         "msg": "pci 0000:00:1c.0: PCI bridge to [bus 01]"
+      },{
+         "pri": 6,
+         "time":     0.308064,
+         "msg": "pci 0000:00:1c.0:   bridge window [io  0x3000-0x3fff]"
+      },{
+         "pri": 6,
+         "time":     0.308068,
+         "msg": "pci 0000:00:1c.0:   bridge window [mem 0xb1000000-0xb10fffff]"
+      },{
+         "pri": 6,
+         "time":     0.308139,
+         "msg": "pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold"
+      },{
+         "pri": 6,
+         "time":     0.309024,
+         "msg": "pci 0000:00:1f.0: [8086:9d48] type 00 class 0x060100 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.309508,
+         "msg": "pci 0000:00:1f.2: [8086:9d21] type 00 class 0x058000 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.309557,
+         "msg": "pci 0000:00:1f.2: BAR 0 [mem 0xb1124000-0xb1127fff]"
+      },{
+         "pri": 6,
+         "time":     0.309954,
+         "msg": "pci 0000:00:1f.3: [8086:9d70] type 00 class 0x040300 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.310016,
+         "msg": "pci 0000:00:1f.3: BAR 0 [mem 0xb1120000-0xb1123fff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.310025,
+         "msg": "pci 0000:00:1f.3: BAR 4 [mem 0xb1110000-0xb111ffff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.310074,
+         "msg": "pci 0000:00:1f.3: PME# supported from D3hot D3cold"
+      },{
+         "pri": 6,
+         "time":     0.311009,
+         "msg": "pci 0000:00:1f.4: [8086:9d23] type 00 class 0x0c0500 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.311140,
+         "msg": "pci 0000:00:1f.4: BAR 0 [mem 0xb112e000-0xb112e0ff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.311152,
+         "msg": "pci 0000:00:1f.4: BAR 4 [io  0x4040-0x405f]"
+      },{
+         "pri": 6,
+         "time":     0.311632,
+         "msg": "pci 0000:01:00.0: [10ec:8168] type 00 class 0x020000 PCIe Endpoint"
+      },{
+         "pri": 6,
+         "time":     0.311694,
+         "msg": "pci 0000:01:00.0: BAR 0 [io  0x3000-0x30ff]"
+      },{
+         "pri": 6,
+         "time":     0.311701,
+         "msg": "pci 0000:01:00.0: BAR 2 [mem 0xb1004000-0xb1004fff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.311707,
+         "msg": "pci 0000:01:00.0: BAR 4 [mem 0xb1000000-0xb1003fff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.311830,
+         "msg": "pci 0000:01:00.0: supports D1 D2"
+      },{
+         "pri": 6,
+         "time":     0.311832,
+         "msg": "pci 0000:01:00.0: PME# supported from D0 D1 D2 D3hot D3cold"
+      },{
+         "pri": 6,
+         "time":     0.312083,
+         "msg": "pci 0000:00:1c.0: PCI bridge to [bus 01]"
+      },{
+         "pri": 6,
+         "time":     0.316381,
+         "msg": "ACPI: PCI: Interrupt link LNKA configured for IRQ 11"
+      },{
+         "pri": 6,
+         "time":     0.316468,
+         "msg": "ACPI: PCI: Interrupt link LNKB configured for IRQ 10"
+      },{
+         "pri": 6,
+         "time":     0.316553,
+         "msg": "ACPI: PCI: Interrupt link LNKC configured for IRQ 11"
+      },{
+         "pri": 6,
+         "time":     0.316636,
+         "msg": "ACPI: PCI: Interrupt link LNKD configured for IRQ 11"
+      },{
+         "pri": 6,
+         "time":     0.316720,
+         "msg": "ACPI: PCI: Interrupt link LNKE configured for IRQ 11"
+      },{
+         "pri": 6,
+         "time":     0.316806,
+         "msg": "ACPI: PCI: Interrupt link LNKF configured for IRQ 11"
+      },{
+         "pri": 6,
+         "time":     0.316889,
+         "msg": "ACPI: PCI: Interrupt link LNKG configured for IRQ 11"
+      },{
+         "pri": 6,
+         "time":     0.316973,
+         "msg": "ACPI: PCI: Interrupt link LNKH configured for IRQ 11"
+      },{
+         "pri": 6,
+         "time":     0.318375,
+         "msg": "ACPI: EC: interrupt unblocked"
+      },{
+         "pri": 6,
+         "time":     0.318378,
+         "msg": "ACPI: EC: event unblocked"
+      },{
+         "pri": 6,
+         "time":     0.318716,
+         "msg": "ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62"
+      },{
+         "pri": 6,
+         "time":     0.318716,
+         "msg": "ACPI: EC: GPE=0x4f"
+      },{
+         "pri": 6,
+         "time":     0.318716,
+         "msg": "ACPI: \\_SB_.PCI0.LPCB.EC0_: Boot DSDT EC initialization complete"
+      },{
+         "pri": 6,
+         "time":     0.318716,
+         "msg": "ACPI: \\_SB_.PCI0.LPCB.EC0_: EC: Used to handle transactions and events"
+      },{
+         "pri": 6,
+         "time":     0.318754,
+         "msg": "iommu: Default domain type: Translated"
+      },{
+         "pri": 6,
+         "time":     0.318754,
+         "msg": "iommu: DMA domain TLB invalidation policy: lazy mode"
+      },{
+         "pri": 5,
+         "time":     0.318825,
+         "msg": "SCSI subsystem initialized"
+      },{
+         "pri": 7,
+         "time":     0.318825,
+         "msg": "libata version 3.00 loaded."
+      },{
+         "pri": 6,
+         "time":     0.318825,
+         "msg": "ACPI: bus type USB registered"
+      },{
+         "pri": 6,
+         "time":     0.318825,
+         "msg": "usbcore: registered new interface driver usbfs"
+      },{
+         "pri": 6,
+         "time":     0.318825,
+         "msg": "usbcore: registered new interface driver hub"
+      },{
+         "pri": 6,
+         "time":     0.318825,
+         "msg": "usbcore: registered new device driver usb"
+      },{
+         "pri": 6,
+         "time":     0.318831,
+         "msg": "EDAC MC: Ver: 3.0.0"
+      },{
+         "pri": 6,
+         "time":     0.320072,
+         "msg": "efivars: Registered efivars operations"
+      },{
+         "pri": 6,
+         "time":     0.320791,
+         "msg": "NetLabel: Initializing"
+      },{
+         "pri": 6,
+         "time":     0.320794,
+         "msg": "NetLabel:  domain hash size = 128"
+      },{
+         "pri": 6,
+         "time":     0.320796,
+         "msg": "NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO"
+      },{
+         "pri": 6,
+         "time":     0.320820,
+         "msg": "NetLabel:  unlabeled traffic allowed by default"
+      },{
+         "pri": 6,
+         "time":     0.320826,
+         "msg": "mctp: management component transport protocol core"
+      },{
+         "pri": 6,
+         "time":     0.320828,
+         "msg": "NET: Registered PF_MCTP protocol family"
+      },{
+         "pri": 6,
+         "time":     0.320840,
+         "msg": "PCI: Using ACPI for IRQ routing"
+      },{
+         "pri": 7,
+         "time":     0.348184,
+         "msg": "PCI: pci_cache_line_size set to 64 bytes"
+      },{
+         "pri": 6,
+         "time":     0.348235,
+         "msg": "e820: register RAM buffer resource [mem 0x00058000-0x0005ffff]"
+      },{
+         "pri": 6,
+         "time":     0.348238,
+         "msg": "e820: register RAM buffer resource [mem 0x0009e000-0x0009ffff]"
+      },{
+         "pri": 6,
+         "time":     0.348240,
+         "msg": "e820: register RAM buffer resource [mem 0x73868000-0x73ffffff]"
+      },{
+         "pri": 6,
+         "time":     0.348242,
+         "msg": "e820: register RAM buffer resource [mem 0x75289000-0x77ffffff]"
+      },{
+         "pri": 6,
+         "time":     0.348244,
+         "msg": "e820: register RAM buffer resource [mem 0x7c756000-0x7fffffff]"
+      },{
+         "pri": 6,
+         "time":     0.348246,
+         "msg": "e820: register RAM buffer resource [mem 0x8bd9f000-0x8bffffff]"
+      },{
+         "pri": 6,
+         "time":     0.348247,
+         "msg": "e820: register RAM buffer resource [mem 0x8cf00000-0x8fffffff]"
+      },{
+         "pri": 6,
+         "time":     0.348249,
+         "msg": "e820: register RAM buffer resource [mem 0x26f000000-0x26fffffff]"
+      },{
+         "pri": 6,
+         "time":     0.348743,
+         "msg": "pci 0000:00:02.0: vgaarb: setting as boot VGA device"
+      },{
+         "pri": 6,
+         "time":     0.348743,
+         "msg": "pci 0000:00:02.0: vgaarb: bridge control possible"
+      },{
+         "pri": 6,
+         "time":     0.348743,
+         "msg": "pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none"
+      },{
+         "pri": 6,
+         "time":     0.348743,
+         "msg": "vgaarb: loaded"
+      },{
+         "pri": 6,
+         "time":     0.348866,
+         "msg": "hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0"
+      },{
+         "pri": 6,
+         "time":     0.348866,
+         "msg": "hpet0: 8 comparators, 64-bit 24.000000 MHz counter"
+      },{
+         "pri": 6,
+         "time":     0.351814,
+         "msg": "clocksource: Switched to clocksource tsc-early"
+      },{
+         "pri": 5,
+         "time":     0.352031,
+         "msg": "VFS: Disk quotas dquot_6.6.0"
+      },{
+         "pri": 6,
+         "time":     0.352044,
+         "msg": "VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)"
+      },{
+         "pri": 6,
+         "time":     0.352177,
+         "msg": "acpi PNP0C02:00: Reserved [mem 0xfd000000-0xfdabffff]"
+      },{
+         "pri": 6,
+         "time":     0.352185,
+         "msg": "acpi PNP0C02:00: Reserved [mem 0xfdad0000-0xfdadffff]"
+      },{
+         "pri": 6,
+         "time":     0.352190,
+         "msg": "acpi PNP0C02:00: Reserved [mem 0xfdb00000-0xfdffffff]"
+      },{
+         "pri": 6,
+         "time":     0.352195,
+         "msg": "acpi PNP0C02:00: Reserved [mem 0xfe000000-0xfe01ffff]"
+      },{
+         "pri": 6,
+         "time":     0.352198,
+         "msg": "acpi PNP0C02:00: Reserved [mem 0xfe036000-0xfe03bfff]"
+      },{
+         "pri": 6,
+         "time":     0.352202,
+         "msg": "acpi PNP0C02:00: Reserved [mem 0xfe03d000-0xfe3fffff]"
+      },{
+         "pri": 6,
+         "time":     0.352206,
+         "msg": "acpi PNP0C02:00: Reserved [mem 0xfe410000-0xfe7fffff]"
+      },{
+         "pri": 6,
+         "time":     0.352749,
+         "msg": "acpi PNP0C02:01: Reserved [io  0x2000-0x20fe]"
+      },{
+         "pri": 6,
+         "time":     0.352774,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x002e-0x002f]"
+      },{
+         "pri": 6,
+         "time":     0.352777,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x004e-0x004f]"
+      },{
+         "pri": 6,
+         "time":     0.352780,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x0061]"
+      },{
+         "pri": 6,
+         "time":     0.352782,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x0063]"
+      },{
+         "pri": 6,
+         "time":     0.352785,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x0065]"
+      },{
+         "pri": 6,
+         "time":     0.352787,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x0067]"
+      },{
+         "pri": 6,
+         "time":     0.352789,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x0070]"
+      },{
+         "pri": 6,
+         "time":     0.352791,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x0080]"
+      },{
+         "pri": 6,
+         "time":     0.352793,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x0092]"
+      },{
+         "pri": 6,
+         "time":     0.352796,
+         "msg": "acpi PNP0C02:02: Skipped [io  0x00b2-0x00b3]"
+      },{
+         "pri": 6,
+         "time":     0.352798,
+         "msg": "acpi PNP0C02:02: Reserved [io  0x0680-0x069f]"
+      },{
+         "pri": 6,
+         "time":     0.352802,
+         "msg": "acpi PNP0C02:02: Reserved [io  0xffff]"
+      },{
+         "pri": 6,
+         "time":     0.352805,
+         "msg": "acpi PNP0C02:02: Reserved [io  0xffff]"
+      },{
+         "pri": 6,
+         "time":     0.352808,
+         "msg": "acpi PNP0C02:02: Reserved [io  0xffff]"
+      },{
+         "pri": 6,
+         "time":     0.352812,
+         "msg": "acpi PNP0C02:02: Could not reserve [io  0x1800-0x18fe]"
+      },{
+         "pri": 6,
+         "time":     0.352815,
+         "msg": "acpi PNP0C02:02: Reserved [io  0x164e-0x164f]"
+      },{
+         "pri": 6,
+         "time":     0.354273,
+         "msg": "acpi PNP0C02:04: Reserved [mem 0xfe029000-0xfe029fff]"
+      },{
+         "pri": 6,
+         "time":     0.354277,
+         "msg": "acpi PNP0C02:04: Reserved [mem 0xfe028000-0xfe028fff]"
+      },{
+         "pri": 6,
+         "time":     0.354494,
+         "msg": "acpi PNP0C02:05: Reserved [mem 0xfed10000-0xfed17fff]"
+      },{
+         "pri": 6,
+         "time":     0.354497,
+         "msg": "acpi PNP0C02:05: Reserved [mem 0xfed18000-0xfed18fff]"
+      },{
+         "pri": 6,
+         "time":     0.354500,
+         "msg": "acpi PNP0C02:05: Reserved [mem 0xfed19000-0xfed19fff]"
+      },{
+         "pri": 6,
+         "time":     0.354502,
+         "msg": "acpi PNP0C02:05: Reserved [mem 0xe0000000-0xefffffff]"
+      },{
+         "pri": 6,
+         "time":     0.354507,
+         "msg": "acpi PNP0C02:05: Reserved [mem 0xfed20000-0xfed3ffff]"
+      },{
+         "pri": 6,
+         "time":     0.354510,
+         "msg": "acpi PNP0C02:05: Could not reserve [mem 0xfed90000-0xfed93fff]"
+      },{
+         "pri": 6,
+         "time":     0.354512,
+         "msg": "acpi PNP0C02:05: Could not reserve [mem 0xfed45000-0xfed8ffff]"
+      },{
+         "pri": 6,
+         "time":     0.354515,
+         "msg": "acpi PNP0C02:05: Reserved [mem 0xff000000-0xffffffff]"
+      },{
+         "pri": 6,
+         "time":     0.354517,
+         "msg": "acpi PNP0C02:05: Could not reserve [mem 0xfee00000-0xfeefffff]"
+      },{
+         "pri": 6,
+         "time":     0.354520,
+         "msg": "acpi PNP0C02:05: Reserved [mem 0x90000000-0x9001ffff]"
+      },{
+         "pri": 6,
+         "time":     0.354573,
+         "msg": "pnp: PnP ACPI init"
+      },{
+         "pri": 6,
+         "time":     0.356161,
+         "msg": "pnp: PnP ACPI: found 2 devices"
+      },{
+         "pri": 6,
+         "time":     0.362348,
+         "msg": "clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns"
+      },{
+         "pri": 6,
+         "time":     0.362452,
+         "msg": "NET: Registered PF_INET protocol family"
+      },{
+         "pri": 6,
+         "time":     0.362553,
+         "msg": "IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.386445,
+         "msg": "tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.386475,
+         "msg": "Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.386519,
+         "msg": "TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.386858,
+         "msg": "TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.387184,
+         "msg": "TCP: Hash tables configured (established 65536 bind 65536)"
+      },{
+         "pri": 6,
+         "time":     0.387275,
+         "msg": "MPTCP token hash table entries: 8192 (order: 6, 196608 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.387339,
+         "msg": "UDP hash table entries: 4096 (order: 6, 262144 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.387402,
+         "msg": "UDP-Lite hash table entries: 4096 (order: 6, 262144 bytes, linear)"
+      },{
+         "pri": 6,
+         "time":     0.387498,
+         "msg": "NET: Registered PF_UNIX/PF_LOCAL protocol family"
+      },{
+         "pri": 6,
+         "time":     0.387510,
+         "msg": "NET: Registered PF_XDP protocol family"
+      },{
+         "pri": 6,
+         "time":     0.387527,
+         "msg": "pci 0000:00:1c.0: PCI bridge to [bus 01]"
+      },{
+         "pri": 6,
+         "time":     0.387532,
+         "msg": "pci 0000:00:1c.0:   bridge window [io  0x3000-0x3fff]"
+      },{
+         "pri": 6,
+         "time":     0.387538,
+         "msg": "pci 0000:00:1c.0:   bridge window [mem 0xb1000000-0xb10fffff]"
+      },{
+         "pri": 6,
+         "time":     0.387547,
+         "msg": "pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]"
+      },{
+         "pri": 6,
+         "time":     0.387550,
+         "msg": "pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]"
+      },{
+         "pri": 6,
+         "time":     0.387552,
+         "msg": "pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000dffff window]"
+      },{
+         "pri": 6,
+         "time":     0.387554,
+         "msg": "pci_bus 0000:00: resource 7 [mem 0x90000000-0xdfffffff window]"
+      },{
+         "pri": 6,
+         "time":     0.387557,
+         "msg": "pci_bus 0000:00: resource 8 [mem 0xfd000000-0xfe7fffff window]"
+      },{
+         "pri": 6,
+         "time":     0.387559,
+         "msg": "pci_bus 0000:01: resource 0 [io  0x3000-0x3fff]"
+      },{
+         "pri": 6,
+         "time":     0.387561,
+         "msg": "pci_bus 0000:01: resource 1 [mem 0xb1000000-0xb10fffff]"
+      },{
+         "pri": 6,
+         "time":     0.389370,
+         "msg": "PCI: CLS 64 bytes, default 64"
+      },{
+         "pri": 6,
+         "time":     0.389421,
+         "msg": "pci 0000:00:1f.1: [8086:9d20] type 00 class 0x058000 conventional PCI endpoint"
+      },{
+         "pri": 6,
+         "time":     0.389558,
+         "msg": "pci 0000:00:1f.1: BAR 0 [mem 0xfd000000-0xfdffffff 64bit]"
+      },{
+         "pri": 6,
+         "time":     0.389756,
+         "msg": "DMAR: ACPI device \"device:6f\" under DMAR at fed91000 as 00:15.0"
+      },{
+         "pri": 6,
+         "time":     0.389772,
+         "msg": "PCI-DMA: Using software bounce buffering for IO (SWIOTLB)"
+      },{
+         "pri": 6,
+         "time":     0.389774,
+         "msg": "software IO TLB: mapped [mem 0x0000000087867000-0x000000008b867000] (64MB)"
+      },{
+         "pri": 6,
+         "time":     0.389826,
+         "msg": "Trying to unpack rootfs image as initramfs..."
+      },{
+         "pri": 5,
+         "time":     0.399834,
+         "msg": "Initialise system trusted keyrings"
+      },{
+         "pri": 5,
+         "time":     0.399848,
+         "msg": "Key type blacklist registered"
+      },{
+         "pri": 6,
+         "time":     0.399946,
+         "msg": "workingset: timestamp_bits=36 max_order=21 bucket_order=0"
+      },{
+         "pri": 6,
+         "time":     0.400493,
+         "msg": "fuse: init (API version 7.45)"
+      },{
+         "pri": 5,
+         "time":     0.400659,
+         "msg": "integrity: Platform Keyring initialized"
+      },{
+         "pri": 5,
+         "time":     0.400668,
+         "msg": "integrity: Machine keyring initialized"
+      },{
+         "pri": 6,
+         "time":     0.426156,
+         "msg": "xor: automatically using best checksumming function   avx       "
+      },{
+         "pri": 5,
+         "time":     0.426168,
+         "msg": "Key type asymmetric registered"
+      },{
+         "pri": 5,
+         "time":     0.426171,
+         "msg": "Asymmetric key parser 'x509' registered"
+      },{
+         "pri": 6,
+         "time":     0.426243,
+         "msg": "Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)"
+      },{
+         "pri": 6,
+         "time":     0.426428,
+         "msg": "io scheduler mq-deadline registered"
+      },{
+         "pri": 6,
+         "time":     0.426431,
+         "msg": "io scheduler kyber registered"
+      },{
+         "pri": 6,
+         "time":     0.426462,
+         "msg": "io scheduler bfq registered"
+      },{
+         "pri": 6,
+         "time":     0.428645,
+         "msg": "ledtrig-cpu: registered to indicate activity on CPUs"
+      },{
+         "pri": 6,
+         "time":     0.429134,
+         "msg": "pcieport 0000:00:1c.0: PME: Signaling with IRQ 120"
+      },{
+         "pri": 6,
+         "time":     0.429739,
+         "msg": "ACPI: AC: AC Adapter [ADP0] (on-line)"
+      },{
+         "pri": 6,
+         "time":     0.429869,
+         "msg": "input: Lid Switch as /devices/platform/PNP0C0D:00/input/input0"
+      },{
+         "pri": 6,
+         "time":     0.429903,
+         "msg": "ACPI: button: Lid Switch [LID0]"
+      },{
+         "pri": 6,
+         "time":     0.429976,
+         "msg": "input: Power Button as /devices/platform/PNP0C0C:00/input/input1"
+      },{
+         "pri": 6,
+         "time":     0.430009,
+         "msg": "ACPI: button: Power Button [PWRB]"
+      },{
+         "pri": 7,
+         "time":     0.430648,
+         "msg": "Monitor-Mwait will be used to enter C-1 state"
+      },{
+         "pri": 7,
+         "time":     0.430671,
+         "msg": "Monitor-Mwait will be used to enter C-2 state"
+      },{
+         "pri": 7,
+         "time":     0.430680,
+         "msg": "Monitor-Mwait will be used to enter C-3 state"
+      },{
+         "pri": 6,
+         "time":     0.431769,
+         "msg": "ACPI: battery: Slot [BAT0] (battery absent)"
+      },{
+         "pri": 6,
+         "time":     0.431809,
+         "msg": "Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled"
+      },{
+         "pri": 6,
+         "time":     0.435857,
+         "msg": "Non-volatile memory driver v1.3"
+      },{
+         "pri": 6,
+         "time":     0.435863,
+         "msg": "Linux agpgart interface v0.103"
+      },{
+         "pri": 6,
+         "time":     0.436007,
+         "msg": "ACPI: bus type drm_connector registered"
+      },{
+         "pri": 6,
+         "time":     0.437241,
+         "msg": "ahci 0000:00:17.0: AHCI vers 0001.0301, 32 command slots, 6 Gbps, SATA mode"
+      },{
+         "pri": 6,
+         "time":     0.437251,
+         "msg": "ahci 0000:00:17.0: 2/2 ports implemented (port mask 0x3)"
+      },{
+         "pri": 6,
+         "time":     0.437254,
+         "msg": "ahci 0000:00:17.0: flags: 64bit ncq pm led clo only pio slum part deso sadm sds apst "
+      },{
+         "pri": 6,
+         "time":     0.437809,
+         "msg": "scsi host0: ahci"
+      },{
+         "pri": 6,
+         "time":     0.437995,
+         "msg": "scsi host1: ahci"
+      },{
+         "pri": 6,
+         "time":     0.438075,
+         "msg": "ata1: SATA max UDMA/133 abar m2048@0xb112d000 port 0xb112d100 irq 121 lpm-pol 3"
+      },{
+         "pri": 6,
+         "time":     0.438081,
+         "msg": "ata2: SATA max UDMA/133 abar m2048@0xb112d000 port 0xb112d180 irq 121 lpm-pol 3"
+      },{
+         "pri": 6,
+         "time":     0.438578,
+         "msg": "xhci_hcd 0000:00:14.0: xHCI Host Controller"
+      },{
+         "pri": 6,
+         "time":     0.438591,
+         "msg": "xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1"
+      },{
+         "pri": 6,
+         "time":     0.439746,
+         "msg": "xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000081109810"
+      },{
+         "pri": 6,
+         "time":     0.440692,
+         "msg": "xhci_hcd 0000:00:14.0: xHCI Host Controller"
+      },{
+         "pri": 6,
+         "time":     0.440708,
+         "msg": "xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2"
+      },{
+         "pri": 6,
+         "time":     0.440716,
+         "msg": "xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed"
+      },{
+         "pri": 6,
+         "time":     0.440813,
+         "msg": "usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00"
+      },{
+         "pri": 6,
+         "time":     0.440818,
+         "msg": "usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1"
+      },{
+         "pri": 6,
+         "time":     0.440821,
+         "msg": "usb usb1: Product: xHCI Host Controller"
+      },{
+         "pri": 6,
+         "time":     0.440824,
+         "msg": "usb usb1: Manufacturer: Linux 7.0.3-arch1-1 xhci-hcd"
+      },{
+         "pri": 6,
+         "time":     0.440827,
+         "msg": "usb usb1: SerialNumber: 0000:00:14.0"
+      },{
+         "pri": 6,
+         "time":     0.441087,
+         "msg": "hub 1-0:1.0: USB hub found"
+      },{
+         "pri": 6,
+         "time":     0.441110,
+         "msg": "hub 1-0:1.0: 12 ports detected"
+      },{
+         "pri": 6,
+         "time":     0.442079,
+         "msg": "usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00"
+      },{
+         "pri": 6,
+         "time":     0.442086,
+         "msg": "usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1"
+      },{
+         "pri": 6,
+         "time":     0.442089,
+         "msg": "usb usb2: Product: xHCI Host Controller"
+      },{
+         "pri": 6,
+         "time":     0.442091,
+         "msg": "usb usb2: Manufacturer: Linux 7.0.3-arch1-1 xhci-hcd"
+      },{
+         "pri": 6,
+         "time":     0.442093,
+         "msg": "usb usb2: SerialNumber: 0000:00:14.0"
+      },{
+         "pri": 6,
+         "time":     0.442248,
+         "msg": "hub 2-0:1.0: USB hub found"
+      },{
+         "pri": 6,
+         "time":     0.442264,
+         "msg": "hub 2-0:1.0: 6 ports detected"
+      },{
+         "pri": 6,
+         "time":     0.442834,
+         "msg": "usbcore: registered new interface driver usbserial_generic"
+      },{
+         "pri": 6,
+         "time":     0.442846,
+         "msg": "usbserial: USB Serial support registered for generic"
+      },{
+         "pri": 6,
+         "time":     0.442897,
+         "msg": "i8042: PNP: PS/2 Controller [PNP0303:PS2K] at 0x60,0x64 irq 1"
+      },{
+         "pri": 4,
+         "time":     0.442900,
+         "msg": "i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp"
+      },{
+         "pri": 6,
+         "time":     0.446774,
+         "msg": "serio: i8042 KBD port at 0x60,0x64 irq 1"
+      },{
+         "pri": 6,
+         "time":     0.447506,
+         "msg": "rtc_cmos 00:00: RTC can wake from S4"
+      },{
+         "pri": 6,
+         "time":     0.448318,
+         "msg": "rtc_cmos 00:00: registered as rtc0"
+      },{
+         "pri": 6,
+         "time":     0.448467,
+         "msg": "rtc_cmos 00:00: setting system clock to 2016-01-02T03:12:57 UTC (1451704377)"
+      },{
+         "pri": 6,
+         "time":     0.448508,
+         "msg": "rtc_cmos 00:00: alarms up to one month, y3k, 242 bytes nvram"
+      },{
+         "pri": 6,
+         "time":     0.450175,
+         "msg": "input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2"
+      },{
+         "pri": 6,
+         "time":     0.450272,
+         "msg": "intel_pstate: Intel P-state driver initializing"
+      },{
+         "pri": 6,
+         "time":     0.450509,
+         "msg": "intel_pstate: HWP enabled"
+      },{
+         "pri": 6,
+         "time":     0.451169,
+         "msg": "simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic"
+      },{
+         "pri": 6,
+         "time":     0.451223,
+         "msg": "[drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0"
+      },{
+         "pri": 6,
+         "time":     0.453727,
+         "msg": "Console: switching to colour frame buffer device 170x48"
+      },{
+         "pri": 6,
+         "time":     0.455442,
+         "msg": "simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device"
+      },{
+         "pri": 6,
+         "time":     0.455547,
+         "msg": "hid: raw HID events driver (C) Jiri Kosina"
+      },{
+         "pri": 6,
+         "time":     0.455588,
+         "msg": "usbcore: registered new interface driver usbhid"
+      },{
+         "pri": 6,
+         "time":     0.455590,
+         "msg": "usbhid: USB HID core driver"
+      },{
+         "pri": 4,
+         "time":     0.456509,
+         "msg": "rust_binder: Loaded Rust Binder."
+      },{
+         "pri": 6,
+         "time":     0.456535,
+         "msg": "drop_monitor: Initializing network drop monitor service"
+      },{
+         "pri": 6,
+         "time":     0.456770,
+         "msg": "NET: Registered PF_INET6 protocol family"
+      },{
+         "pri": 6,
+         "time":     0.457277,
+         "msg": "Segment Routing with IPv6"
+      },{
+         "pri": 6,
+         "time":     0.457282,
+         "msg": "RPL Segment Routing with IPv6"
+      },{
+         "pri": 6,
+         "time":     0.457294,
+         "msg": "In-situ OAM (IOAM) with IPv6"
+      },{
+         "pri": 6,
+         "time":     0.457337,
+         "msg": "NET: Registered PF_PACKET protocol family"
+      },{
+         "pri": 6,
+         "time":     0.457708,
+         "msg": "microcode: Current revision: 0x000000f0"
+      },{
+         "pri": 6,
+         "time":     0.457712,
+         "msg": "microcode: Updated early from: 0x000000c6"
+      },{
+         "pri": 6,
+         "time":     0.457883,
+         "msg": "IPI shorthand broadcast: enabled"
+      },{
+         "pri": 6,
+         "time":     0.460876,
+         "msg": "sched_clock: Marking stable (457002112, 3623356)->(466909705, -6284237)"
+      },{
+         "pri": 6,
+         "time":     0.461127,
+         "msg": "registered taskstats version 1"
+      },{
+         "pri": 5,
+         "time":     0.461476,
+         "msg": "Loading compiled-in X.509 certificates"
+      },{
+         "pri": 6,
+         "time":     0.681683,
+         "msg": "usb 1-1: new high-speed USB device number 2 using xhci_hcd"
+      },{
+         "pri": 6,
+         "time":     0.742772,
+         "msg": "ata1: SATA link down (SStatus 4 SControl 300)"
+      },{
+         "pri": 6,
+         "time":     0.743461,
+         "msg": "ata2: SATA link down (SStatus 4 SControl 300)"
+      },{
+         "pri": 6,
+         "time":     0.806193,
+         "msg": "usb 1-1: New USB device found, idVendor=05e3, idProduct=0608, bcdDevice=60.70"
+      },{
+         "pri": 6,
+         "time":     0.806213,
+         "msg": "usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0"
+      },{
+         "pri": 6,
+         "time":     0.806215,
+         "msg": "usb 1-1: Product: USB2.0 Hub"
+      },{
+         "pri": 6,
+         "time":     0.807185,
+         "msg": "hub 1-1:1.0: USB hub found"
+      },{
+         "pri": 6,
+         "time":     0.807539,
+         "msg": "hub 1-1:1.0: 4 ports detected"
+      },{
+         "pri": 6,
+         "time":     1.080679,
+         "msg": "usb 1-1.2: new high-speed USB device number 3 using xhci_hcd"
+      },{
+         "pri": 6,
+         "time":     1.157313,
+         "msg": "usb 1-1.2: New USB device found, idVendor=0951, idProduct=1666, bcdDevice= 2.00"
+      },{
+         "pri": 6,
+         "time":     1.157320,
+         "msg": "usb 1-1.2: New USB device strings: Mfr=2, Product=3, SerialNumber=4"
+      },{
+         "pri": 6,
+         "time":     1.157322,
+         "msg": "usb 1-1.2: Product: DataTraveler 3.0"
+      },{
+         "pri": 6,
+         "time":     1.157324,
+         "msg": "usb 1-1.2: Manufacturer: Kingston"
+      },{
+         "pri": 6,
+         "time":     1.157326,
+         "msg": "usb 1-1.2: SerialNumber: E0D55E6B64701710394B0ACA"
+      },{
+         "pri": 6,
+         "time":     1.417638,
+         "msg": "tsc: Refined TSC clocksource calibration: 2399.991 MHz"
+      },{
+         "pri": 6,
+         "time":     1.417646,
+         "msg": "clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22982efeb2e, max_idle_ns: 440795282550 ns"
+      },{
+         "pri": 6,
+         "time":     1.417703,
+         "msg": "clocksource: Switched to clocksource tsc"
+      },{
+         "pri": 6,
+         "time":     1.903075,
+         "msg": "Freeing initrd memory: 235908K"
+      },{
+         "pri": 5,
+         "time":     1.911444,
+         "msg": "Loaded X.509 cert 'Build time autogenerated kernel key: 56174b8d5d1ba1668d799841a2bc9137b16f3348'"
+      },{
+         "pri": 6,
+         "time":     1.914820,
+         "msg": "zswap: loaded using pool zstd"
+      },{
+         "pri": 6,
+         "time":     1.914931,
+         "msg": "Demotion targets for Node 0: null"
+      },{
+         "pri": 5,
+         "time":     1.915192,
+         "msg": "Key type .fscrypt registered"
+      },{
+         "pri": 5,
+         "time":     1.915194,
+         "msg": "Key type fscrypt-provisioning registered"
+      },{
+         "pri": 6,
+         "time":     1.915543,
+         "msg": "Btrfs loaded, zoned=yes, fsverity=yes"
+      },{
+         "pri": 5,
+         "time":     1.915587,
+         "msg": "Key type big_key registered"
+      },{
+         "pri": 6,
+         "time":     1.917586,
+         "msg": "integrity: Loading X.509 certificate: UEFI:db"
+      },{
+         "pri": 5,
+         "time":     1.917634,
+         "msg": "integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'"
+      },{
+         "pri": 6,
+         "time":     1.917636,
+         "msg": "integrity: Loading X.509 certificate: UEFI:db"
+      },{
+         "pri": 5,
+         "time":     1.917674,
+         "msg": "integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'"
+      },{
+         "pri": 6,
+         "time":     1.917676,
+         "msg": "integrity: Loading X.509 certificate: UEFI:db"
+      },{
+         "pri": 5,
+         "time":     1.917688,
+         "msg": "integrity: Loaded X.509 cert '4W320-14IKB: 8dcee6331cb26082429338acdf6278f7'"
+      },{
+         "pri": 6,
+         "time":     1.917689,
+         "msg": "integrity: Loading X.509 certificate: UEFI:db"
+      },{
+         "pri": 3,
+         "time":     1.917691,
+         "msg": "integrity: Problem loading X.509 certificate -65"
+      },{
+         "pri": 6,
+         "time":     1.917738,
+         "msg": "integrity: Error adding keys to platform keyring UEFI:db"
+      },{
+         "pri": 6,
+         "time":     1.920237,
+         "msg": "PM:   Magic number: 0:600:208"
+      },{
+         "pri": 6,
+         "time":     1.920293,
+         "msg": "vc vcsa: hash matches"
+      },{
+         "pri": 6,
+         "time":     1.920459,
+         "msg": "RAS: Correctable Errors collector initialized."
+      },{
+         "pri": 6,
+         "time":     1.920771,
+         "msg": "clk: Disabling unused clocks"
+      },{
+         "pri": 6,
+         "time":     1.920773,
+         "msg": "PM: genpd: Disabling unused power domains"
+      },{
+         "pri": 6,
+         "time":     1.922317,
+         "msg": "Freeing unused decrypted memory: 2028K"
+      },{
+         "pri": 6,
+         "time":     1.923188,
+         "msg": "Freeing unused kernel image (initmem) memory: 4804K"
+      },{
+         "pri": 6,
+         "time":     1.923325,
+         "msg": "Write protecting the kernel read-only data: 40960k"
+      },{
+         "pri": 6,
+         "time":     1.924237,
+         "msg": "Freeing unused kernel image (text/rodata gap) memory: 1744K"
+      },{
+         "pri": 6,
+         "time":     1.924801,
+         "msg": "Freeing unused kernel image (rodata/data gap) memory: 1588K"
+      },{
+         "pri": 6,
+         "time":     1.980271,
+         "msg": "x86/mm: Checked W+X mappings: passed, no W+X pages found."
+      },{
+         "pri": 6,
+         "time":     1.980276,
+         "msg": "rodata_test: all tests were successful"
+      },{
+         "pri": 6,
+         "time":     1.980278,
+         "msg": "x86/mm: Checking user space page tables"
+      },{
+         "pri": 6,
+         "time":     2.031819,
+         "msg": "x86/mm: Checked W+X mappings: passed, no W+X pages found."
+      },{
+         "pri": 6,
+         "time":     2.031824,
+         "msg": "Run /vtoy/vtoy as init process"
+      },{
+         "pri": 7,
+         "time":     2.031826,
+         "msg": "  with arguments:"
+      },{
+         "pri": 7,
+         "time":     2.031827,
+         "msg": "    /vtoy/vtoy"
+      },{
+         "pri": 7,
+         "time":     2.031829,
+         "msg": "  with environment:"
+      },{
+         "pri": 7,
+         "time":     2.031830,
+         "msg": "    HOME=/"
+      },{
+         "pri": 7,
+         "time":     2.031831,
+         "msg": "    TERM=linux"
+      },{
+         "pri": 7,
+         "time":     2.031832,
+         "msg": "    archisobasedir=arch"
+      },{
+         "pri": 7,
+         "time":     2.031834,
+         "msg": "    archisosearchuuid=2026-05-01-06-05-08-00"
+      },{
+         "pri": 6,
+         "time":     2.752927,
+         "msg": "intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)"
+      },{
+         "pri": 6,
+         "time":     2.756972,
+         "msg": "idma64 idma64.0: Found Intel integrated DMA 64-bit"
+      },{
+         "pri": 6,
+         "time":     2.784760,
+         "msg": "usb-storage 1-1.2:1.0: USB Mass Storage device detected"
+      },{
+         "pri": 6,
+         "time":     2.790649,
+         "msg": "scsi host2: usb-storage 1-1.2:1.0"
+      },{
+         "pri": 6,
+         "time":     2.790754,
+         "msg": "usbcore: registered new interface driver usb-storage"
+      },{
+         "pri": 4,
+         "time":     2.808330,
+         "msg": "r8169 0000:01:00.0: can't disable ASPM; OS doesn't have ASPM control"
+      },{
+         "pri": 6,
+         "time":     2.817797,
+         "msg": "usbcore: registered new interface driver uas"
+      },{
+         "pri": 6,
+         "time":     2.818185,
+         "msg": "r8169 0000:01:00.0 eth0: RTL8168gu/8111gu, 54:e1:ad:86:ab:ce, XID 509, IRQ 127"
+      },{
+         "pri": 6,
+         "time":     2.818191,
+         "msg": "r8169 0000:01:00.0 eth0: jumbo features [frames: 9194 bytes, tx checksumming: ko]"
+      },{
+         "pri": 6,
+         "time":     3.587342,
+         "msg": "i915 0000:00:02.0: [drm] Found skylake/ult (device ID 1916) integrated display version 9.00 stepping H0"
+      },{
+         "pri": 6,
+         "time":     3.604885,
+         "msg": "Console: switching to colour dummy device 80x25"
+      },{
+         "pri": 6,
+         "time":     3.605123,
+         "msg": "i915 0000:00:02.0: vgaarb: deactivate vga console"
+      },{
+         "pri": 6,
+         "time":     3.608394,
+         "msg": "i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=io+mem:owns=io+mem"
+      },{
+         "pri": 6,
+         "time":     3.609001,
+         "msg": "i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)"
+      },{
+         "pri": 6,
+         "time":     3.652930,
+         "msg": "i915 0000:00:02.0: [drm] Registered 3 planes with drm panic"
+      },{
+         "pri": 6,
+         "time":     3.659857,
+         "msg": "[drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1"
+      },{
+         "pri": 6,
+         "time":     3.666098,
+         "msg": "ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)"
+      },{
+         "pri": 6,
+         "time":     3.666668,
+         "msg": "input: Video Bus as /devices/pci0000:00/acpi.video_bus.0/input/input3"
+      },{
+         "pri": 6,
+         "time":     3.772031,
+         "msg": "fbcon: i915drmfb (fb0) is primary device"
+      },{
+         "pri": 6,
+         "time":     3.785399,
+         "msg": "Console: switching to colour frame buffer device 170x48"
+      },{
+         "pri": 5,
+         "time":     3.850758,
+         "msg": "scsi 2:0:0:0: Direct-Access     Kingston DataTraveler 3.0 0000 PQ: 0 ANSI: 4"
+      },{
+         "pri": 5,
+         "time":     3.852421,
+         "msg": "sd 2:0:0:0: [sda] 121077761 512-byte logical blocks: (62.0 GB/57.7 GiB)"
+      },{
+         "pri": 5,
+         "time":     3.852808,
+         "msg": "sd 2:0:0:0: [sda] Write Protect is off"
+      },{
+         "pri": 7,
+         "time":     3.852815,
+         "msg": "sd 2:0:0:0: [sda] Mode Sense: 23 00 00 00"
+      },{
+         "pri": 5,
+         "time":     3.852987,
+         "msg": "sd 2:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA"
+      },{
+         "pri": 6,
+         "time":     3.902584,
+         "msg": "i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device"
+      },{
+         "pri": 6,
+         "time":     3.903345,
+         "msg": " sda: sda1 sda2"
+      },{
+         "pri": 5,
+         "time":     3.903564,
+         "msg": "sd 2:0:0:0: [sda] Attached SCSI removable disk"
+      },{
+         "pri": 3,
+         "time":     4.121304,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.121359,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.123976,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.124046,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.133367,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.133423,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.135921,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.136000,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 3,
+         "time":     4.148150,
+         "msg": "Invalid ELF header magic: != ELF"
+      },{
+         "pri": 6,
+         "time":     4.162607,
+         "msg": "device-mapper: uevent: version 1.0.3"
+      },{
+         "pri": 6,
+         "time":     4.162865,
+         "msg": "device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev"
+      },{
+         "pri": 7,
+         "time":     4.424860,
+         "msg": "ISO 9660 Extensions: Microsoft Joliet Level 3"
+      },{
+         "pri": 7,
+         "time":     4.425919,
+         "msg": "ISO 9660 Extensions: RRIP_1991A"
+      },{
+         "pri": 6,
+         "time":    34.611661,
+         "msg": "loop: module loaded"
+      },{
+         "pri": 6,
+         "time":    34.613243,
+         "msg": "loop0: detected capacity change from 0 to 1992864"
+      },{
+         "pri": 6,
+         "time":    34.639446,
+         "msg": "squashfs: version 4.0 (2009/01/31) Phillip Lougher"
+      },{
+         "pri": 6,
+         "time":    34.658372,
+         "msg": "overlayfs: \"xino\" feature enabled using 2 upper inode bits."
+      },{
+         "pri": 30,
+         "time":    35.481325,
+         "msg": "systemd[1]: System time advanced to timestamp on /usr/lib/clock-epoch: Fri 2026-05-01 06:05:08 UTC"
+      },{
+         "pri": 30,
+         "time":    36.109935,
+         "msg": "systemd[1]: systemd 260.1-2-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP +LIBARCHIVE)"
+      },{
+         "pri": 30,
+         "time":    36.109967,
+         "msg": "systemd[1]: Detected architecture x86-64."
+      },{
+         "pri": 30,
+         "time":    36.168297,
+         "msg": "systemd[1]: Detected first boot."
+      },{
+         "pri": 30,
+         "time":    36.198365,
+         "msg": "systemd[1]: Initializing machine ID from random generator."
+      },{
+         "pri": 30,
+         "time":    36.200044,
+         "msg": "systemd[1]: Hostname set to <archiso>."
+      },{
+         "pri": 30,
+         "time":    36.342433,
+         "msg": "systemd[1]: bpf-restrict-fs: LSM BPF program attached"
+      },{
+         "pri": 30,
+         "time":    37.146503,
+         "msg": "systemd[1]: Applying preset policy."
+      },{
+         "pri": 30,
+         "time":    37.596903,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/multi-user.target.wants/machines.target' → '/usr/lib/systemd/system/machines.target'."
+      },{
+         "pri": 30,
+         "time":    37.596911,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/ctrl-alt-del.target' → '/usr/lib/systemd/system/reboot.target'."
+      },{
+         "pri": 30,
+         "time":    37.596914,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/multi-user.target.wants/remote-cryptsetup.target' → '/usr/lib/systemd/system/remote-cryptsetup.target'."
+      },{
+         "pri": 30,
+         "time":    37.596918,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/multi-user.target.wants/remote-integritysetup.target' → '/usr/lib/systemd/system/remote-integritysetup.target'."
+      },{
+         "pri": 30,
+         "time":    37.596921,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/multi-user.target.wants/remote-veritysetup.target' → '/usr/lib/systemd/system/remote-veritysetup.target'."
+      },{
+         "pri": 30,
+         "time":    37.596924,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-boot-clear-sysfail.service' → '/usr/lib/systemd/system/systemd-boot-clear-sysfail.service'."
+      },{
+         "pri": 30,
+         "time":    37.596928,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-boot-update.service' → '/usr/lib/systemd/system/systemd-boot-update.service'."
+      },{
+         "pri": 30,
+         "time":    37.596931,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-confext.service' → '/usr/lib/systemd/system/systemd-confext.service'."
+      },{
+         "pri": 30,
+         "time":    37.596934,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/systemd-homed.service.wants/systemd-homed-activate.service' → '/usr/lib/systemd/system/systemd-homed-activate.service'."
+      },{
+         "pri": 30,
+         "time":    37.596938,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/dbus-org.freedesktop.home1.service' → '/usr/lib/systemd/system/systemd-homed.service'."
+      },{
+         "pri": 30,
+         "time":    37.596941,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/multi-user.target.wants/systemd-homed.service' → '/usr/lib/systemd/system/systemd-homed.service'."
+      },{
+         "pri": 30,
+         "time":    37.596944,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-journald-audit.socket' → '/usr/lib/systemd/system/systemd-journald-audit.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596948,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/systemd-journald.service.wants/systemd-journald-audit.socket' → '/usr/lib/systemd/system/systemd-journald-audit.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596951,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-mountfsd.socket' → '/usr/lib/systemd/system/systemd-mountfsd.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596954,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-network-generator.service' → '/usr/lib/systemd/system/systemd-network-generator.service'."
+      },{
+         "pri": 30,
+         "time":    37.596958,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-networkd-varlink.socket' → '/usr/lib/systemd/system/systemd-networkd-varlink.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596961,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-networkd-varlink-metrics.socket' → '/usr/lib/systemd/system/systemd-networkd-varlink-metrics.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596964,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-networkd-resolve-hook.socket' → '/usr/lib/systemd/system/systemd-networkd-resolve-hook.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596968,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-nsresourced.socket' → '/usr/lib/systemd/system/systemd-nsresourced.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596971,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-pstore.service' → '/usr/lib/systemd/system/systemd-pstore.service'."
+      },{
+         "pri": 30,
+         "time":    37.596974,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-resolved.service' → '/usr/lib/systemd/system/systemd-resolved.service'."
+      },{
+         "pri": 30,
+         "time":    37.596978,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-resolved-varlink.socket' → '/usr/lib/systemd/system/systemd-resolved-varlink.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596981,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sockets.target.wants/systemd-resolved-monitor.socket' → '/usr/lib/systemd/system/systemd-resolved-monitor.socket'."
+      },{
+         "pri": 30,
+         "time":    37.596985,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-sysext.service' → '/usr/lib/systemd/system/systemd-sysext.service'."
+      },{
+         "pri": 30,
+         "time":    37.596988,
+         "msg": "systemd[1]: Created symlink '/etc/systemd/system/factory-reset.target.wants/systemd-tpm2-clear.service' → '/usr/lib/systemd/system/systemd-tpm2-clear.service'."
+      },{
+         "pri": 30,
+         "time":    37.596999,
+         "msg": "systemd[1]: Populated /etc with preset unit settings."
+      },{
+         "pri": 30,
+         "time":    37.773976,
+         "msg": "systemd[1]: Queued start job for default target Graphical Interface."
+      },{
+         "pri": 30,
+         "time":    37.795487,
+         "msg": "systemd[1]: Created slice Slice /system/dirmngr."
+      },{
+         "pri": 30,
+         "time":    37.796066,
+         "msg": "systemd[1]: Created slice Slice /system/getty."
+      },{
+         "pri": 30,
+         "time":    37.796519,
+         "msg": "systemd[1]: Created slice Slice /system/gpg-agent."
+      },{
+         "pri": 30,
+         "time":    37.797022,
+         "msg": "systemd[1]: Created slice Slice /system/gpg-agent-browser."
+      },{
+         "pri": 30,
+         "time":    37.797497,
+         "msg": "systemd[1]: Created slice Slice /system/gpg-agent-extra."
+      },{
+         "pri": 30,
+         "time":    37.797954,
+         "msg": "systemd[1]: Created slice Slice /system/gpg-agent-ssh."
+      },{
+         "pri": 30,
+         "time":    37.798395,
+         "msg": "systemd[1]: Created slice Slice /system/keyboxd."
+      },{
+         "pri": 30,
+         "time":    37.798897,
+         "msg": "systemd[1]: Created slice Slice /system/modprobe."
+      },{
+         "pri": 30,
+         "time":    37.799233,
+         "msg": "systemd[1]: Created slice User and Session Slice."
+      },{
+         "pri": 30,
+         "time":    37.799366,
+         "msg": "systemd[1]: Started Dispatch Password Requests to Console Directory Watch."
+      },{
+         "pri": 30,
+         "time":    37.799672,
+         "msg": "systemd[1]: Started Forward Password Requests to Wall Directory Watch."
+      },{
+         "pri": 30,
+         "time":    37.800107,
+         "msg": "systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point."
+      },{
+         "pri": 30,
+         "time":    37.800363,
+         "msg": "systemd[1]: Reached target Image Downloads."
+      },{
+         "pri": 30,
+         "time":    37.800621,
+         "msg": "systemd[1]: Reached target Local Integrity Protected Volumes."
+      },{
+         "pri": 30,
+         "time":    37.800879,
+         "msg": "systemd[1]: Reached target Path Units."
+      },{
+         "pri": 30,
+         "time":    37.801110,
+         "msg": "systemd[1]: Reached target Remote Encrypted Volumes."
+      },{
+         "pri": 30,
+         "time":    37.801371,
+         "msg": "systemd[1]: Reached target Remote File Systems."
+      },{
+         "pri": 30,
+         "time":    37.801588,
+         "msg": "systemd[1]: Reached target Remote Integrity Protected Volumes."
+      },{
+         "pri": 30,
+         "time":    37.801817,
+         "msg": "systemd[1]: Reached target Remote Verity Protected Volumes."
+      },{
+         "pri": 30,
+         "time":    37.802045,
+         "msg": "systemd[1]: Reached target Slice Units."
+      },{
+         "pri": 30,
+         "time":    37.802273,
+         "msg": "systemd[1]: Reached target Swaps."
+      },{
+         "pri": 30,
+         "time":    37.802508,
+         "msg": "systemd[1]: Reached target Local Verity Protected Volumes."
+      },{
+         "pri": 30,
+         "time":    37.802872,
+         "msg": "systemd[1]: Listening on Device-mapper event daemon FIFOs."
+      },{
+         "pri": 30,
+         "time":    37.803202,
+         "msg": "systemd[1]: Listening on LVM2 poll daemon socket."
+      },{
+         "pri": 30,
+         "time":    37.827322,
+         "msg": "systemd[1]: Listening on Query the User Interactively for a Password."
+      },{
+         "pri": 30,
+         "time":    37.829159,
+         "msg": "systemd[1]: Listening on Process Core Dump Socket."
+      },{
+         "pri": 30,
+         "time":    37.830407,
+         "msg": "systemd[1]: Listening on Credential Encryption/Decryption."
+      },{
+         "pri": 30,
+         "time":    37.831928,
+         "msg": "systemd[1]: Listening on Factory Reset Management."
+      },{
+         "pri": 30,
+         "time":    37.891091,
+         "msg": "systemd[1]: Listening on Journal Audit Socket."
+      },{
+         "pri": 30,
+         "time":    37.891542,
+         "msg": "systemd[1]: Listening on Journal Socket (/dev/log)."
+      },{
+         "pri": 30,
+         "time":    37.891957,
+         "msg": "systemd[1]: Listening on Journal Sockets."
+      },{
+         "pri": 30,
+         "time":    37.892341,
+         "msg": "systemd[1]: Listening on DDI File System Mounter Socket."
+      },{
+         "pri": 30,
+         "time":    37.894198,
+         "msg": "systemd[1]: Listening on Console Output Muting Service Socket."
+      },{
+         "pri": 30,
+         "time":    37.894738,
+         "msg": "systemd[1]: Listening on Network Management Resolve Hook Socket."
+      },{
+         "pri": 30,
+         "time":    37.895205,
+         "msg": "systemd[1]: Listening on Network Management Metrics Varlink Socket."
+      },{
+         "pri": 30,
+         "time":    37.895729,
+         "msg": "systemd[1]: Listening on Network Management Varlink Socket."
+      },{
+         "pri": 30,
+         "time":    37.896162,
+         "msg": "systemd[1]: Listening on Network Management Netlink Socket."
+      },{
+         "pri": 30,
+         "time":    37.896488,
+         "msg": "systemd[1]: Listening on Namespace Resource Manager Socket."
+      },{
+         "pri": 30,
+         "time":    37.896811,
+         "msg": "systemd[1]: TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-uki"
+      },{
+         "pri": 30,
+         "time":    37.896831,
+         "msg": "systemd[1]: Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki"
+      },{
+         "pri": 30,
+         "time":    37.897831,
+         "msg": "systemd[1]: Listening on Disk Repartitioning Service Socket."
+      },{
+         "pri": 30,
+         "time":    37.898167,
+         "msg": "systemd[1]: Listening on Resolve Monitor Varlink Socket."
+      },{
+         "pri": 30,
+         "time":    37.898476,
+         "msg": "systemd[1]: Listening on Resolve Service Varlink Socket."
+      },{
+         "pri": 30,
+         "time":    37.898820,
+         "msg": "systemd[1]: Listening on udev Control Socket."
+      },{
+         "pri": 30,
+         "time":    37.899092,
+         "msg": "systemd[1]: Listening on udev Kernel Socket."
+      },{
+         "pri": 30,
+         "time":    37.899397,
+         "msg": "systemd[1]: Listening on udev Varlink Socket."
+      },{
+         "pri": 30,
+         "time":    37.899738,
+         "msg": "systemd[1]: Listening on User Database Manager Socket."
+      },{
+         "pri": 30,
+         "time":    37.929039,
+         "msg": "systemd[1]: Mounting Huge Pages File System..."
+      },{
+         "pri": 30,
+         "time":    37.930478,
+         "msg": "systemd[1]: Mounting POSIX Message Queue File System..."
+      },{
+         "pri": 30,
+         "time":    37.932468,
+         "msg": "systemd[1]: Mounting Kernel Debug File System..."
+      },{
+         "pri": 30,
+         "time":    37.934196,
+         "msg": "systemd[1]: Mounting Kernel Trace File System..."
+      },{
+         "pri": 30,
+         "time":    37.943036,
+         "msg": "systemd[1]: Mounting Temporary Directory /tmp..."
+      },{
+         "pri": 30,
+         "time":    37.947304,
+         "msg": "systemd[1]: Starting Create List of Static Device Nodes..."
+      },{
+         "pri": 30,
+         "time":    37.949151,
+         "msg": "systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling..."
+      },{
+         "pri": 30,
+         "time":    37.950702,
+         "msg": "systemd[1]: Load Kernel Module configfs skipped, unmet condition check ConditionKernelModuleLoaded=!configfs"
+      },{
+         "pri": 30,
+         "time":    37.952238,
+         "msg": "systemd[1]: Mounting Kernel Configuration File System..."
+      },{
+         "pri": 30,
+         "time":    37.953725,
+         "msg": "systemd[1]: Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm"
+      },{
+         "pri": 30,
+         "time":    37.953781,
+         "msg": "systemd[1]: Load Kernel Module efi_pstore skipped, unmet condition check ConditionKernelModuleLoaded=!efi_pstore"
+      },{
+         "pri": 30,
+         "time":    37.953824,
+         "msg": "systemd[1]: Load Kernel Module fuse skipped, unmet condition check ConditionKernelModuleLoaded=!fuse"
+      },{
+         "pri": 30,
+         "time":    37.957885,
+         "msg": "systemd[1]: Mounting FUSE Control File System..."
+      },{
+         "pri": 30,
+         "time":    37.958429,
+         "msg": "systemd[1]: Clear SysFail Entry If The Boot Is Successful skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/LoaderEntrySysFail-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f"
+      },{
+         "pri": 30,
+         "time":    37.958567,
+         "msg": "systemd[1]: Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67"
+      },{
+         "pri": 30,
+         "time":    37.961923,
+         "msg": "systemd[1]: Starting Journal Service..."
+      },{
+         "pri": 30,
+         "time":    38.018331,
+         "msg": "systemd[1]: Starting Load Kernel Modules..."
+      },{
+         "pri": 30,
+         "time":    38.019836,
+         "msg": "systemd[1]: Starting Generate Network Units from Kernel Command Line..."
+      },{
+         "pri": 30,
+         "time":    38.020319,
+         "msg": "systemd[1]: TPM PCR Machine ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki"
+      },{
+         "pri": 30,
+         "time":    38.022881,
+         "msg": "systemd[1]: Starting Remount Root and Kernel File Systems..."
+      },{
+         "pri": 30,
+         "time":    38.026790,
+         "msg": "systemd[1]: Starting Wait Until Kernel Time Synchronized..."
+      },{
+         "pri": 30,
+         "time":    38.027252,
+         "msg": "systemd[1]: Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki"
+      },{
+         "pri": 30,
+         "time":    38.032794,
+         "msg": "systemd[1]: Starting Load udev Rules from Credentials..."
+      },{
+         "pri": 30,
+         "time":    38.034700,
+         "msg": "systemd[1]: Starting Coldplug All udev Devices..."
+      },{
+         "pri": 30,
+         "time":    38.129090,
+         "msg": "systemd[1]: Finished Create List of Static Device Nodes."
+      },{
+         "pri": 30,
+         "time":    38.131798,
+         "msg": "systemd[1]: Starting Create Static Device Nodes in /dev gracefully..."
+      },{
+         "pri": 30,
+         "time":    38.274227,
+         "msg": "systemd[1]: Finished Generate Network Units from Kernel Command Line."
+      },{
+         "pri": 30,
+         "time":    38.275601,
+         "msg": "systemd[1]: Reached target Preparation for Network."
+      },{
+         "pri": 30,
+         "time":    38.348553,
+         "msg": "systemd[1]: Mounted Temporary Directory /tmp."
+      },{
+         "pri": 30,
+         "time":    38.349387,
+         "msg": "systemd[1]: Mounted Huge Pages File System."
+      },{
+         "pri": 30,
+         "time":    38.350894,
+         "msg": "systemd[1]: Mounted POSIX Message Queue File System."
+      },{
+         "pri": 30,
+         "time":    38.351344,
+         "msg": "systemd[1]: Mounted Kernel Debug File System."
+      },{
+         "pri": 30,
+         "time":    38.354584,
+         "msg": "systemd[1]: Mounted Kernel Trace File System."
+      },{
+         "pri": 30,
+         "time":    38.355068,
+         "msg": "systemd[1]: Mounted Kernel Configuration File System."
+      },{
+         "pri": 30,
+         "time":    38.355481,
+         "msg": "systemd[1]: Mounted FUSE Control File System."
+      },{
+         "pri": 30,
+         "time":    38.356098,
+         "msg": "systemd[1]: Finished Remount Root and Kernel File Systems."
+      },{
+         "pri": 30,
+         "time":    38.431677,
+         "msg": "systemd[1]: Rebuild Hardware Database skipped, no trigger condition checks were met."
+      },{
+         "pri": 30,
+         "time":    38.431751,
+         "msg": "systemd[1]: Platform Persistent Storage Archival skipped, unmet condition check ConditionDirectoryNotEmpty=/sys/fs/pstore"
+      },{
+         "pri": 30,
+         "time":    38.433105,
+         "msg": "systemd[1]: Starting Load/Save OS Random Seed..."
+      },{
+         "pri": 30,
+         "time":    38.434933,
+         "msg": "systemd[1]: TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki"
+      },{
+         "pri": 30,
+         "time":    38.434973,
+         "msg": "systemd[1]: TPM PCR NvPCR Initialization Separator skipped, unmet condition check ConditionSecurity=measured-uki"
+      },{
+         "pri": 30,
+         "time":    38.435000,
+         "msg": "systemd[1]: Reached target Local Encrypted Volumes."
+      },{
+         "pri": 30,
+         "time":    38.435322,
+         "msg": "systemd[1]: TPM NvPCR Product ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki"
+      },{
+         "pri": 46,
+         "time":    38.442572,
+         "msg": "systemd-journald[618]: Collecting audit messages is enabled."
+      },{
+         "pri": 30,
+         "time":    38.451756,
+         "msg": "systemd[1]: Finished Load udev Rules from Credentials."
+      },{
+         "pri": 5,
+         "time":    38.453639,
+         "msg": "audit: type=1130 audit(1777615510.985:2): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-udev-load-credentials comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 30,
+         "time":    38.529743,
+         "msg": "systemd[1]: Started Journal Service."
+      },{
+         "pri": 5,
+         "time":    38.530318,
+         "msg": "audit: type=1130 audit(1777615511.063:3): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    38.607094,
+         "msg": "audit: type=1130 audit(1777615511.140:4): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-random-seed comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 46,
+         "time":    38.679147,
+         "msg": "systemd-journald[618]: Received client request to flush runtime journal."
+      },{
+         "pri": 5,
+         "time":    38.681397,
+         "msg": "audit: type=1130 audit(1777615511.214:5): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journal-flush comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    38.681614,
+         "msg": "Asymmetric key parser 'pkcs8' registered"
+      },{
+         "pri": 5,
+         "time":    38.683610,
+         "msg": "audit: type=1130 audit(1777615511.216:6): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-modules-load comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    38.721837,
+         "msg": "audit: type=1334 audit(1777615511.255:7): prog-id=24 op=LOAD"
+      },{
+         "pri": 5,
+         "time":    38.721938,
+         "msg": "audit: type=1334 audit(1777615511.255:8): prog-id=25 op=LOAD"
+      },{
+         "pri": 5,
+         "time":    38.722015,
+         "msg": "audit: type=1334 audit(1777615511.255:9): prog-id=26 op=LOAD"
+      },{
+         "pri": 6,
+         "time":    38.812919,
+         "msg": "tun: Universal TUN/TAP device driver, 1.6"
+      },{
+         "pri": 5,
+         "time":    38.815543,
+         "msg": "audit: type=1130 audit(1777615511.348:10): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@tun comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    38.815775,
+         "msg": "audit: type=1131 audit(1777615511.349:11): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@tun comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    40.752806,
+         "msg": "cfg80211: Loading compiled-in X.509 certificates for regulatory database"
+      },{
+         "pri": 6,
+         "time":    40.792140,
+         "msg": "r8169 0000:01:00.0 enp1s0: renamed from eth0"
+      },{
+         "pri": 5,
+         "time":    40.800959,
+         "msg": "Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'"
+      },{
+         "pri": 5,
+         "time":    40.801242,
+         "msg": "Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'"
+      },{
+         "pri": 6,
+         "time":    40.865999,
+         "msg": "i801_smbus 0000:00:1f.4: SPD Write Disable is set"
+      },{
+         "pri": 6,
+         "time":    40.866019,
+         "msg": "i801_smbus 0000:00:1f.4: SMBus using PCI interrupt"
+      },{
+         "pri": 6,
+         "time":    40.960526,
+         "msg": "mei_me 0000:00:16.0: enabling device (0000 -> 0002)"
+      },{
+         "pri": 6,
+         "time":    41.023128,
+         "msg": "input: PC Speaker as /devices/platform/pcspkr/input/input4"
+      },{
+         "pri": 6,
+         "time":    41.334396,
+         "msg": "ACPI: battery: new hook: Ideapad Battery Extension"
+      },{
+         "pri": 6,
+         "time":    41.334539,
+         "msg": "input: Ideapad extra buttons as /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/VPC2004:00/input/input5"
+      },{
+         "pri": 6,
+         "time":    41.334591,
+         "msg": "ideapad_acpi VPC2004:00: Keyboard backlight control not available"
+      },{
+         "pri": 6,
+         "time":    41.351788,
+         "msg": "RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer"
+      },{
+         "pri": 6,
+         "time":    41.351794,
+         "msg": "RAPL PMU: hw unit of domain pp0-core 2^-14 Joules"
+      },{
+         "pri": 6,
+         "time":    41.351796,
+         "msg": "RAPL PMU: hw unit of domain package 2^-14 Joules"
+      },{
+         "pri": 6,
+         "time":    41.351798,
+         "msg": "RAPL PMU: hw unit of domain dram 2^-14 Joules"
+      },{
+         "pri": 6,
+         "time":    41.351799,
+         "msg": "RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules"
+      },{
+         "pri": 6,
+         "time":    41.351801,
+         "msg": "RAPL PMU: hw unit of domain psys 2^-14 Joules"
+      },{
+         "pri": 6,
+         "time":    41.353614,
+         "msg": "ideapad_acpi VPC2004:00: DYTC interface is not available"
+      },{
+         "pri": 6,
+         "time":    41.355914,
+         "msg": "iTCO_wdt iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)"
+      },{
+         "pri": 6,
+         "time":    41.357637,
+         "msg": "iTCO_wdt iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)"
+      },{
+         "pri": 6,
+         "time":    41.697692,
+         "msg": "intel_tcc_cooling: Programmable TCC Offset detected"
+      },{
+         "pri": 6,
+         "time":    41.806749,
+         "msg": "Generic FE-GE Realtek PHY r8169-0-100:00: attached PHY driver (mii_bus:phy_addr=r8169-0-100:00, irq=MAC)"
+      },{
+         "pri": 6,
+         "time":    41.868211,
+         "msg": "intel_pmc_core intel_pmc_core.0:  initialized"
+      },{
+         "pri": 6,
+         "time":    41.897445,
+         "msg": "snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops intel_audio_component_bind_ops [i915])"
+      },{
+         "pri": 6,
+         "time":    41.910397,
+         "msg": "intel_rapl_common: Found RAPL domain package"
+      },{
+         "pri": 6,
+         "time":    41.910403,
+         "msg": "intel_rapl_common: Found RAPL domain core"
+      },{
+         "pri": 6,
+         "time":    41.910405,
+         "msg": "intel_rapl_common: Found RAPL domain uncore"
+      },{
+         "pri": 6,
+         "time":    41.910406,
+         "msg": "intel_rapl_common: Found RAPL domain dram"
+      },{
+         "pri": 6,
+         "time":    41.910408,
+         "msg": "intel_rapl_common: Found RAPL domain psys"
+      },{
+         "pri": 6,
+         "time":    41.960473,
+         "msg": "r8169 0000:01:00.0 enp1s0: Link is Down"
+      },{
+         "pri": 6,
+         "time":    42.052401,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0: ALC236: picked fixup  for PCI SSID 17aa:3843"
+      },{
+         "pri": 6,
+         "time":    42.052796,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0: autoconfig for ALC236: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker"
+      },{
+         "pri": 6,
+         "time":    42.052803,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)"
+      },{
+         "pri": 6,
+         "time":    42.052808,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)"
+      },{
+         "pri": 6,
+         "time":    42.052812,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0:    mono: mono_out=0x0"
+      },{
+         "pri": 6,
+         "time":    42.052814,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0:    inputs:"
+      },{
+         "pri": 6,
+         "time":    42.052818,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0:      Internal Mic=0x12"
+      },{
+         "pri": 6,
+         "time":    42.052821,
+         "msg": "snd_hda_codec_alc269 hdaudioC0D0:      Mic=0x19"
+      },{
+         "pri": 6,
+         "time":    42.232355,
+         "msg": "input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input6"
+      },{
+         "pri": 6,
+         "time":    42.232429,
+         "msg": "input: HDA Intel PCH Headphone as /devices/pci0000:00/0000:00:1f.3/sound/card0/input7"
+      },{
+         "pri": 6,
+         "time":    42.232501,
+         "msg": "input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input8"
+      },{
+         "pri": 6,
+         "time":    42.232569,
+         "msg": "input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input9"
+      },{
+         "pri": 6,
+         "time":    42.232698,
+         "msg": "input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input10"
+      },{
+         "pri": 4,
+         "time":    46.376993,
+         "msg": "kauditd_printk_skb: 123 callbacks suppressed"
+      },{
+         "pri": 5,
+         "time":    46.376998,
+         "msg": "audit: type=1130 audit(1777615518.910:75): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=ldconfig comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    46.425124,
+         "msg": "audit: type=1130 audit(1777615518.958:76): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-update-done comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    46.462010,
+         "msg": "audit: type=1334 audit(1777615518.995:77): prog-id=54 op=LOAD"
+      },{
+         "pri": 5,
+         "time":    46.538681,
+         "msg": "audit: type=1131 audit(1777615519.072:78): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    46.595620,
+         "msg": "audit: type=1130 audit(1777615519.128:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dbus-broker comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    46.600488,
+         "msg": "audit: type=1334 audit(1777615519.133:80): prog-id=55 op=LOAD"
+      },{
+         "pri": 5,
+         "time":    46.603341,
+         "msg": "audit: type=1334 audit(1777615519.136:81): prog-id=56 op=LOAD"
+      },{
+         "pri": 5,
+         "time":    46.618500,
+         "msg": "audit: type=1334 audit(1777615519.151:82): prog-id=57 op=LOAD"
+      },{
+         "pri": 5,
+         "time":    46.635518,
+         "msg": "audit: type=1334 audit(1777615519.168:83): prog-id=58 op=LOAD"
+      },{
+         "pri": 5,
+         "time":    46.635570,
+         "msg": "audit: type=1334 audit(1777615519.168:84): prog-id=59 op=LOAD"
+      },{
+         "pri": 6,
+         "time":    46.837029,
+         "msg": "NET: Registered PF_ALG protocol family"
+      },{
+         "pri": 6,
+         "time":    47.269544,
+         "msg": "NET: Registered PF_QIPCRTR protocol family"
+      },{
+         "pri": 4,
+         "time":    52.696857,
+         "msg": "kauditd_printk_skb: 13 callbacks suppressed"
+      },{
+         "pri": 5,
+         "time":    52.696861,
+         "msg": "audit: type=1101 audit(1777615525.230:98): pid=887 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_permit,pam_time acct=\"root\" exe=\"/usr/bin/login\" hostname=archiso addr=? terminal=/dev/tty1 res=success'"
+      },{
+         "pri": 5,
+         "time":    52.698069,
+         "msg": "audit: type=1103 audit(1777615525.231:99): pid=887 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_shells,pam_faillock,pam_permit,pam_env,pam_faillock acct=\"root\" exe=\"/usr/bin/login\" hostname=archiso addr=? terminal=/dev/tty1 res=success'"
+      },{
+         "pri": 5,
+         "time":    52.698171,
+         "msg": "audit: type=1006 audit(1777615525.231:100): pid=887 uid=0 old-auid=4294967295 auid=0 tty=tty1 old-ses=4294967295 ses=1 res=1"
+      },{
+         "pri": 5,
+         "time":    52.698177,
+         "msg": "audit: type=1300 audit(1777615525.231:100): arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fffee9ffa80 a2=1 a3=0 items=0 ppid=1 pid=887 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=tty1 ses=1 comm=\"login\" exe=\"/usr/bin/login\" key=(null)"
+      },{
+         "pri": 5,
+         "time":    52.698180,
+         "msg": "audit: type=1327 audit(1777615525.231:100): proctitle=2F62696E2F6C6F67696E002D66002D2D"
+      },{
+         "pri": 5,
+         "time":    52.807571,
+         "msg": "audit: type=1130 audit(1777615525.340:101): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user-runtime-dir@0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    52.850845,
+         "msg": "audit: type=1101 audit(1777615525.384:102): pid=906 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_permit,pam_time acct=\"root\" exe=\"/usr/lib/systemd/systemd-executor\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":    52.850940,
+         "msg": "audit: type=1103 audit(1777615525.384:103): pid=906 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=? acct=\"root\" exe=\"/usr/lib/systemd/systemd-executor\" hostname=? addr=? terminal=? res=failed'"
+      },{
+         "pri": 5,
+         "time":    52.851074,
+         "msg": "audit: type=1006 audit(1777615525.384:104): pid=906 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=2 res=1"
+      },{
+         "pri": 5,
+         "time":    52.851079,
+         "msg": "audit: type=1300 audit(1777615525.384:104): arch=c000003e syscall=1 success=yes exit=1 a0=8 a1=7ffde9d53b50 a2=1 a3=0 items=0 ppid=1 pid=906 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=2 comm=\"(systemd)\" exe=\"/usr/lib/systemd/systemd-executor\" key=(null)"
+      },{
+         "pri": 6,
+         "time":   119.209145,
+         "msg": "r8169 0000:01:00.0: invalid VPD tag 0x00 (size 0) at offset 0; assume missing optional EEPROM"
+      },{
+         "pri": 6,
+         "time":   179.923204,
+         "msg": "usb 1-3: new high-speed USB device number 4 using xhci_hcd"
+      },{
+         "pri": 6,
+         "time":   180.057478,
+         "msg": "usb 1-3: New USB device found, idVendor=058f, idProduct=6387, bcdDevice= 1.00"
+      },{
+         "pri": 6,
+         "time":   180.057504,
+         "msg": "usb 1-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3"
+      },{
+         "pri": 6,
+         "time":   180.057515,
+         "msg": "usb 1-3: Product: Mass Storage"
+      },{
+         "pri": 6,
+         "time":   180.057524,
+         "msg": "usb 1-3: Manufacturer: Generic"
+      },{
+         "pri": 6,
+         "time":   180.057531,
+         "msg": "usb 1-3: SerialNumber: 7E13AF6E"
+      },{
+         "pri": 6,
+         "time":   180.059248,
+         "msg": "usb-storage 1-3:1.0: USB Mass Storage device detected"
+      },{
+         "pri": 6,
+         "time":   180.060020,
+         "msg": "scsi host3: usb-storage 1-3:1.0"
+      },{
+         "pri": 5,
+         "time":   181.068740,
+         "msg": "scsi 3:0:0:0: Direct-Access     Generic  Flash Disk       8.07 PQ: 0 ANSI: 4"
+      },{
+         "pri": 5,
+         "time":   181.071951,
+         "msg": "sd 3:0:0:0: [sdb] 15435776 512-byte logical blocks: (7.90 GB/7.36 GiB)"
+      },{
+         "pri": 5,
+         "time":   181.072678,
+         "msg": "sd 3:0:0:0: [sdb] Write Protect is off"
+      },{
+         "pri": 7,
+         "time":   181.072692,
+         "msg": "sd 3:0:0:0: [sdb] Mode Sense: 23 00 00 00"
+      },{
+         "pri": 5,
+         "time":   181.075713,
+         "msg": "sd 3:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA"
+      },{
+         "pri": 6,
+         "time":   181.096314,
+         "msg": " sdb: sdb1"
+      },{
+         "pri": 5,
+         "time":   181.096496,
+         "msg": "sd 3:0:0:0: [sdb] Attached SCSI removable disk"
+      },{
+         "pri": 4,
+         "time":   197.360273,
+         "msg": "FAT-fs (sdb1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck."
+      },{
+         "pri": 4,
+         "time":   900.198334,
+         "msg": "kauditd_printk_skb: 95 callbacks suppressed"
+      },{
+         "pri": 5,
+         "time":   900.198337,
+         "msg": "audit: type=1130 audit(1777616372.731:139): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      },{
+         "pri": 5,
+         "time":   900.198377,
+         "msg": "audit: type=1131 audit(1777616372.731:140): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+      }
+   ]
+}
