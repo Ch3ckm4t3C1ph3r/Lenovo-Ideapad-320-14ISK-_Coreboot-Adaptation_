@@ -128,7 +128,8 @@ chip soc/intel/skylake
         device ref uart0 on end
         device ref uart1 on end
         device ref uart2 on end
-		
+
+		# Linux detects that MEI EHCI is in 00:16.0 for review
 		device pci 1f.0 on
 			chip superio/ite/it8528e
 				device pnp 2e.4 alias keyboardps2 on
