@@ -5,5 +5,5 @@
 
 void bootblock_mainboard_early_init(void)
 {
-	bootblock_ec_init();
+//    bootblock_ec_init();
 }
