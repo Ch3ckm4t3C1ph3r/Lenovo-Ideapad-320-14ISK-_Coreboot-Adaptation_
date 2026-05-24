@@ -195,7 +195,7 @@ static const struct pad_config gpio_table[] = {
 	PAD_NC(GPP_G7, NONE),
 };
 
-const struct pag_config *variant_gpio_table(size_t *num)
+const struct pad_config *variant_gpio_table(size_t *num)
 {
 	*num = ARRAY_SIZE(gpio_table);
 	return gpio_table;
