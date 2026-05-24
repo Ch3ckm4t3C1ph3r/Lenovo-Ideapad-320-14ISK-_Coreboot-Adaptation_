@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 
-#include <mainboard/gpio.h>
 #include <soc/gpe.h>
 #include <soc/gpio.h>
+#include <types.h>
 
 /* Pad configuration was generated automatically using intelp2m 2.5-149f0c750c */
 static const struct pad_config gpio_table[] = {
