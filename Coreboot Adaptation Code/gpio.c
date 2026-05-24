@@ -197,6 +197,6 @@ static const struct pad_config gpio_table[] = {
 
 const struct pag_config *variant_gpio_table(size_t *num)
 {
-	*num = ARRAT_SIZE(gpio_table);
+	*num = ARRAY_SIZE(gpio_table);
 	return gpio_table;
 }
