@@ -25,7 +25,7 @@ DefinitionBlock(
 	}
     Scope (\_SB.PCI0.LPCB)
     {
-        #include <drivers/pc80/pc/ps2_kbd.asl> # Soporte básico de teclado
+        #include <drivers/pc80/pc/ps2_kbd.asl>
         
         Device (EC0)
         {
