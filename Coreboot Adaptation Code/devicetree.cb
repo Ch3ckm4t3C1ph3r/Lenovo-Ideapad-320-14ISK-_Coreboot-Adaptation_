@@ -32,47 +32,47 @@ chip soc/intel/skylake
                         register "SataPortsDevSlp[2]" = "1"
                 end
 
-	        # I2C1 Controller - Touchpad
-        	device ref i2c1 on
-            		chip drivers/i2c/generic
+	            # I2C1 Controller - Touchpad
+        	    device ref i2c1 on
+            	    chip drivers/i2c/generic
                 		register "hid" = ""SYNA2B33""
                 		register "desc" = ""Synaptics Touchpad""
                 		register "irq" = "ACPI_IRQ_LEVEL_LOW(GPP_C15_IRQ)"
                 		#register "i2c_address" = "0x2c"
                 		device i2c 2c on end
             		end
-        	end
+        	    end
 
-		# Bus to chip EC ITE8586E
+		        # Bus to chip EC ITE8586E
                 device ref lpc_espi on
-                        register "serirq_mode" = "SERIRQ_CONTINUOUS"
-                        register "gen1_dec" = "0x007c1601"
-                        register "gen2_dec" = "0x000c15e1"
-                        register "lpc_ioe"  = "LPC_IOE_EC_4E_4F |
+                    register "serirq_mode" = "SERIRQ_CONTINUOUS"
+                    register "gen1_dec" = "0x007c1601"
+                    register "gen2_dec" = "0x000c15e1"
+                    register "lpc_ioe"  = "LPC_IOE_EC_4E_4F |
                                                LPC_IOE_EC_62_66 |
                                                LPC_IOE_KBC_60_64"
 			
-			# EC conected to the port number 0x4e
-                        chip superio/ite/it8528e
-				device pnp 2e.0 off end	     # Flopy (don't exist)
-				device pnp 2e.1 off end      # Com1
-				device pnp 2e.2 off end      # Com2
-				device pnp 2e.4 off end	     # SWUC
-				device pnp 2e.5 on	     # Mouse PS/2
-					io 0x60 = 0x60
-					io 0x62 = 0x64
-					irq 0x70 = 12
-				end
-                                device pnp 2e.6 on           # Keyboard PS/2
-                                        io 0x60 = 0x60
-                                        io 0x62 = 0x64
-                                        irq 0x70 = 1
-                                end
-                                device pnp 2e.11 on          # PMC1 (Energy & Batery)
-                                        io 0x60 = 0x62
-                                        io 0x62 = 0x66
-                                end
+			        # EC conected to the port number 0x4e
+                    chip superio/ite/it8528e
+				        device pnp 2e.0 off end	     # Flopy (don't exist)
+				        device pnp 2e.1 off end      # Com1
+				        device pnp 2e.2 off end      # Com2
+				        device pnp 2e.4 off end	     # SWUC
+				        device pnp 2e.5 on	     # Mouse PS/2
+					        io 0x60 = 0x60
+					        io 0x62 = 0x64
+					        irq 0x70 = 12
+				        end
+                        device pnp 2e.6 on           # Keyboard PS/2
+                            io 0x60 = 0x60
+                            io 0x62 = 0x64
+                            irq 0x70 = 1
                         end
+                        device pnp 2e.11 on          # PMC1 (Energy & Batery)
+                            io 0x60 = 0x62
+                            io 0x62 = 0x66
+                        end
+                    end
                 end
 
                 device ref hda on end
