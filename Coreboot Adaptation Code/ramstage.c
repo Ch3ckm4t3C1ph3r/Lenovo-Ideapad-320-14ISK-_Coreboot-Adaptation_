@@ -6,7 +6,6 @@
 void mainboard_silicon_init_params(FSP_SIL_UPD *params)
 {
 	// Setup GPIOs
-	variant_config_gpios();
 }
 
 
