@@ -1,0 +1,231 @@
+Lenovo Ideapad 320 14ISK NM-B241
+<--- DEVICES --->
+
+        * PCI0 // PCIe 0
+        |
+        +----* PEG0
+        |          |
+        |          +----> PEGP
+        |
+        +----* PEG1
+        |          |
+        |          +----> PEGP
+        |
+        +----* PEG2
+        |          |
+        |          +----> PEGP
+        |
+        +----* GFX0
+        |
+        +----* B0D4
+        |
+        * PRRE
+        |
+        * IOTR
+        |
+        * LPCB
+        | 
+        * PPMC
+        |
+        * SBUS
+        |
+        * LNKA
+        | 
+        * LNKB
+        |
+        * LNKC
+        | 
+        * LNKD
+        |
+        * LNKE
+        |
+        * LNKF
+        |
+        * LNKG
+        |
+        * LNKH
+        |
+        * GLAN
+        |
+        * XHC
+        |
+        +----* RHUB
+        |         |
+        |         +----> HS01
+        |         |
+        |         +----> HS02
+        |         |
+        |         +----> HS03
+        |         |
+        |         +----> HS04
+        |         |
+        |         +----> HS05
+        |         |
+        |         +----> HS06
+        |         |
+        |         +----> HS07
+        |         |
+        |         +----* HS08
+        |         |         |
+        |         |         +----> CAM8
+        |         |
+        |         +----> HS09)
+        |         |
+        |         +----> HS10
+        |         |
+        |         +----> USR1
+        |         |
+        |         +----> USR2
+        |         |
+        |         +----> SS01
+        |         |
+        |         +----> SS02
+        |         |
+        |         +----> SS03
+        |         |
+        |         +----> SS04
+        |         |
+        |         +----> SS05
+        |         |
+        |         +----> SS06
+        |         |
+        |         +----> HS11
+        |         |
+        |         +----> HS12
+        |         |
+        |         +----> HS13
+        |         |
+        |         +----> HS14
+        |         |
+        |         +----> SS07
+        |         |
+        |         +----> SS08
+        |         |
+        |         +----> SS09
+        |         |
+        |         +----> SS10
+        |        
+        * XDCI
+        |
+        * HDAS
+        |
+        * RP01 // Root Port 1
+        |
+        +----> PXSX
+        |
+        * RP02
+        |
+        +----> PXSX
+        |
+        * RP03
+        |
+        +----> PXSX
+        Device (RP04)
+            Device (PXSX)
+        Device (RP05)
+            Device (PXSX)
+        Device (RP06)
+            Device (PXSX)
+        Device (RP07)
+            Device (PXSX)
+        Device (RP08)
+            Device (PXSX)
+        Device (RP09)
+            Device (PXSX)
+        Device (RP10)
+            Device (PXSX)
+        Device (RP11)
+            Device (PXSX)
+        Device (RP12)
+            Device (PXSX)
+        Device (RP13)
+            Device (PXSX)
+        Device (RP14)
+            Device (PXSX)
+        Device (RP15)
+            Device (PXSX)
+        Device (RP16)
+            Device (PXSX)
+        Device (RP17)
+            Device (PXSX)
+        Device (RP18)
+            Device (PXSX)
+        Device (RP19)
+            Device (PXSX)
+        Device (RP20)
+            Device (PXSX)
+        Device (RP21)
+            Device (PXSX)
+        Device (RP22)
+            Device (PXSX)
+        Device (RP23)
+            Device (PXSX)
+        Device (RP24)
+            Device (PXSX)
+        Device (SAT0)
+            Device (PRT0)
+            Device (PRT1)
+            Device (PRT2)
+            Device (PRT3)
+            Device (PRT4)
+            Device (PRT5)
+            Device (VOL0)
+            Device (VOL1)
+            Device (VOL2)
+            Device (NVM1)
+            Device (NVM2)
+            Device (NVM3)
+        Device (TERM)
+        Device (SIRC)
+        Device (GPI0)
+        Device (I2C0)
+        Device (I2C1)
+        Device (I2C2)
+        Device (I2C3)
+        Device (I2C4)
+        Device (I2C5)
+        Device (SPI0)
+        Device (SPI1)
+        Device (UA00)
+        Device (UA01)
+        Device (UA02)
+        Device (TPD0)
+        Device (TPL1)
+        Device (IMP3)
+        Device (FPNT)
+        Device (BTH0)
+        Device (GNSS)
+        Device (GEXP)
+            Device (PEMC)
+                Device (CARD)
+            Device (PSDC)
+        Device (ISHD)
+        Device (HECI)
+        Device (EC0) // Emmbeded Controller
+            Device (BAT0)
+                Device (VPC0)
+            Device (ADP0)
+            Device (LID0)
+            Device (PWRB)
+            Device (WMI4)
+        Device (FWHD)
+        Device (HPET)
+        Device (IPIC)
+        Device (MATH)
+        Device (LDRC)
+        Device (LDR2)
+        Device (RTC)
+        Device (TIMR)
+        Device (CWDT)
+        Device (PS2K)
+        Device (BTKL)
+        Device (WTBT)
+            Device (HRUS)
+                Device (HRDP)
+                    Device (TDUS)
+                        Device (TDDP)
+                            Device (PXST)
+        Device (PAGD)
+        Device (PDRC)
+    Device (PSM)
+
