@@ -1,13 +1,6 @@
 PNP0A08 /* PCI Express Bus */
 PNP0C02 /* PNP Motherboard Resources */
 PNP0C0F /* PCI Interrupt Link Device */
-PNP0C0F /* PCI Interrupt Link Device */
-PNP0C0F /* PCI Interrupt Link Device */
-PNP0C0F /* PCI Interrupt Link Device */
-PNP0C0F /* PCI Interrupt Link Device */
-PNP0C0F /* PCI Interrupt Link Device */
-PNP0C0F /* PCI Interrupt Link Device */
-PNP0C02 /* PNP Motherboard Resources */
 PNP0C09 /* Embedded Controller Device */
 >> PNP0C0A /* Control Method Battery */
 >> PNP0C0D /* Lid Device */
@@ -17,11 +10,8 @@ INT0800 /* Intel 82802 Firmware Hub Device */
 PNP0103 /* HPET System Timer */
 PNP0000 /* 8259-compatible Programmable Interrupt Controller */
 PNP0C04 /* x87-compatible Floating Point Processing Unit */
-PNP0C02 /* PNP Motherboard Resources */
-PNP0C02 /* PNP Motherboard Resources */
 PNP0B00 /* AT Real-Time Clock */
 PNP0100 /* PC-class System Timer */
 INT3F0D /* ACPI Motherboard Resources */
-PNP0C02 /* PNP Motherboard Resources */
 INT3420 /* Intel Bluetooth RF Kill */
 
