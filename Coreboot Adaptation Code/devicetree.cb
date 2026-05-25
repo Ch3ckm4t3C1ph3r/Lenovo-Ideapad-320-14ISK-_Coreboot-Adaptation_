@@ -77,7 +77,7 @@ chip soc/intel/skylake
 
                 device ref hda on end
 
-        	device ref south_xhci on end
+        	    device ref south_xhci on end
 
                 # I2C0
                 device pci 15.0 on end
