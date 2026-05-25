@@ -3,6 +3,7 @@
 #include <soc/gpe.h>
 #include <soc/gpio.h>
 #include <types.h>
+#include "gpio.h"
 
 /* Pad configuration was generated automatically using intelp2m 2.5-149f0c750c */
 static const struct pad_config gpio_table[] = {
@@ -195,7 +196,7 @@ static const struct pad_config gpio_table[] = {
 	PAD_NC(GPP_G7, NONE),
 };
 
-const struct pad_config *mainboard_gpio_table(size_t *num)
+const struct pad_config *mainboard_get_gpios(size_t *num)
 {
 	*num = ARRAY_SIZE(gpio_table);
 	return gpio_table;
