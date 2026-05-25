@@ -32,7 +32,7 @@ chip soc/intel/skylake
                         register "SataPortsDevSlp[2]" = "1"
                 end
 
-		# Bus to chip EC ITE8586E
+		        # Bus to chip EC ITE8586E
                 device ref lpc_espi on
                         register "serirq_mode" = "SERIRQ_CONTINUOUS"
                         register "gen1_dec" = "0x007c1601"
