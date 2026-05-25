@@ -72,6 +72,6 @@ This section provides the information of the LPC ports.
 |  LPC_FRAME#_TPM  |    *     |                       |
 
 > [!NOTE]
-> The LPC pins that in its name ends with _TPM really are nos usable in this board because the component is not soldier.
+> The LPC pins that in its name ends with _TPM really are not usable in this board because the component is not soldier.
 
 [Back to main documentation](README.md)
