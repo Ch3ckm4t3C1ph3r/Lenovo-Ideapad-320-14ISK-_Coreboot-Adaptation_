@@ -7,6 +7,7 @@ Product URL: https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/30
 
 [Processor]
 Vendor name: Intel (R) Corporation
+Socket designation: UC1
 ID: i5-6200U
 Max Speed: 2.30GHz
 Signature:
@@ -30,6 +31,7 @@ Machine type: 80XG
 [BIOS/UEFI]
 Vendor name: LENOVO
 Manufacturer: winbond
+Socket designation: UC3
 Version: 4WCN41WW
 Release date: 2018-07-23
 Revision: 1.41
