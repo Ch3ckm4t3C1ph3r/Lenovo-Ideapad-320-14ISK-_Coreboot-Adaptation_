@@ -6,6 +6,7 @@ chip soc/intel/skylake
         register "PmConfigSlpS4MinAssert" = "1"         # 1s
         register "PmConfigSlpSusMinAssert" = "3"        # 500ms
         register "PmConfigSlpAMinAssert" = "3"          # 2s
+		register "SkipExtGfxScan" = "1"
 
         device domain 0 on
                 subsystemid 0x17aa 0x382f inherit
@@ -54,21 +55,21 @@ chip soc/intel/skylake
 			
 			        # EC conected to the port number 0x4e
                     chip superio/ite/it8528e
-				        device pnp 2e.0 off end	     # Flopy (don't exist)
-				        device pnp 2e.1 off end      # Com1
-				        device pnp 2e.2 off end      # Com2
-				        device pnp 2e.4 off end	     # SWUC
-				        device pnp 2e.5 on	     # Mouse PS/2
-					        io 0x60 = 0x60
+				        device pnp 4e.0 off end	     # Flopy (don't exist)
+				        device pnp 4e.1 off end      # Com1
+				        device pnp 4e.2 off end      # Com2
+				        device pnp 4e.4 off end	     # SWUC
+				        device pnp 4e.5 on	     	 # Mouse PS/2
+					    	io 0x60 = 0x60
 					        io 0x62 = 0x64
 					        irq 0x70 = 12
 				        end
-                        device pnp 2e.6 on           # Keyboard PS/2
+                        device pnp 4e.6 on           # Keyboard PS/2
                             io 0x60 = 0x60
                             io 0x62 = 0x64
                             irq 0x70 = 1
                         end
-                        device pnp 2e.11 on          # PMC1 (Energy & Batery)
+                        device pnp 4e.11 on          # PMC1 (Energy & Batery)
                             io 0x60 = 0x62
                             io 0x62 = 0x66
                         end
