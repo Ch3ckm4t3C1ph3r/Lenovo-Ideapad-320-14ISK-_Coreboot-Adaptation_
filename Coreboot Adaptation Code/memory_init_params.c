@@ -6,7 +6,7 @@ void mainboard_memory_init_params(FSPM_UPD *mupd)
 {
 	FSP_M_CONFIG *mem_cfg = &mupd->FspmConfig;
 	struct spd_block blk = {
-		.addr_map = { 0x4e, 0x52 }
+		.addr_map = { 0x00, 0x52 }
 	};
 
 
@@ -15,7 +15,7 @@ void mainboard_memory_init_params(FSPM_UPD *mupd)
 	mem_cfg->MemorySpdDataLen = CONFIG_DIMM_SPD_SIZE;
 
 	/* Scan standard SMBus address to dectect RAM,
-	 * 0x50 Channel A Slot 1, soldier
+	 * 0x50 Channel A Slot 1, solded
 	 * 0x52 Channel B Slot 2, modular
 	 */
 
