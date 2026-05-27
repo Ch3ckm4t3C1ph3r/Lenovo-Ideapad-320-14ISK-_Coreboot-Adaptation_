@@ -1,12 +1,12 @@
 # SPDX-License-Identifier: GPL-2.0-only
+# CBFS_SIZE 0x5f0000
 
 if BOARD_LENOVO_SKL_IDEAPAD_320_14ISK
 
 config BOARD_SPECIFIC_OPTIONS
     def_bool y
-	#select AZALIA_USE_LEGACY_VERB_TABLE
+	select AZALIA_USE_LEGACY_VERB_TABLE
 	select BOARD_ROMSIZE_KB_8192
-	#select HAVE_ACPI_RESUME
 	select HAVE_ACPI_TABLES
 	select INTEL_GMA_HAVE_VBT
 	select MAINBOARD_HAS_LIBGFXINIT
@@ -15,17 +15,16 @@ config BOARD_SPECIFIC_OPTIONS
 	select SYSTEM_TYPE_LAPTOP
     select SUPERIO_ITE_IT8528E
     select ITE_ENV_CTRL
+	select SPI_FLASH
     select HAVE_IFD_BIN
     select HAVE_ME_BIN
+	select DRIVERS_I2C_GENERIC
 
 config MAINBOARD_DIR
 	default "lenovo/skl_ideapad320-14isk"
 
 config MAINBOARD_PART_NUMBER
 	default "320-14isk"
-
-config CBFS_SIZE
-	default 0x5f0000
 
 config MAX_CPUS
 	default 8
@@ -35,9 +34,6 @@ config DIMM_MAX
 
 config DIMM_SPD_SIZE
 	default 512	# DDR4
-
-config CONSOLE_SERIAL
-	default y
 
 config NO_POST
 	default n
