@@ -169,16 +169,17 @@ flowchart LR;
     class e1,e2,e3 edgeStyle
 ```
 
-## Configure the boot process to enable the UART messages :toolbox:
-If you want to configure Coreboot to enable the UART protocol to see real-time events of the board these are the requirements and steps of doing so.
-<br><br>Requirements:
+## How to access the UART port :toolbox:
+If you want to access the UART port to see real-time events of the board these are the requirements and steps of doing so.
+<br><br>Materials:
 * Magnetic wires of 0.1mm.
 * Welder of intechangable tips (preferable) with a fine tip (needed).
 * Debugger probe based on FT2232H chips (FT2232HL).
-> [!NOTE]
-> You can find the config and the C files for use with OpenOCD, also.
 
-**[Here you will find the instructions to enable the UART protocol]**
+> [!NOTE]
+> You can enable coreboots logs enabling CONSOLE ROM region logs in coreboot configuration, if you not have soldering skills.
+
+**[Here you will find the instructions to enable the UART protocol; you need soldering skills]**
 
 <!-- TO DO: Give a step-by-step instructions to configure the coreboot program to enable UART protocol. -->
 
