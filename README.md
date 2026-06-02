@@ -22,8 +22,8 @@ This chip support the <code>PREW</code> permissions and the SPI protocol.
 Core (Inside) i5-6200U Skylake Arch
 
 ### OS Used
-Linux Mint.
-<br>However, you can use any Linux-based operating system (every distro). :penguin:
+Arch Linux 2021 edition is used to extract the computer's information.
+<br>Booting it with ```loglevel=15 selinux=0 iomem=relaxed strict-devmem=0 lockdown=off nopat``` :penguin:
 
 ### Flash Program
 ```bash
