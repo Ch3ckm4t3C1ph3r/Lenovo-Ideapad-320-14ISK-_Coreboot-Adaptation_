@@ -23,7 +23,7 @@ Core (Inside) i5-6200U Skylake Arch
 
 ### OS Used
 Arch Linux 2021 edition is used to extract the computer's information.
-<br>Booting it with ```loglevel=15 selinux=0 iomem=relaxed strict-devmem=0 lockdown=off nopat``` :penguin:
+<br>Booting it with ```loglevel=15 selinux=0 iomem=relaxed strict-devmem=0 lockdown=off nopat``` :penguin:. Also, this OS edition is tested with SeaBIOS and, in results, it boots correctly.
 
 ### Flash Program
 ```bash
