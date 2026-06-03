@@ -23,4 +23,18 @@ DefinitionBlock(
 		#include <soc/intel/skylake/acpi/systemagent.asl>
 		#include <soc/intel/skylake/acpi/pch.asl>
 	}
+
+	Scope (\_SB.PCI0.LPCB)
+	{
+			#include <drivers/pc80/pc/ps2_keyboard.asl>
+
+			Device (EC0)
+			{
+					Name (_HID, EISAID ("PNP0C09"))
+					Name (_UID, One)
+					Method (_STA, 0, NotSerialized) { Return (0x0F) }
+
+					// #include "acpi/ec.asl"
+			}
+	}
 }
