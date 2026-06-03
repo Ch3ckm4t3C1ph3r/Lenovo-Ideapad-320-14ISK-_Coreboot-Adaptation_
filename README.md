@@ -15,7 +15,7 @@ You can find more information, about the datasheets, schematic, boardview (i rec
 
 ## Specifications
 ### Target Chip
-The chip that this specific board of the adaptation has are the W25Q64JVSIQ (you should select W25Q64JV-.Q if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
+The chip, that this specific board of the adaptation has, are the W25Q64JVSIQ (you should select W25Q64JV-.Q if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
 This chip support the <code>PREW</code> permissions and the SPI protocol.
 
 ### Board Processor
