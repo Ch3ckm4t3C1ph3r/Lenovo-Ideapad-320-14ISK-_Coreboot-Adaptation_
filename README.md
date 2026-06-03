@@ -188,6 +188,18 @@ If you want to access the UART port to see real-time events of the board these a
 
 <!-- TO DO: Give problems finded when test the program. -->
 
+## How to add GRUB2 modules correctly?
+[Steps to add GRUB2 modules]
+1. Enter to the Coreboot configuration
+```bash
+make menuconfig
+```
+2. Select Paylad --> Add extra GRUB modules
+3. Write the module name.
+
+> [!NOTE]
+> To knowthe exact module name execute the following command. <code>COMMAND</code>
+
 ## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
 [^2]: [Coreboot for Developers](https://www.coreboot.org/developers.html).
