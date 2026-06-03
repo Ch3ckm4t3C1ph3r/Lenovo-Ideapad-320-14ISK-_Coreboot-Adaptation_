@@ -30,7 +30,7 @@ Arch Linux 2021 edition is used to extract the computer's information.
 flashrom
 ```
 > [!WARNING]
-> You need to verify that the firm of the contents of your chip is the same as one of the BIN files I give you. By, first, making copies of the contents of your BIOS-UEFI chip with <code>flashrom -p ch341a_spi -c W25Q64JV-.Q -r</code>
+> You need to verify that the firm of the contents of your chip is the same as one of the ROM files I give you. By, first, making copies of the contents of your BIOS-UEFI chip with <code>flashrom -p ch341a_spi -c W25Q64JV-.Q -r <BIOS-UEFI_chip_image> </code>
 
 ### Flash Tool
 CH341A Pro Kit with SPI chip programer adapter.
