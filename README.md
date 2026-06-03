@@ -200,7 +200,7 @@ make menuconfig
 3. Write the module name.
 
 > [!NOTE]
-> To knowthe exact module name execute the following command. <code>COMMAND</code>
+> To know the available, execute the following command. <code>COMMAND</code>
 
 ## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
