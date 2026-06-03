@@ -97,7 +97,7 @@ git clone https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-
 cd ../../../../
 ```
 
-**7.** Compile the configurationto to configure the ROM image to compile the firmware (selecting the general base code of coreboot with specific source code for manage the board; select the code behind <code>src/soc/intel/skylake</code> and <code>behid src/mainboard/lenovo/skl_ideapad320-14isk</code>).
+**7.** Compile the configuration to configure the ROM image to compile the firmware (selecting the general base code of coreboot with specific source code for manage the board; select the code behind <code>src/soc/intel/skylake</code> and <code>behid src/mainboard/lenovo/skl_ideapad320-14isk</code>).
 
 > [!IMPORTANT]
 > If you want to make and test the coreboot image, that you can find as coreboot_ideapad_320_14isk.rom in this repo, you can follow the config.log file contents.
@@ -159,7 +159,7 @@ flowchart LR;
           p1{GRUB}
         end
         
-        p1{GRUB} e3@---->|The user selects the second payload from the menu|UNION((*)) e4@--> p2_1[SeaBIOS] & p2_2[TianoCore] & p2_3[coreinfo] & p2_4[Memtest86+]
+        p1{GRUB} e3@---->|The user selects the second payload from the menu|UNION((*)) e4@--> p2_1[Tianocore] & p2_2[SeaBIOS] & p2_3[coreinfo] & p2_4[Memtest86+]
     
         subgraph sbg4[Second Payload]
           p2_1[SeaBIOS] & p2_2[TianoCore] & p2_3[coreinfo] & p2_4[Memtest86+]
