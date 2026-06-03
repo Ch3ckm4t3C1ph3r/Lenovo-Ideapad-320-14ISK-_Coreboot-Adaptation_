@@ -174,6 +174,10 @@ flowchart LR;
 
 ## How to access the UART port :toolbox:
 If you want to access the UART port to see real-time events of the board these are the requirements and steps of doing so.
+
+> [!CAUTION]
+> Take care in the soldering kit you buy, because you need to apply specific temperature level and get a fine tip to don't burn the around components.
+
 <br><br>Materials:
 * Magnetic wires of 0.1mm.
 * Fundent flux.
