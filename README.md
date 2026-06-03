@@ -162,7 +162,7 @@ flowchart LR;
         p1{GRUB} e3@---->|The user selects the second payload from the menu|UNION((*)) e4@--> p2_1[Tianocore] & p2_2[SeaBIOS] & p2_3[coreinfo] & p2_4[Memtest86+]
     
         subgraph sbg4[Second Payload]
-          p2_1[SeaBIOS] & p2_2[TianoCore] & p2_3[coreinfo] & p2_4[Memtest86+]
+          p2_1[Tianocore] & p2_2[SeaBIOS] & p2_3[coreinfo] & p2_4[Memtest86+]
         end
     end
 
