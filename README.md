@@ -97,7 +97,7 @@ cd ../../../../
 **7.** Compile the configurationto to configure the ROM image to compile the firmware (selecting the general base code of coreboot with specific source code for manage the board; select the code behind <code>src/soc/intel/skylake</code> and <code>behid src/mainboard/lenovo/skl_ideapad320-14isk</code>).
 
 > [!IMPORTANT]
-> If you want to make and test the coreboot image, that you can find as coreboot.rom in this repo, you can follow the config.log file contents.
+> If you want to make and test the coreboot image, that you can find as coreboot_ideapad_320_14isk.rom in this repo, you can follow the config.log file contents.
 
 > [!NOTE]
 > If you want to disable the TPM initialization and override the generation of TPM2 ACPI table you need to deselect the TPM Option. As appears in the following image.
