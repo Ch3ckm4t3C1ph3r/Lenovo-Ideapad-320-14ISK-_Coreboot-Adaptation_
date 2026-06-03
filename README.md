@@ -41,10 +41,10 @@ You can find more information of UART, JTAG and LPC ports in [this document](HAR
 ## BIOS-UEFI ROM Files
 You find a directory that save the flat binary files that are in the BIOS-UEFI (has the both boot modes; can emulate the real-mode legacy boot by enabled the proper option in UI menu) chip.
 
-The HAP enabled bit BIN files has the most of the content of the Intel ME removed and the HAP bit set by me_cleaner.py script.
+The HAP enabled bit ROM files has the most of the content of the Intel ME removed and the HAP bit set by me_cleaner.py script.
 
 
-> I recommend you to use UEFI Tool to view the contents of the BIN files chip. To see the structure of regions.
+> I recommend you to use UEFI Tool to view the contents of the ROM files chip. To see the structure of regions.
 
 ## Reverse Engineering :symbols: :microscope: :shipit:
 We reverse engineering the EC (Embeded Controller) chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip through LPC protocol.
