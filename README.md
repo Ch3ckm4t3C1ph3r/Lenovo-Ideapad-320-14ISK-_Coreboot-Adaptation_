@@ -176,6 +176,8 @@ flowchart LR;
 If you want to access the UART port to see real-time events of the board these are the requirements and steps of doing so.
 <br><br>Materials:
 * Magnetic wires of 0.1mm.
+* Fundent flux.
+* UV mask (liquid)
 * Welder of intechangable tips (preferable) with a fine tip (needed).
 * Debugger probe based on FT2232H chips (FT2232HL).
 
