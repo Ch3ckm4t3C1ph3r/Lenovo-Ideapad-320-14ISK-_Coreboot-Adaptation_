@@ -204,8 +204,7 @@ make menuconfig
 3. Write the module name.
 
 > [!NOTE]
-> To know the available GRUB2 modules, execute the following command. <code>grep "name =" payloads/external/GRUB2/grub2/grub-core/Makefile.core.def | awk '{print $3}' | tr -d ';' | sort | uniq
-</code>
+> To know the available GRUB2 modules, execute the following command. <code>grep "name =" payloads/external/GRUB2/grub2/grub-core/Makefile.core.def | awk '{print $3}' | tr -d ';' | sort | uniq</code>
 
 ## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
