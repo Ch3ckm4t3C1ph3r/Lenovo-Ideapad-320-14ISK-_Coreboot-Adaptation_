@@ -53,6 +53,9 @@ We reverse engineering the EC (Embeded Controller) chip by getting the expected 
 
 **[Still in Process]**
 
+
+> [!NOTE]
+> We based on the ITE configuration siurce code of IT8528E at <code>src/superio/ite/it8528e/</code>
 <!-- TO DO: Give all detailed information in the directory when the Reversing are completed. -->
 
 ## Compilation :hammer_and_wrench:
