@@ -209,4 +209,4 @@ make menuconfig
 ## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
 [^2]: [Coreboot for Developers](https://www.coreboot.org/developers.html).
-[^3]: [Coreboot | Starting from Scratch](https://doc.coreboot.org/tutorial/part1.html).
+[^3]: [Coreboot Starting from Scratch](https://doc.coreboot.org/tutorial/part1.html).
