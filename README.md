@@ -135,14 +135,18 @@ mv grub.cfg ../../../../; mv unicode.pf2 ../../../../; mv seabios-bootorder.txt 
 cd ../../../../
 ```
 
-**14.** Compile the configuration to configure the ROM image to compile the firmware, as in the image appears.
+**14.** Compile the configuration to configure the ROM image to compile the firmware, as in the image appears.[^3]
 ![Select Lenovo Ideapad 320-14ISK NM-B241 as the mainboard](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/select_ideapad_320_14isk_board_model_menuconfig.png)
 
 > [!IMPORTANT]
 > If you want to make and test the coreboot image, that you can find as `coreboot_ideapad_320_14isk.rom` in this repo, you can follow the config.log file contents.
 
+> [!IMPORTANT]
+> You need to check `config.log` file in order to view the correct Coreboot configuration.
+
 > [!NOTE]
 > If you want to enable the TPM initialization, you need to select the TPM Option. As appears in the following image.
+![]()
 
 <!-- **[Image of the selected TPM compilation option in menuconfig of coreboot]** -->
 
