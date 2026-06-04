@@ -135,7 +135,7 @@ mv grub.cfg ../../../../; mv unicode.pf2 ../../../../; mv seabios-bootorder.txt 
 cd ../../../../
 ```
 
-**14.** Compile the configuration to configure the ROM image to compile the firmware, as in the image appears.[^3]
+**14.** Compile the configuration of the ROM image, as in the image appears.[^3]
 ![Select Lenovo Ideapad 320-14ISK NM-B241 as the mainboard](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/select_ideapad_320_14isk_board_model_menuconfig.png)
 
 > [!IMPORTANT]
