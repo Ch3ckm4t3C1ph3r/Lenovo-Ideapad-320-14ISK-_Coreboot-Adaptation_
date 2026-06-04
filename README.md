@@ -259,9 +259,12 @@ Here you find patches to payloads (secondsry & primary).
 ### How to apply this patches?
 Copy the `.patch` file in the coreboot root directory and execute this commands.
 
+> [!IMPORTANT]
+> You should to be in the root directory of the src payload to apply the patches, correspondingly.
+
 * GRUB2 below text modification
 ```bash
-apply patch payloads/external/coreinfo ...
+git apply <path_file>
 ```
 * 
 
