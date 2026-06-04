@@ -1,0 +1,74 @@
+diff --git a/grub-core/normal/menu_text.c b/grub-core/normal/menu_text.c
+index b1321eb26..9daf0e604 100644
+--- a/grub-core/normal/menu_text.c
++++ b/grub-core/normal/menu_text.c
+@@ -181,7 +181,7 @@ command-line or ESC to discard edits and return to the GRUB menu."),
+       if (nested)
+ 	{
+ 	  ret += grub_print_message_indented_real
+-	    (_("Press enter to boot the selected OS, "
++	    (_("Press enter to boot the selected payload, "
+ 	       "`e' to edit the commands before booting "
+ 	       "or `c' for a command-line. ESC to return previous menu."),
+ 	     STANDARD_MARGIN, STANDARD_MARGIN, term, dry_run);
+diff --git a/grub-core/term/at_keyboard.c b/grub-core/term/at_keyboard.c
+index f8a129eb7..8207225c2 100644
+--- a/grub-core/term/at_keyboard.c
++++ b/grub-core/term/at_keyboard.c
+@@ -138,6 +138,7 @@ write_mode (int mode)
+   return (i != GRUB_AT_TRIES);
+ }
+ 
++#if !defined (GRUB_MACHINE_COREBOOT)
+ static int
+ query_mode (void)
+ {
+@@ -161,10 +162,12 @@ query_mode (void)
+     return 3;
+   return 0;
+ }
++#endif
+ 
+ static void
+ set_scancodes (void)
+ {
++#if !defined (GRUB_MACHINE_COREBOOT)
+   /* You must have visited computer museum. Keyboard without scancode set
+      knowledge. Assume XT. */
+   if (!grub_keyboard_orig_set)
+@@ -173,20 +176,33 @@ set_scancodes (void)
+       ps2_state.current_set = 1;
+       return;
+     }
++#endif
+ 
+ #if !USE_SCANCODE_SET
+   ps2_state.current_set = 1;
+   return;
+-#else
++#endif
+ 
++#if defined (GRUB_MACHINE_COREBOOT)
++  /* enable translation */
++  grub_keyboard_controller_write (grub_keyboard_controller_orig
++				  & ~KEYBOARD_AT_DISABLE);
++#else
++  /* if not coreboot, disable translation and try mode 2 first, before 1 */
+   grub_keyboard_controller_write (grub_keyboard_controller_orig
+ 				  & ~KEYBOARD_AT_TRANSLATE
+ 				  & ~KEYBOARD_AT_DISABLE);
++#endif
+ 
+   keyboard_controller_wait_until_ready ();
+   grub_outb (KEYBOARD_COMMAND_ENABLE, KEYBOARD_REG_DATA);
+-
+   write_mode (2);
++
++#if defined (GRUB_MACHINE_COREBOOT)
++  /* mode 2 with translation, so make grub treat as set 1 */
++  ps2_state.current_set = 1;
++#else
++  /* if not coreboot, translation isn't set; test 2 and fall back to 1 */
+   ps2_state.current_set = query_mode ();
+   grub_dprintf ("atkeyb", "returned set %d\n", ps2_state.current_set);
+   if (ps2_state.current_set == 2)
