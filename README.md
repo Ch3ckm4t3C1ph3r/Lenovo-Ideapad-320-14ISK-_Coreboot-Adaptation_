@@ -208,7 +208,14 @@ make menuconfig
 
 ## Personalized modifications
 Here you find patches to payloads (secondsry & primary).
+
+* GRUB2 below text modification
 <!-- Patches Links -->
+
+### How to apply this patches?
+Copy the `.patch` file in the coreboot root directory and execute this commands.
+
+* GRUB2 below text modification
 
 ## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
