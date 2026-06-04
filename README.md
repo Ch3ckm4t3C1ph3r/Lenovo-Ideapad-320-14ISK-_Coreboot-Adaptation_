@@ -200,7 +200,7 @@ If you want to access the UART port to see real-time events of the board these a
 make menuconfig
 ```
 **2.** Select `Payload --> Extra modules to include in GRUB image`.<!-- [CB Payload Menu hihglighting this option] -->
-[Add extra modules GRUB2 option, Coreboot menuconfig highlight](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/grub_extra_modules_menuconfig.png)
+![Add extra modules GRUB2 option, Coreboot menuconfig highlight](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/grub_extra_modules_menuconfig.png)
 
 **3.** Write the module name.
 
