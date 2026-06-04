@@ -1,0 +1,13 @@
+diff --git a/src/fw/coreboot.c b/src/fw/coreboot.c
+index 7c0954b5..646daba9 100644
+--- a/src/fw/coreboot.c
++++ b/src/fw/coreboot.c
+@@ -553,6 +553,8 @@ cbfs_run_payload(struct cbfs_file *fhdr)
+ void
+ cbfs_payload_setup(void)
+ {
++    return;
++
+     if (!CONFIG_COREBOOT_FLASH)
+         return;
+     struct romfile_s *file = NULL;
