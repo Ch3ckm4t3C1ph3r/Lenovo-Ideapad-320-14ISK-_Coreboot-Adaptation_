@@ -9,28 +9,28 @@ This repository holds the information that we find from the reverese enginering 
 > This adaptation is based on the Thinkpad Skylake T470s computer.
 
 Also you find a file called `board_info.txt` that saves the general information of the board for reference.
-You can find more information, about the datasheets, schematic, boardview (I recommend to use FlexBV5 to open the `.tvw` file) and hardware info files, in the open-source provider cloud file repository in this link: [Cloud File Space](https://eli.it.tabdigital.cloud/s/ci6C8onocRfkkLb) 
+You can find more information, about the datasheets, schematic, boardview (I recommend to use **FlexBV5** to open the `.tvw` file) and hardware info files, in the open-source provider cloud file repository in this link: [Cloud File Space](https://eli.it.tabdigital.cloud/s/ci6C8onocRfkkLb) 
 
 > You cand find the lastest updates in the new publications of my mastodon social site.
 
 ## Specifications
 ### Target Chip
-The chip, that this specific board of the adaptation has, are the `W25Q64JVSIQ` (you should select `W25Q64JV-.Q` if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
-This chip support the <code>PREW</code> permissions and the SPI protocol.
+The chip, that this specific board of the adaptation has, are the `W25Q64JVSIQ` (you should select `W25Q64JV-.Q` if you want to use `flashrom` command). You can find this information and more in the `board_info.txt` file.
+This chip support the `PREW` permissions and the **SPI protocol**.
 
 ### Board Processor
 Core (Inside) i5-6200U Skylake Arch
 
 ### OS Used
 Arch Linux 2021 edition is used to extract the computer's information.
-<br>Booting it with ```loglevel=15 selinux=0 iomem=relaxed strict-devmem=0 lockdown=off nopat``` :penguin:. Also, this OS edition is tested with SeaBIOS and, in results, it boots correctly.
+<br>Booting it with `loglevel=15 selinux=0 iomem=relaxed strict-devmem=0 lockdown=off nopat` :penguin:. Also, this OS edition is **tested with SeaBIOS** and, in results, it boots correctly.
 
 ### Flash Program
 ```bash
 flashrom
 ```
 > [!WARNING]
-> You need to verify that the firm of the contents of your chip is the same as one of the ROM files I give you. By, first, making copies of the contents of your BIOS-UEFI chip with <code>flashrom -p ch341a_spi -c W25Q64JV-.Q -r <BIOS-UEFI_chip_image> </code>
+> You need to verify that the firm of the contents of your chip is the same as one of the ROM files I give you. By, first, making copies of the contents of your BIOS-UEFI chip wit `flashrom -p ch341a_spi -c W25Q64JV-.Q -r <BIOS-UEFI_chip_image>`
 
 ### Flash Tool
 CH341A Pro Kit with SPI chip programer adapter.
@@ -41,21 +41,21 @@ You can find more information of UART, JTAG and LPC ports in [this document](HAR
 ## BIOS-UEFI ROM Files
 You find a directory that save the flat binary files that are in the BIOS-UEFI (has the both boot modes; can emulate the real-mode legacy boot by enabled the proper option in UI menu) chip.
 
-The HAP enabled bit ROM files has the most of the content of the Intel ME removed and the HAP bit set by me_cleaner.py script.
+The HAP enabled bit ROM files has the most of the content of the **Intel ME** removed and the **HAP bit set** by `me_cleaner.py` script.
 
 
 > I recommend you to use UEFI Tool to view the contents of the ROM files chip. To see the structure of regions.
 
 ## Reverse Engineering :symbols: :microscope: :shipit:
-We reverse engineering the EC (Embeded Controller) chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip through LPC protocol.
+We reverse engineering the **EC (Embeded Controller)** chip by getting the expected commands in the comunications between the EC chip and the processor (host) chip through **LPC protocol**.
 
-> The tool we used are the logical analyzer Lakeview Research Saleae Logic of 8 channels.
+> The tool we used are the logical analyzer `Lakeview Research Saleae` Logic of 8 channels.
 
 **[Still in Process]**
 
 
 > [!NOTE]
-> We based on the ITE configuration siurce code of IT8528E at <code>src/superio/ite/it8528e/</code>
+> We based on the ITE configuration siurce code of IT8528E at `src/superio/ite/it8528e/`
 <!-- TO DO: Give all detailed information in the directory when the Reversing are completed. -->
 
 ## Compilation :hammer_and_wrench: [^3]
@@ -63,7 +63,7 @@ We reverse engineering the EC (Embeded Controller) chip by getting the expected 
 > [!CAUTION]
 > Please don't try this compilation instructions because this adaptation is still in process.
 > If you try it probably Coreboot doesn't work because the propetary, publicly missing information, of the board
-> change the hex command values that board expects to, for example, communicate correctly to the EC chip and CORRECTLY POWER UP your computer! 
+> change the hex command values that board expects to, for example, communicate correctly to the EC chip and **CORRECTLY POWER UP your computer!** 
 
 If you want to modify the code to configure the boot process as you want. Then this section provide the steps to correctly compile the C code for you to flash in the chip.
 
@@ -72,7 +72,7 @@ If you want to modify the code to configure the boot process as you want. Then t
 git clone https://review.coreboot.org/coreboot.git
 ```
 
-**2.** Change the current directory to <code>coreboot/src/mainboard/lenovo</code>
+**2.** Change the current directory to `coreboot/src/mainboard/lenovo`
 ```bash
 cd coreboot/src/mainboard/lenovo
 ```
@@ -100,7 +100,7 @@ cd ../../../../
 **7.** Compile the configuration to configure the ROM image to compile the firmware, as in the image appears.
 
 > [!IMPORTANT]
-> If you want to make and test the coreboot image, that you can find as coreboot_ideapad_320_14isk.rom in this repo, you can follow the config.log file contents.
+> If you want to make and test the coreboot image, that you can find as `coreboot_ideapad_320_14isk.rom` in this repo, you can follow the config.log file contents.
 
 > [!NOTE]
 > If you want to enable the TPM initialization, you need to select the TPM Option. As appears in the following image.
@@ -111,7 +111,7 @@ cd ../../../../
 make menuconfig
 ```
 
-**8.** Compile the firmware (the CBFS; with blobs included) with <code>make</code>
+**8.** Compile the firmware (the CBFS; with blobs included).
 ```bash
 make
 ```
@@ -179,11 +179,11 @@ If you want to access the UART port to see real-time events of the board these a
 > Take care in the soldering kit you buy, because you need to apply specific temperature level and get a fine tip to don't burn the around components.
 
 <br><br>Materials:
-* Magnetic wires of 0.1mm.
+* Magnetic wires of `0.1mm`.
 * Fundent flux.
 * UV mask (liquid).
 * Welder of intechangable tips (preferable) with a fine tip (needed).
-* Debugger probe based on FT2232H chips (FT2232HL).
+* Debugger probe based on `FT2232H` chips (`FT2232HL`).
 
 > [!NOTE]
 > You can enable coreboots logs enabling CONSOLE ROM region logs in coreboot configuration, if you not have soldering skills.
@@ -199,11 +199,11 @@ If you want to access the UART port to see real-time events of the board these a
 ```bash
 make menuconfig
 ```
-2. Select `Payload --> Extra modules to include in GRUB image`.<!-- [image] -->
+2. Select `Payload --> Extra modules to include in GRUB image`.<!-- [CB Payload Menu hihglighting this option] -->
 3. Write the module name.
 
 > [!NOTE]
-> To know the available GRUB2 modules, execute the following command. <code>grep "name =" payloads/external/GRUB2/grub2/grub-core/Makefile.core.def | awk '{print $3}' | tr -d ';' | sort | uniq</code>
+> To know the available GRUB2 modules, execute the following command. `grep "name =" payloads/external/GRUB2/grub2/grub-core/Makefile.core.def | awk '{print $3}' | tr -d ';' | sort | uniq`
 
 ## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
