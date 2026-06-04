@@ -98,7 +98,8 @@ cd ../../../../
 ```
 
 **7.** Compile the configuration to configure the ROM image to compile the firmware, as in the image appears.
-![Select Lenovo Ideapad 320-14ISK NM-B241 as the mainboard](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/grub_extra_modules_menuconfig.png)
+![Select Lenovo Ideapad 320-14ISK NM-B241 as the mainboard](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/select_ideapad_320_14isk_board_model_menuconfig.png)
+
 > [!IMPORTANT]
 > If you want to make and test the coreboot image, that you can find as `coreboot_ideapad_320_14isk.rom` in this repo, you can follow the config.log file contents.
 
