@@ -252,6 +252,8 @@ Copy the `.patch` file in the coreboot root directory and execute this commands.
 
 * GRUB2 below text modification
 ```bash
+cd payloads/external/GRUB2/grub2/
+
 git apply grub_menutext_modification.patch
 ```
 * 
