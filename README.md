@@ -144,12 +144,6 @@ cd ../../../../
 > [!IMPORTANT]
 > You need to check `config.log` file in order to view the correct Coreboot configuration.
 
-> [!NOTE]
-> If you want to enable the TPM initialization, you need to select the TPM Option. As appears in the following image.
-![]()
-
-<!-- **[Image of the selected TPM compilation option in menuconfig of coreboot]** -->
-
 ```bash
 make menuconfig
 ```
