@@ -206,6 +206,10 @@ make menuconfig
 > [!NOTE]
 > To know the available GRUB2 modules, execute the following command. `grep "name =" payloads/external/GRUB2/grub2/grub-core/Makefile.core.def | awk '{print $3}' | tr -d ';' | sort | uniq`
 
+## Personalized modifications
+Here you find patches to payloads (secondsry & primary).
+<!-- Patches Links -->
+
 ## References
 [^1]: [Coreboot Documentation](https://doc.coreboot.org/index.html).
 [^2]: [Coreboot for Developers](https://www.coreboot.org/developers.html).
