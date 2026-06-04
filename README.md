@@ -200,6 +200,7 @@ If you want to access the UART port to see real-time events of the board these a
 make menuconfig
 ```
 **2.** Select `Payload --> Extra modules to include in GRUB image`.<!-- [CB Payload Menu hihglighting this option] -->
+
 **3.** Write the module name.
 
 > [!NOTE]
