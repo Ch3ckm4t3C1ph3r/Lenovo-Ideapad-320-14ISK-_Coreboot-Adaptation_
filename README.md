@@ -3,19 +3,19 @@
 ![GitHub branch status](https://img.shields.io/github/checks-status/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/main)
 ![Build Status](https://img.shields.io/badge/build-in_progress-yellow)
 <br>
-This repository holds the information that we find from the reverese enginering process for the board model in the title of this document (NM-B241) and the source code you can compile to test it or apply your customs.  Even so you will find pre-compiled files (.rom files) that you can use to now flash to the chip, in order to test it.
+This repository holds the information that we find from the reverese enginering process for the board model in the title of this document (`NM-B241`) and the source code you can compile to test it or apply your customs.  Even so you will find pre-compiled files (`.rom` files) that you can use to now flash to the chip, in order to test it.
 
 > [!NOTE]
-> This adaptation is based on the Thinkpad Skylake t470s computer.
+> This adaptation is based on the Thinkpad Skylake T470s computer.
 
-Also you find a file called board_info.txt that saves the general information of the board for reference.
-You can find more information, about the datasheets, schematic, boardview (i recommend to use FlexBV5 to open the .tvw file) and hardware info files, in the open-source provider cloud file repository in this link: [Cloud File Space](https://eli.it.tabdigital.cloud/s/ci6C8onocRfkkLb) 
+Also you find a file called `board_info.txt` that saves the general information of the board for reference.
+You can find more information, about the datasheets, schematic, boardview (i recommend to use FlexBV5 to open the `.tvw` file) and hardware info files, in the open-source provider cloud file repository in this link: [Cloud File Space](https://eli.it.tabdigital.cloud/s/ci6C8onocRfkkLb) 
 
 > You cand find the lastest updates in the new publications of my mastodon social site.
 
 ## Specifications
 ### Target Chip
-The chip, that this specific board of the adaptation has, are the W25Q64JVSIQ (you should select W25Q64JV-.Q if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
+The chip, that this specific board of the adaptation has, are the `W25Q64JVSIQ` (you should select `W25Q64JV-.Q` if you want to use ```flashrom``` command). You can find this information and more in the board_info.txt file.
 This chip support the <code>PREW</code> permissions and the SPI protocol.
 
 ### Board Processor
