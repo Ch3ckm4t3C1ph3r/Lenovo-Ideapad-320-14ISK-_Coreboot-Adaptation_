@@ -5,6 +5,8 @@ I discover by using the schematic, boardview , the physical motherboard and the 
 **[Still in changing; No complete information]**
 
 ## JTAG Ports
+![Physical JTAG Ports Location](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Reverse%20Engineering%20Results/Hardware%20Images/JTAG_pads.pdf)
+
 > [!NOTE]
 > This ports helps you to control the procesor!
 
