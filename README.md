@@ -1,4 +1,4 @@
-# Coreboot Adaptation<br>-------Lenovo Ideapad 320-14ISK<br>NM-B241 :rabbit2:
+# Coreboot Adaptation------------Lenovo Ideapad 320-14ISK<br>NM-B241 :rabbit2:
 [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0) 
 ![GitHub branch status](https://img.shields.io/github/checks-status/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/main)
 ![Build Status](https://img.shields.io/badge/build-in_progress-yellow)
