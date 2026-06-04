@@ -1,0 +1,61 @@
+diff --git a/payloads/coreinfo/coreinfo.c b/payloads/coreinfo/coreinfo.c
+index b01dfebd88..233cfae800 100644
+--- a/payloads/coreinfo/coreinfo.c
++++ b/payloads/coreinfo/coreinfo.c
+@@ -294,8 +294,11 @@ int main(int argc, char **argv)
+ 	init_pair(2, COLOR_WHITE, COLOR_BLACK);
+ 	init_pair(3, COLOR_BLACK, COLOR_WHITE);
+ 
+-	modwin = newwin(SCREEN_Y - 3, SCREEN_X, 1, 0);
+-	menuwin = newwin(2, SCREEN_X, SCREEN_Y - 2, 0);
++	int start_x = (COLS > SCREEN_X) ? (COLS - SCREEN_X) / 2 : 0;
++	int start_y = (LINES > SCREEN_Y) ? (LINES - SCREEN_Y) / 2 : 0;
++
++	modwin = newwin(SCREEN_Y - 3, SCREEN_X, start_y + 1, start_x);
++	menuwin = newwin(2, SCREEN_X, start_y + SCREEN_Y - 2, start_x);
+ 
+ 	wattrset(stdscr, COLOR_PAIR(1) | A_BOLD);
+ 	wattrset(modwin, COLOR_PAIR(2));
+diff --git a/payloads/external/GRUB2/Makefile b/payloads/external/GRUB2/Makefile
+index 4382ae60fa..3ebf83c85e 100644
+--- a/payloads/external/GRUB2/Makefile
++++ b/payloads/external/GRUB2/Makefile
+@@ -16,7 +16,7 @@ all: grub2
+ checkout:
+ 	echo "    GIT        GRUB2 $(NAME-y)"
+ 	test -d $(project_dir) || git clone $(project_git_repo) $(project_dir)
+-	git -C $(project_dir) fetch
++	#git -C $(project_dir) fetch
+ ifeq ($(shell test -d $(project_dir) && \
+        (git -C $(project_dir) status --ignored=no --untracked-files=no --porcelain)),)
+ 	git -C $(project_dir) checkout -f $(TAG-y)
+diff --git a/payloads/external/edk2/Makefile b/payloads/external/edk2/Makefile
+index 5b1f85ad91..429ccd61f1 100644
+--- a/payloads/external/edk2/Makefile
++++ b/payloads/external/edk2/Makefile
+@@ -43,9 +43,9 @@ BUILD_STR += -t GCC
+ BUILD_STR += -D BOOTLOADER=COREBOOT
+ ifneq ($(V),1)
+ BUILD_STR += -q
+-ifeq ($(CONFIG_EDK2_UEFIPAYLOAD),y)
+-BUILD_STR += -s
+-endif
++#ifeq ($(CONFIG_EDK2_UEFIPAYLOAD),y)
++#BUILD_STR += -s 0.7
++#endif
+ endif
+ 
+ BUILD_STR += -D BUILD_ARCH=X64
+diff --git a/util/inteltool/Makefile b/util/inteltool/Makefile
+index e6e122bc45..2334c5c444 100644
+--- a/util/inteltool/Makefile
++++ b/util/inteltool/Makefile
+@@ -8,7 +8,7 @@ CC      ?= gcc
+ INSTALL ?= /usr/bin/env install
+ PREFIX  ?= /usr/local
+ CFLAGS  ?= -O2 -g -Wall -Wextra -Wmissing-prototypes
+-LDFLAGS += -lpci -lz
++LDFLAGS += -lpci -lz -ludev -lresolv
+ 
+ CPPFLAGS += -I$(top)/util/inteltool
+ CPPFLAGS += -I$(top)/src/commonlib/include -I$(top)/src/commonlib/bsd/include
