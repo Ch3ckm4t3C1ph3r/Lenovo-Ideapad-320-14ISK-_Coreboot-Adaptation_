@@ -40,6 +40,8 @@ This ports, in summary, give you special debug functions that old motherboards d
 |     XDP_PRDY#     |                              |                       |
 
 ## UART Ports
+![Physical UART Ports Location](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Reverse%20Engineering%20Results/Hardware%20Images/UART_pads.pdf)
+
 > [!TIP]
 > You can use this ports to debug software that run directly to the hardware.
 > <br>So you can use it to debug Coreboot errors, or, also, kernels errors of some OS.
