@@ -67,37 +67,75 @@ We reverse engineering the **EC (Embeded Controller)** chip by getting the expec
 
 If you want to modify the code to configure the boot process as you want. Then this section provide the steps to correctly compile the C code for you to flash in the chip.
 
-**1.** Clone the Coreboot repository[^2]
+**1.** Clone the Coreboot repository.[^2]
 ```bash
 git clone https://review.coreboot.org/coreboot.git
 ```
 
-**2.** Change the current directory to `coreboot/src/mainboard/lenovo`
+**2.** Change the current directory to `coreboot/src/mainboard/lenovo/`.
 ```bash
-cd coreboot/src/mainboard/lenovo
+cd coreboot/src/mainboard/lenovo/
 ```
 
-**3.** Make the proper directory
+**3.** Make the proper directory.
 ```bash
 mkdir skl_ideapad320-14isk
 ```
 
-**4.** Change to the created directory
+**4.** Change to the created directory.
 ```
-cd skl_ideapad320-14isk
+cd skl_ideapad320-14isk/
 ```
 
-**5.** Clone this repository
+**5.** Clone only the root of this repository.
 ```bash
-git clone https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_.git
+git clone --filter=blob:none --sparse https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_.git
 ```
 
-**6.** Change to the Coreboot root directory[^1]
+**6.** Enter to the root repository clone.
+```bash
+cd Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/
+```
+
+**7.** Clone only the directory `Coreboot Adaptation Code`.
+```bash
+git sparse-checkout set "Coreboot Adaptation Code"
+```
+
+**8.** Change the current directory to the target directory.
+```bash
+cd Coreboot\ Adaptation\ Code/
+```
+
+
+**9.** Move all the contents of the `Coreboot Adaptation Code` to the mainboard src root directory.
+```bash
+mv * ../../
+```
+
+**10.** Change the current directory to the mainboard src directory.
+```bash
+cd ../../
+```
+
+**11.** Remove the remain repository root, that we don't need to compile.
+```bash
+rm -rf Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/
+```
+
+**12.** Move `grub.cfg`, `unicode.pf2` & `seabios-bootorder.txt` files in the coreboot root.
+```bash
+mv grub.cfg ../../../../; mv unicode.pf2 ../../../../; mv seabios-bootorder.txt ../../../../
+```
+> [!NOTE]
+> You can specify the relative path in the coreboot menuconfig that bypass the stage 12.
+
+**13.** Change to the Coreboot root directory.[^1]
 ```bash
 cd ../../../../
 ```
 
-**7.** Compile the configuration to configure the ROM image to compile the firmware, as in the image appears.
+**14.** Compile the configuration to configure the ROM image to compile the firmware, as in the image appears.
 ![Select Lenovo Ideapad 320-14ISK NM-B241 as the mainboard](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/select_ideapad_320_14isk_board_model_menuconfig.png)
 
 > [!IMPORTANT]
@@ -112,7 +150,7 @@ cd ../../../../
 make menuconfig
 ```
 
-**8.** Make the Coreboot ROM image (with blobs included).
+**15.** Make the Coreboot ROM image (with blobs included).
 ```bash
 make
 ```
