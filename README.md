@@ -103,9 +103,9 @@ cd ../../../../
 > If you want to make and test the coreboot image, that you can find as coreboot_ideapad_320_14isk.rom in this repo, you can follow the config.log file contents.
 
 > [!NOTE]
-> If you want to disable the TPM initialization and override the generation of TPM2 ACPI table you need to deselect the TPM Option. As appears in the following image.
+> If you want to enable the TPM initialization, you need to select the TPM Option. As appears in the following image.
 
-**[Image of the deselected TPM compilation option in menuconfig of coreboot]**
+<!-- **[Image of the selected TPM compilation option in menuconfig of coreboot]** -->
 
 ```bash
 make menuconfig
@@ -199,8 +199,7 @@ If you want to access the UART port to see real-time events of the board these a
 ```bash
 make menuconfig
 ```
-2. Select `Payload --> Extra modules to include in GRUB image`.
-[image]
+2. Select `Payload --> Extra modules to include in GRUB image`.<!-- [image] -->
 3. Write the module name.
 
 > [!NOTE]
