@@ -243,6 +243,7 @@ Here you find patches to payloads (secondary & primary).
 
 * [GRUB2 below text modification](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Patchs/grub_menutext_modification.patch)
 * [SeaBIOS hide payloads in menu](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Patchs/seabios_hide_payloads.patch)
+* [coreinfo menu centralization]()
 <!-- Patches Links -->
 
 ### How to apply this patches?
@@ -262,6 +263,13 @@ git apply grub_menutext_modification.patch
 cd payloads/external/SeaBIOS/seabios/
 
 git apply seabios_hide_payloads.patch
+```
+
+* coreinfo menu centralization
+```bash
+cd payloads/coreinfo/
+
+git apply coreinfo_centralization.patch
 ```
 
 ## References
