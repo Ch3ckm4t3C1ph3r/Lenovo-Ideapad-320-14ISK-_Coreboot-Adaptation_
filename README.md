@@ -1,7 +1,4 @@
-<div align="center">
-  <a href="README.md">📖 Inicio</a> •
-  <br><a href="HARDWARE.md">⚙️ Especificaciones de Puertos</a>
-</div>
+
 <hr>
 
 # Coreboot Adaptation<hr>Lenovo Ideapad 320-14ISK<br>[ NM-B241 ] :rabbit2:
