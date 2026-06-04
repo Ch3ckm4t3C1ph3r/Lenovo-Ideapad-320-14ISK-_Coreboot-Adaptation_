@@ -245,9 +245,9 @@ make menuconfig
 > To know the available GRUB2 modules, execute the following command. `grep "name =" payloads/external/GRUB2/grub2/grub-core/Makefile.core.def | awk '{print $3}' | tr -d ';' | sort | uniq`
 
 ## Personalized modifications
-Here you find patches to payloads (secondsry & primary).
+Here you find patches to payloads (secondary & primary).
 
-* GRUB2 below text modification
+* [GRUB2 below text modification](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Patchs/grub_menutext_modification.patch)
 <!-- Patches Links -->
 
 ### How to apply this patches?
