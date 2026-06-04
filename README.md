@@ -121,7 +121,7 @@ make
 Here is a diagram of the boot process using the GRUB as the primary payload an then, either seabios or tianocore, for ilustration of the default CBFS maked to boot steps. In this manner you can select boot in legacy mode or the native mode (UEFI). Saving the capability of select the boot mode of the original propietary BIOS firmware. 
 
 > [!NOTE]
-> Unfortunately, the ROM image not only have the Coreboot code because the **Intel ME blob & IFD is necessary** to turn on the RAM memory, not public data available to doing this, to replave with open-source at RAM stage.
+> Unfortunately, the ROM image not only have the Coreboot code because the **Intel ME blob & IFD is necessary** to turn on the RAM memory, not public data available to replace with open-source at RAM stage.
 
 
 
