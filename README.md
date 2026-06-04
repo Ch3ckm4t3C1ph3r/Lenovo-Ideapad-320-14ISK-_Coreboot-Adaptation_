@@ -1,6 +1,6 @@
 <div align="center">
   <a href="README.md">📖 Inicio</a> •
-  <a href="HARDWARE.md">⚙️ Especificaciones de Hardware</a> •
+  <a href="HARDWARE.md">⚙️ Especificaciones de Puertos</a>
 </div>
 <hr>
 
