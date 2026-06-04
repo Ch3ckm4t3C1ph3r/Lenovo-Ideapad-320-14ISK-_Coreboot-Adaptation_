@@ -5,6 +5,7 @@ I discover by using the schematic, boardview , the physical motherboard and the 
 **[Still in changing; No complete information]**
 
 ## JTAG Ports
+![Add extra modules GRUB2 option, Coreboot menuconfig highlight](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Images/grub_extra_modules_menuconfig.png)
 
 ![Physical JTAG Ports Location](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Reverse%20Engineering%20Results/Hardware%20Images/JTAG_pads.pdf)
 
