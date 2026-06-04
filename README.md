@@ -111,7 +111,7 @@ cd ../../../../
 make menuconfig
 ```
 
-**8.** Compile the firmware (the CBFS; with blobs included).
+**8.** Make the Coreboot ROM image (with blobs included).
 ```bash
 make
 ```
