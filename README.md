@@ -1,6 +1,5 @@
 # <div align="center">Coreboot Adaptation<hr>Lenovo Ideapad 320-14ISK<br>[ NM-B241 ]<br>:rabbit2:</div>
 [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0) 
-![GitHub branch status](https://img.shields.io/github/checks-status/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/main)
 ![Build Status](https://img.shields.io/badge/build-in_progress-yellow)
 <br>
 This repository holds the information that we find from the reverese enginering process for the board model in the title of this document (`NM-B241`) and the source code you can compile to test it or apply your customs.  Even so you will find pre-compiled files (`.rom` files) that you can use to now flash to the chip, in order to test it.
