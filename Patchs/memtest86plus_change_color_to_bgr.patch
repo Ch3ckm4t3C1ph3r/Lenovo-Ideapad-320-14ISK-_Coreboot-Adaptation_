@@ -1,0 +1,16 @@
+diff --git a/system/screen.c b/system/screen.c
+index b745f16..98d6905 100644
+--- a/system/screen.c
++++ b/system/screen.c
+@@ -236,9 +236,9 @@ void screen_init(void)
+         uint32_t g_max = (1 << screen_info->green_size) - 1;
+         uint32_t b_max = (1 << screen_info->blue_size ) - 1;
+         for (int i = 0; i < 16; i++) {
+-            uint32_t r = ((vga_pallete[i].r * r_max) / 255) << screen_info->red_pos;
++            uint32_t r = ((vga_pallete[i].b * r_max) / 255) << screen_info->red_pos;
+             uint32_t g = ((vga_pallete[i].g * g_max) / 255) << screen_info->green_pos;
+-            uint32_t b = ((vga_pallete[i].b * b_max) / 255) << screen_info->blue_pos;
++            uint32_t b = ((vga_pallete[i].r * b_max) / 255) << screen_info->blue_pos;
+             lfb_pallete[i] = r | g | b;
+         }
+     } else if (screen_info->orig_video_isVGA != VIDEO_TYPE_NONE) {
