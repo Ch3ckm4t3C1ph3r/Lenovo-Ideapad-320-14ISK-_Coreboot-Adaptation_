@@ -244,6 +244,7 @@ Here you find patches to payloads (secondary & primary).
 * [GRUB2 below text modification](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Patchs/grub_menutext_modification.patch)
 * [SeaBIOS hide payloads in menu](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Patchs/seabios_hide_payloads.patch)
 * [coreinfo menu centralization](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Patchs/coreinfo_centralization.patch)
+* [Memtest86+ Change color scheme to BGR](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Patchs/memtest86plus_change_color_to_bgr.patch)
 <!-- Patches Links -->
 
 ### How to apply this patches?
@@ -270,6 +271,13 @@ git apply seabios_hide_payloads.patch
 cd payloads/coreinfo/
 
 git apply coreinfo_centralization.patch
+```
+
+* Memtest86+ Change color scheme to BGR
+```bash
+cd payloads/external/Memtes86Plus/memtest86plus_v6/system
+
+git apply memtest86plus_change_color_to_bgr.patch
 ```
 
 ## References
