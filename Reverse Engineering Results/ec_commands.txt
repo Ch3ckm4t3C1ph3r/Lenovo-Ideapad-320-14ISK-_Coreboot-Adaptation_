@@ -2,4 +2,4 @@ This list is extracted from Pulseview sesion.
 
 Model Name: ITE8586E
 
-#     Hex Code     |     Timestamp    |    Command Function    |
+|    Hex Code     |     Timestamp    |    Command Function    |
