@@ -3,6 +3,7 @@ Extracted from: DSDT ACPI-table
 <--- DEVICES --->
 /*
  *  0000:00:00.0 - ffff:ff:ff.f
+ *
  *  DDDD:BB:CC.F
  *
  *  D -> Domain
