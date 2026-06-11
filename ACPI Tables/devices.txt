@@ -343,30 +343,77 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> NVM3 // NVMe 3
         |
         |
-        Device (TERM)
-        Device (SIRC)
-        Device (GPI0)
-        Device (I2C0)
-        Device (I2C1)
-        Device (I2C2)
-        Device (I2C3)
-        Device (I2C4)
-        Device (I2C5)
-        Device (SPI0)
-        Device (SPI1)
-        Device (UA00)
-        Device (UA01)
-        Device (UA02)
-        Device (TPD0)
-        Device (TPL1)
-        Device (IMP3)
-        Device (FPNT)
-        Device (BTH0)
-        Device (GNSS)
-        Device (GEXP)
-            Device (PEMC)
-                Device (CARD)
-            Device (PSDC)
+        +-------* TERM // Thermal Sensor
+        |
+        |
+        +-------* SIRC
+        |
+        |
+        +-------* GPI0 // General Purpose Pin 0
+        |
+        |
+        +-------* I2C0 // Inter-Integrated Circuit 0
+        |
+        |
+        +-------* I2C1
+        |
+        |
+        +-------* I2C2
+        |
+        |
+        +-------* I2C3
+        |
+        |
+        +-------* I2C4
+        |
+        |
+        +-------* I2C5
+        |
+        |
+        +-------* SPI0 // Serial Pheriperal Interface 0 (BIOS-UEFI Chip)
+        |
+        |
+        +-------* SPI1 // Serial Pheriperal Interface 1
+        |
+        |
+        +-------* UA00
+        |
+        |
+        +-------* UA01
+        |
+        |
+        +-------* UA02
+        |
+        |
+        +-------* TPD0
+        |
+        |
+        +-------* TPL1
+        |
+        |
+        +-------* IMP3
+        |
+        |
+        +-------* FPNT
+        |
+        |
+        +-------* BTH0
+        |
+        |
+        +-------* GNSS
+        |
+        |
+        +-------* GEXP
+        |       |
+        |       |
+        |       +-------* PEMC
+        |       |       |
+        |       |       |
+        |       |       +-------> CARD
+        |       |
+        |       +-------> PSDC
+        |
+        |
         Device (ISHD)
         Device (HECI)
         Device (EC0) // Emmbeded Controller
