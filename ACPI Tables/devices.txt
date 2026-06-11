@@ -20,55 +20,55 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> PEGP
         |
         |
-        +-------* GFX0
+        +-------> GFX0
         |
         |
-        +-------* B0D4
+        +-------> B0D4
         |
         |
-        +-------* PRRE
+        +-------> PRRE
         |
         |
-        +-------* IOTR // I/O Transmission
+        +-------> IOTR // I/O Transmission
         |
         |
-        +-------* LPCB // Low Pin Count B
+        +-------> LPCB // Low Pin Count B
         |
         |
-        +-------* PPMC // P?? Power Management Controller
+        +-------> PPMC // P?? Power Management Controller
         |
         |
-        +-------* SBUS // System Bus
+        +-------> SBUS // System Bus
         |
         |
-        +-------* LNKA // Link A
+        +-------> LNKA // Link A
         |
         |
-        +-------* LNKB // Link B
+        +-------> LNKB // Link B
         |
         |
-        +-------* LNKC // Link C
+        +-------> LNKC // Link C
         |
         |
-        +-------* LNKD // Link D
+        +-------> LNKD // Link D
         |
         |
-        +-------* LNKE // Link E
+        +-------> LNKE // Link E
         |
         |
-        +-------* LNKF // Link F
+        +-------> LNKF // Link F
         |
         |
-        +-------* LNKG // Link G
+        +-------> LNKG // Link G
         |
         |
-        +-------* LNKH // Link H
+        +-------> LNKH // Link H
         |
         |
-        +-------* GLAN // G?? LAN
+        +-------> GLAN // G?? LAN
         |
         |
-        +-------* XHC // xHC (Host Controller)
+        +-------> XHC // xHC (Host Controller)
         |
         |
         +-------* RHUB // Root HUB
@@ -155,10 +155,10 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> SS10
         |
         |
-        +-------* XDCI // xDCI (Direct Connect Interface)
+        +-------> XDCI // xDCI (Direct Connect Interface)
         |
         |
-        +-------* HDAS
+        +-------> HDAS
         |
         |
         +-------* RP01 // Root Port 01
@@ -343,64 +343,64 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> NVM3 // NVMe 3
         |
         |
-        +-------* TERM // Thermal Sensor
+        +-------> TERM // Thermal Sensor
         |
         |
-        +-------* SIRC
+        +-------> SIRC
         |
         |
-        +-------* GPI0 // General Purpose Pin 0
+        +-------> GPI0 // General Purpose Pin 0
         |
         |
-        +-------* I2C0 // Inter-Integrated Circuit 0
+        +-------> I2C0 // Inter-Integrated Circuit 0
         |
         |
-        +-------* I2C1
+        +-------> I2C1
         |
         |
-        +-------* I2C2
+        +-------> I2C2
         |
         |
-        +-------* I2C3
+        +-------> I2C3
         |
         |
-        +-------* I2C4
+        +-------> I2C4
         |
         |
-        +-------* I2C5
+        +-------> I2C5
         |
         |
-        +-------* SPI0 // Serial Pheriperal Interface 0 (BIOS-UEFI Chip)
+        +-------> SPI0 // Serial Pheriperal Interface 0 (BIOS-UEFI Chip)
         |
         |
-        +-------* SPI1 // Serial Pheriperal Interface 1
+        +-------> SPI1 // Serial Pheriperal Interface 1
         |
         |
-        +-------* UA00
+        +-------> UA00
         |
         |
-        +-------* UA01
+        +-------> UA01
         |
         |
-        +-------* UA02
+        +-------> UA02
         |
         |
-        +-------* TPD0
+        +-------> TPD0
         |
         |
-        +-------* TPL1
+        +-------> TPL1
         |
         |
-        +-------* IMP3
+        +-------> IMP3
         |
         |
-        +-------* FPNT
+        +-------> FPNT
         |
         |
-        +-------* BTH0
+        +-------> BTH0
         |
         |
-        +-------* GNSS
+        +-------> GNSS
         |
         |
         +-------* GEXP
@@ -411,19 +411,40 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       |       |
         |       |       +-------> CARD
         |       |
+        |       |
         |       +-------> PSDC
         |
         |
-        Device (ISHD)
-        Device (HECI)
-        Device (EC0) // Emmbeded Controller
-            Device (BAT0)
-                Device (VPC0)
-            Device (ADP0)
-            Device (LID0)
-            Device (PWRB)
-            Device (WMI4)
-        Device (FWHD)
+        +-------> ISHD
+        |
+        |
+        +-------> HECI
+        |
+        |
+        +-------* EC0 // Emmbeded Controller
+        |       |
+        |       |
+        |       +-------* BAT0
+        |       |       |
+        |       |       |
+        |       |       +-------> VPC0
+        |       |
+        |       |
+        |       +-------> ADP0
+        |       |
+        |       |
+        |       +-------> LID0
+        |       |
+        |       |
+        |       +-------> PWRN // Power Button 0
+        |       |
+        |       |
+        |       +-------> WMI4
+        |
+        |
+        +-------> 0FWHD
+        |
+        |
         Device (HPET)
         Device (IPIC)
         Device (MATH)
