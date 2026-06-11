@@ -310,29 +310,39 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> PRT0 // Partition 0
         |       |
         |       |
-        |       +-------> PRT1
+        |       +-------> PRT1 // Partition 1
         |       |
         |       |
-        |       +-------> PRT2
+        |       +-------> PRT2 // Partition 2
         |       |
         |       |
-        |       +-------> PRT3
+        |       +-------> PRT3 // Partition 3
         |       |
         |       |
-        |       +-------> PRT4
+        |       +-------> PRT4 // Partition 4
         |       |
         |       |
-        |       +-------> PRT5
+        |       +-------> PRT5 // Partition 5
         |       |
         |       |
         |       +-------> VOL0 // Volume 0
         |       |
         |       |
-            Device (VOL1)
-            Device (VOL2)
-            Device (NVM1)
-            Device (NVM2)
-            Device (NVM3)
+        |       +-------> VOL1 // Volume 1
+        |       |
+        |       |
+        |       +-------> VOL2 // Volume 2
+        |       |
+        |       |
+        |       +-------> NVM1 // NVMe 1
+        |       |
+        |       |
+        |       +-------> NVM2 // NVMe 2
+        |       |
+        |       |
+        |       +-------> NVM3 // NVMe 3
+        |
+        |
         Device (TERM)
         Device (SIRC)
         Device (GPI0)
