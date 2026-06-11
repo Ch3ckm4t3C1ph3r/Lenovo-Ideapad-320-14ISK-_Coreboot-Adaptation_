@@ -419,7 +419,7 @@ Extracted from: DSDT ACPI-table
         +-------> ISHD
         |
         |
-        +-------> HECI
+        +-------> HECI // Sunrise Point-LP CSME HECI; Intel ME (MEI)
         |
         |
         +-------* EC0 // Emmbeded Controller
