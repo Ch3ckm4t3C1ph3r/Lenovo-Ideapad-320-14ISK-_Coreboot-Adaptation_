@@ -21,7 +21,7 @@ and the location to prepare the debug port to connect it to FT2232HL debug probe
 |    PCH_JTAG_TDO   |  Test instruction and data output                                      |                       |    I/OD  |
 |    PCH_JTAG_TMS   |  Control test operations by TAP Controller                             |                       |    I/OD  |
 |   PCH_JTAG_TRST#  |  JTAG output from DCI to CPU                                           |                       |     O    |
-|     ITP_PMODE     |  Transmit processor and PCH power/reset information too ITP Debugger   |                       |     O    |
+|     ITP_PMODE     |  Transmit processor and PCH power/reset information to ITP Debugger    |                       |     O    |
 
 ### XDP (eXtended Debug) Ports
 Also, you can find the XDBG ports in the boardview of thi board's family.
