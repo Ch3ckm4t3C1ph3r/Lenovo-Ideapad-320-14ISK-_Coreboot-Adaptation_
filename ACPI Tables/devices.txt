@@ -1,88 +1,109 @@
 Lenovo Ideapad 320 14ISK NM-B241
 <--- DEVICES --->
 
-        * PCI0 // PCIe 0
+* PCI0 // PCIe 0
+|
++-------*
         |
-        +----* PEG0
-        |          |
-        |          +----> PEGP
+        +-------* PEG0
+        |       |
+        |       +-------> PEGP
         |
-        +----* PEG1
-        |          |
-        |          +----> PEGP
         |
-        +----* PEG2
-        |          |
-        |          +----> PEGP
+        +-------* PEG1
+        |       |
+        |       +-------> PEGP
         |
-        +----* GFX0
         |
-        +----* B0D4
+        +-------* PEG2
+        |       |
+        |       +-------> PEGP
         |
-        * PRRE
         |
-        * IOTR
+        +-------* GFX0
         |
-        * LPCB
-        | 
-        * PPMC
         |
-        * SBUS
+        +-------* B0D4
         |
-        * LNKA
-        | 
-        * LNKB
         |
-        * LNKC
-        | 
-        * LNKD
+        +-------* PRRE
         |
-        * LNKE
         |
-        * LNKF
+        +-------* IOTR
         |
-        * LNKG
         |
-        * LNKH
+        +-------* LPCB
         |
-        * GLAN
         |
-        * XHC
+        +-------* PPMC
+        |
+        |
+        +-------* SBUS
+        |
+        |
+        +-------* LNKA
+        |
+        |
+        +-------* LNKB
+        |
+        |
+        +-------* LNKC
+        |
+        |
+        +-------* LNKD
+        |
+        |
+        +-------* LNKE
+        |
+        |
+        +-------* LNKF
+        |
+        |
+        +-------* LNKG
+        |
+        |
+        +-------* LNKH
+        |
+        |
+        +-------* GLAN
+        |
+        |
+        +----* XHC
         |
         +----* RHUB
-        |         |
-        |         +----> HS01
-        |         |
-        |         +----> HS02
-        |         |
-        |         +----> HS03
-        |         |
-        |         +----> HS04
-        |         |
-        |         +----> HS05
-        |         |
-        |         +----> HS06
-        |         |
-        |         +----> HS07
-        |         |
-        |         +----* HS08
-        |         |         |
-        |         |         +----> CAM8
-        |         |
-        |         +----> HS09)
-        |         |
-        |         +----> HS10
-        |         |
-        |         +----> USR1
-        |         |
-        |         +----> USR2
-        |         |
-        |         +----> SS01
-        |         |
-        |         +----> SS02
-        |         |
-        |         +----> SS03
-        |         |
+        |    |         
+        |    +----> HS01
+        |    |
+        |    +----> HS02
+        |    |
+        |    +----> HS03
+        |    |
+        |    +----> HS04
+        |    |
+        |    +----> HS05
+        |    |
+        |    +----> HS06
+        |    |
+        |    +----> HS07
+        |    |
+        |    +----* HS08
+        |    |    |
+        |    |    +----> CAM8
+        |    |
+        |    +----> HS09)
+        |    |
+        |    +----> HS10
+        |    |
+        |    +----> USR1
+        |    |
+        |    +----> USR2
+        |    |
+        |    +----> SS01
+        |    |
+        |    +----> SS02
+        |    |
+        |    +----> SS03
+        |    |
         |         +----> SS04
         |         |
         |         +----> SS05
@@ -105,13 +126,13 @@ Lenovo Ideapad 320 14ISK NM-B241
         |         |
         |         +----> SS10
         |        
-        * XDCI
+        +----* XDCI
         |
-        * HDAS
+        +----* HDAS
         |
-        * RP01 // Root Port 1
-        |
-        +----> PXSX
+        +----* RP01 // Root Port 1
+        |    |
+        |    +----> PXSX
         |
         * RP02
         |
@@ -120,9 +141,12 @@ Lenovo Ideapad 320 14ISK NM-B241
         * RP03
         |
         +----> PXSX
-        Device (RP04)
-            Device (PXSX)
-        Device (RP05)
+        |
+        * RP04
+        |
+        +----> PXSX
+        | 
+        +----RP05)
             Device (PXSX)
         Device (RP06)
             Device (PXSX)
@@ -227,5 +251,5 @@ Lenovo Ideapad 320 14ISK NM-B241
                             Device (PXST)
         Device (PAGD)
         Device (PDRC)
-    Device (PSM)
+* PSM
 
