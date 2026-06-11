@@ -2,7 +2,7 @@ Lenovo Ideapad 320 14ISK NM-B241
 Extracted from: DSDT ACPI-table
 <--- DEVICES --->
 
-* PCI0 // PCIe Domain: 0 (00:00:00.0)
+* PCI0 // PCIe Bus Domain: 0 (00:00:00.0)
 |
 +-------*
         |
@@ -42,7 +42,7 @@ Extracted from: DSDT ACPI-table
         +-------> SBUS // System Bus
         |
         |
-        +-------> LNKA // Link A
+        +-------> LNKA // Link A PCI Interrupt Link Device
         |
         |
         +-------> LNKB // Link B
@@ -425,7 +425,7 @@ Extracted from: DSDT ACPI-table
         +-------* EC0 // Emmbeded Controller
         |       |
         |       |
-        |       +-------* BAT0
+        |       +-------* BAT0 // Battery 0
         |       |       |
         |       |       |
         |       |       +-------> VPC0
@@ -434,25 +434,25 @@ Extracted from: DSDT ACPI-table
         |       +-------> ADP0
         |       |
         |       |
-        |       +-------> LID0
+        |       +-------> LID0 // Lid Device 0
         |       |
         |       |
         |       +-------> PWRN // Power Button 0
         |       |
         |       |
-        |       +-------> WMI4
+        |       +-------> WMI4 // Windows Management Instrumentation 4
         |
         |
-        +-------> 0FWHD
+        +-------> 0FWHD // Intel 82802 Firmware Hub Device 
         |
         |
-        +-------> HPET
+        +-------> HPET // HPET System Timer
         |
         |
         +-------> IPIC
         |
         |
-        +-------> MATH
+        +-------> MATH // x87-compatible Floating Point Processing Unit
         |
         |
         +-------> LDRC
@@ -461,10 +461,10 @@ Extracted from: DSDT ACPI-table
         +-------> LDR2
         |
         |
-        +-------> 0RTC // Real-Time Clock
+        +-------> 0RTC // AT Real-Time Clock +AT Compatible
         |
         |
-        +-------> TIMR // Timer
+        +-------> TIMR // PC-class System Timer
         |
         |
         +-------> CWDT
@@ -473,7 +473,7 @@ Extracted from: DSDT ACPI-table
         +-------> PS2K // PS-2 Keyboard
         |
         |
-        +-------> BTKL
+        +-------> BTKL // Intel Bluetooth RF Kill
         |
         |
         +-------* WTBT
