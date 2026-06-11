@@ -50,10 +50,10 @@ Extracted from: DSDT ACPI-table
         +-------> PPMC // P?? Power Management Controller
         |
         |
-        +-------> SBUS // System Bus (0000:00:1f.4; SMBus)
+        +-------> SBUS // System Management Bus I801 adapter (0000:00:1f.4; SMBus)
         |
         |
-        +-------> LNKA // Link A PCI Interrupt Link Device
+        +-------> LNKA // Link A PCI Interrupt Link Device [PNP0C0F]
         |
         |
         +-------> LNKB // Link B
@@ -433,7 +433,7 @@ Extracted from: DSDT ACPI-table
         +-------> HECI // Sunrise Point-LP CSME HECI; Intel ME (MEI; 0000:00:16.0) [IRQ 129]
         |
         |
-        +-------* EC0 // Emmbeded Controller
+        +-------* EC0 // Emmbeded Controller [PNP0C09]
         |       |
         |       |
         |       +-------* BAT0 // Battery 0
