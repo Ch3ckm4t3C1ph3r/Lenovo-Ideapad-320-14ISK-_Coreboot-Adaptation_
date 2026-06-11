@@ -1,7 +1,7 @@
 Lenovo Ideapad 320 14ISK NM-B241
 <--- DEVICES --->
 
-* PCI0 // PCIe 0 (000:00:00.0)
+* PCI0 // PCIe 0 (00:00:00.0)
 |
 +-------*
         |
