@@ -13,15 +13,15 @@ I discover by using the schematic, boardview , the physical motherboard and the 
 This section provides the specification of the JTAG ports 
 and the location to prepare the debug port to connect it to FT2232HL debug probe.
 
-|     JTAG Port     |           Function           | Voltage Specification |
-|:-----------------:|:-----------------------------|:---------------------:|
-|       JTAGX       |                              |                       |
-|    PCH_JTAG_TCK   |  Current Clock Signal        |                       |
-|    PCH_JTAG_TDI   |  Command Input               |                       |
-|    PCH_JTAG_TDO   |  Command Output (Status)     |                       |
-|    PCH_JTAG_TMS   |                              |                       |
-|   PCH_JTAG_TRST#  |  Processor reset step-0      |                       |
-|     ITP_PMODE     |                              |                       |
+|     JTAG Port     |                                 Function                               | Voltage Specification | I/O Type |
+|:-----------------:|:-----------------------------------------------------------------------|:---------------------:|:--------:|
+|       JTAGX       |  Support merged debug port topologies                                  |                       |    I/O   |
+|    PCH_JTAG_TCK   |  JTAG Clock (test clock input)                                         |                       |    I/O   |
+|    PCH_JTAG_TDI   |  Test instruction and data input                                       |                       |    I/OD  |
+|    PCH_JTAG_TDO   |  Test instruction and data output                                      |                       |    I/OD  |
+|    PCH_JTAG_TMS   |  Control test operations by TAP Controller                             |                       |    I/OD  |
+|   PCH_JTAG_TRST#  |  JTAG output from DCI to CPU                                           |                       |     O    |
+|     ITP_PMODE     |  Transmit processor and PCH power/reset information too ITP Debugger   |                       |     O    |
 
 ### XDP (eXtended Debug) Ports
 Also, you can find the XDBG ports in the boardview of thi board's family.
