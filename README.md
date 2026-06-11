@@ -202,6 +202,9 @@ flowchart LR;
     class e1,e2,e3 edgeStyle
 ```
 
+> [!TIP]
+> In SeaBIOS secondary payload, to return to GRUB2 menu (without go to G3 power state; this is mechanical off or press the poweer button manually), you should use `Ctrl + Alt + Del (Supr)` keystroke.
+
 ## How to access the UART port :toolbox:
 If you want to access the UART port to see real-time events of the board these are the requirements and steps of doing so.
 
