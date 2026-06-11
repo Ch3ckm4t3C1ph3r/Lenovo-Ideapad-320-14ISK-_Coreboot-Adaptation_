@@ -445,23 +445,58 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------> 0FWHD
         |
         |
-        Device (HPET)
-        Device (IPIC)
-        Device (MATH)
-        Device (LDRC)
-        Device (LDR2)
-        Device (RTC)
-        Device (TIMR)
-        Device (CWDT)
-        Device (PS2K)
-        Device (BTKL)
-        Device (WTBT)
-            Device (HRUS)
-                Device (HRDP)
-                    Device (TDUS)
-                        Device (TDDP)
-                            Device (PXST)
-        Device (PAGD)
-        Device (PDRC)
+        +-------> HPET
+        |
+        |
+        +-------> IPIC
+        |
+        |
+        +-------> MATH
+        |
+        |
+        +-------> LDRC
+        |
+        |
+        +-------> LDR2
+        |
+        |
+        +-------> 0RTC // Real-Time Clock
+        |
+        |
+        +-------> TIMR // Timer
+        |
+        |
+        +-------> CWDT
+        |
+        |
+        +-------> PS2K // PS-2 Keyboard
+        |
+        |
+        +-------> BTKL
+        |
+        |
+        +-------* WTBT
+        |       |
+        |       |
+        |       +-------* HRUS
+        |               |
+        |               |
+        |               +-------* HRDP
+        |                       |
+        |                       |
+        |                       +-------* TDUS
+        |                               |
+        |                               |
+        |                               +-------* TDDP
+        |                                       |
+        |                                       |
+        |                                       *-------> PXST
+        |
+        |
+        +-------> PAGD
+        |
+        |
+        +------->PDRC
+
 * PSM
 
