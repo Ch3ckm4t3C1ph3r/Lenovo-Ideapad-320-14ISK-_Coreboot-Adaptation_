@@ -1,4 +1,5 @@
 Lenovo Ideapad 320 14ISK NM-B241
+Extracted from: DSDT ACPI-table
 <--- DEVICES --->
 
 * PCI0 // PCIe 0 (00:00:00.0)
@@ -166,139 +167,139 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> PXSX
         |
         |
-        +-------* RP02
+        +-------* RP02 // Root Port 02
         |       | 
         |       | 
         |       +-------> PXSX
         |
         |
-        +-------* RP03
+        +-------* RP03 // Root Port 03
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP04
-        |       |
-        |       |
-        |       +-------> PXSX
-        | 
-        |
-        +-------* RP05
-        |       |
-        |       |
-        |       +-------> PXSX
-        |
-        |
-        +-------* RP06
-        |       |
-        |       |
-        |       +-------> PXSX
-        |
-        |
-        +-------* RP07
+        +-------* RP04 // Root Port 04
         |       |
         |       |
         |       +-------> PXSX
         | 
         |
-        +-------* RP08
+        +-------* RP05 // Root Port 05
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP09
+        +-------* RP06 // Root Port 06
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP10
+        +-------* RP07 // Root Port 07
+        |       |
+        |       |
+        |       +-------> PXSX
+        | 
+        |
+        +-------* RP08 // Root Port 08
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP11
+        +-------* RP09 // Root Port 09
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP12
+        +-------* RP10 // Root Port 10
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP13
+        +-------* RP11 // Root Port 11
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP14
+        +-------* RP12 // Root Port 12
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP15
+        +-------* RP13 // Root Port 13
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP16
+        +-------* RP14 // Root Port 14
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP17
+        +-------* RP15 // Root Port 15
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP18
+        +-------* RP16 // Root Port 16
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP19
+        +-------* RP17 // Root Port 17
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP20
+        +-------* RP18 // Root Port 18
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP21
+        +-------* RP19 // Root Port 19
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP22
+        +-------* RP20 // Root Port 20
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP23
+        +-------* RP21 // Root Port 21
         |       |
         |       |
         |       +-------> PXSX
         |
         |
-        +-------* RP24
+        +-------* RP22 // Root Port 22
+        |       |
+        |       |
+        |       +-------> PXSX
+        |
+        |
+        +-------* RP23 // Root Port 23
+        |       |
+        |       |
+        |       +-------> PXSX
+        |
+        |
+        +-------* RP24 // Root Port 24
         |       |
         |       |
         |       +-------> PXSX
@@ -355,19 +356,19 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------> I2C0 // Inter-Integrated Circuit 0
         |
         |
-        +-------> I2C1
+        +-------> I2C1 // Inter-Integrated Circuit 1
         |
         |
-        +-------> I2C2
+        +-------> I2C2 // Inter-Integrated Circuit 2
         |
         |
-        +-------> I2C3
+        +-------> I2C3 // Inter-Integrated Circuit 3
         |
         |
-        +-------> I2C4
+        +-------> I2C4 // Inter-Integrated Circuit 4
         |
         |
-        +-------> I2C5
+        +-------> I2C5 // Inter-Integrated Circuit 5
         |
         |
         +-------> SPI0 // Serial Pheriperal Interface 0 (BIOS-UEFI Chip)
@@ -496,7 +497,7 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------> PAGD
         |
         |
-        +------->PDRC
+        +-------> PDRC
 
 * PSM
 
