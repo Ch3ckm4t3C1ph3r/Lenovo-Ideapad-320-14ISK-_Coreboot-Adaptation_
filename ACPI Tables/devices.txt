@@ -1,7 +1,7 @@
 Lenovo Ideapad 320 14ISK NM-B241
 <--- DEVICES --->
 
-* PCI0 // PCIe 0
+* PCI0 // PCIe 0 (00:00:00.0)
 |
 +-------*
         |
@@ -38,10 +38,10 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------* PPMC
         |
         |
-        +-------* SBUS
+        +-------* SBUS // System Bus
         |
         |
-        +-------* LNKA
+        +-------* LNKA // Link A
         |
         |
         +-------* LNKB
@@ -71,7 +71,7 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------* XHC
         |
         |
-        +-------* RHUB
+        +-------* RHUB // Root HUB
         |       |
         |       |
         |       +-------> HS01
@@ -98,10 +98,10 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------* HS08
         |       |       |
         |       |       |
-        |       |       +-------> CAM8
+        |       |       +-------> CAM8 // Camera 08
         |       |
         |       |
-        |       +-------> HS09)
+        |       +-------> HS09
         |       |
         |       |
         |       +-------> HS10
@@ -161,7 +161,7 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------* HDAS
         |
         |
-        +-------* RP01 // Root Port 1
+        +-------* RP01 // Root Port 01
         |       |
         |       +-------> PXSX
         |
@@ -304,14 +304,30 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> PXSX
         |
         |
-        Device (SAT0)
-            Device (PRT0)
-            Device (PRT1)
-            Device (PRT2)
-            Device (PRT3)
-            Device (PRT4)
-            Device (PRT5)
-            Device (VOL0)
+        +-------* SAT0 // SATA Port 0
+        |       |
+        |       |
+        |       +-------> PRT0 // Partition 0
+        |       |
+        |       |
+        |       +-------> PRT1
+        |       |
+        |       |
+        |       +-------> PRT2
+        |       |
+        |       |
+        |       +-------> PRT3
+        |       |
+        |       |
+        |       +-------> PRT4
+        |       |
+        |       |
+        |       +-------> PRT5
+        |       |
+        |       |
+        |       +-------> VOL0 // Volume 0
+        |       |
+        |       |
             Device (VOL1)
             Device (VOL2)
             Device (NVM1)
