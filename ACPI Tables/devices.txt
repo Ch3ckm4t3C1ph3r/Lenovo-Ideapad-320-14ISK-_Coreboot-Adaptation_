@@ -29,13 +29,13 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------* PRRE
         |
         |
-        +-------* IOTR
+        +-------* IOTR // I/O Transmission
         |
         |
-        +-------* LPCB
+        +-------* LPCB // Low Pin Count B
         |
         |
-        +-------* PPMC
+        +-------* PPMC // P?? Power Management Controller
         |
         |
         +-------* SBUS // System Bus
