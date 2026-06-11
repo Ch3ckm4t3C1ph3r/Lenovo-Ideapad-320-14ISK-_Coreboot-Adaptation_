@@ -12,7 +12,7 @@ Extracted from: DSDT ACPI-table
  *
  */
 
-* PCI0 // PCIe Bus Domain: 0 (0000:00:00.0)
+* PCI0 // PCIe Bus Domain: 0 (0000:00:00.0) Host Bridge 6th Gen Core Processor [No IRQ]
 |
 +-------*
         |
@@ -49,7 +49,7 @@ Extracted from: DSDT ACPI-table
         +-------> PPMC // P?? Power Management Controller
         |
         |
-        +-------> SBUS // System Bus
+        +-------> SBUS // System Bus SMBus
         |
         |
         +-------> LNKA // Link A PCI Interrupt Link Device
@@ -195,7 +195,7 @@ Extracted from: DSDT ACPI-table
         |       +-------> PXSX
         | 
         |
-        +-------* RP05 // Root Port 05
+        +-------* RP05 // Root Port 05 PCI Express Bridge (0000:00:1c.0) [IRQ 120]
         |       |
         |       |
         |       +-------> PXSX
@@ -363,22 +363,22 @@ Extracted from: DSDT ACPI-table
         +-------> GPI0 // General Purpose Pin 0
         |
         |
-        +-------> I2C0 // Inter-Integrated Circuit 0
+        +-------> I2C0 // Inter-Integrated Circuit 0 (0000:00.15.0)
         |
         |
-        +-------> I2C1 // Inter-Integrated Circuit 1
+        +-------> I2C1 // Inter-Integrated Circuit 1 (0000:00:15.1)
         |
         |
-        +-------> I2C2 // Inter-Integrated Circuit 2
+        +-------> I2C2 // Inter-Integrated Circuit 2 (0000:00:15.2)
         |
         |
-        +-------> I2C3 // Inter-Integrated Circuit 3
+        +-------> I2C3 // Inter-Integrated Circuit 3 (0000:00:15.3)
         |
         |
-        +-------> I2C4 // Inter-Integrated Circuit 4
+        +-------> I2C4 // Inter-Integrated Circuit 4 (0000:00:15.4)
         |
         |
-        +-------> I2C5 // Inter-Integrated Circuit 5
+        +-------> I2C5 // Inter-Integrated Circuit 5 (0000:00:15.5)
         |
         |
         +-------> SPI0 // Serial Pheriperal Interface 0 (BIOS-UEFI Chip)
@@ -387,13 +387,13 @@ Extracted from: DSDT ACPI-table
         +-------> SPI1 // Serial Pheriperal Interface 1
         |
         |
-        +-------> UA00
+        +-------> UA00 // UART 0
         |
         |
-        +-------> UA01
+        +-------> UA01 // UART 1
         |
         |
-        +-------> UA02
+        +-------> UA02 // UART 2
         |
         |
         +-------> TPD0
@@ -429,7 +429,7 @@ Extracted from: DSDT ACPI-table
         +-------> ISHD
         |
         |
-        +-------> HECI // Sunrise Point-LP CSME HECI; Intel ME (MEI)
+        +-------> HECI // Sunrise Point-LP CSME HECI; Intel ME (MEI; 0000:00:16.0) [IRQ 129]
         |
         |
         +-------* EC0 // Emmbeded Controller
