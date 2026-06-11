@@ -2,7 +2,7 @@ Lenovo Ideapad 320 14ISK NM-B241
 Extracted from: DSDT ACPI-table
 <--- DEVICES --->
 /*
- *
+ *  0000:00:00.0 - ffff:ff:ff.f
  *  DDDD:BB:CC.F
  *
  *  D -> Domain
@@ -49,7 +49,7 @@ Extracted from: DSDT ACPI-table
         +-------> PPMC // P?? Power Management Controller
         |
         |
-        +-------> SBUS // System Bus SMBus
+        +-------> SBUS // System Bus (0000:00:1f.4; SMBus)
         |
         |
         +-------> LNKA // Link A PCI Interrupt Link Device
@@ -169,7 +169,7 @@ Extracted from: DSDT ACPI-table
         +-------> XDCI // xDCI (Direct Connect Interface)
         |
         |
-        +-------> HDAS
+        +-------> HDAS // HD Audio ALC236 Analog (0000:00:1f.3) [IRQ 130]
         |
         |
         +-------* RP01 // Root Port 01
@@ -354,7 +354,7 @@ Extracted from: DSDT ACPI-table
         |       +-------> NVM3 // NVMe 3
         |
         |
-        +-------> TERM // Thermal Sensor
+        +-------> TERM // Thermal Sensor (0000:00:14.2) [INT343D; IRQ 18]
         |
         |
         +-------> SIRC
@@ -363,10 +363,10 @@ Extracted from: DSDT ACPI-table
         +-------> GPI0 // General Purpose Pin 0
         |
         |
-        +-------> I2C0 // Inter-Integrated Circuit 0 (0000:00.15.0)
+        +-------> I2C0 // Inter-Integrated Circuit 0 (0000:00:15.0) [INT3442; IRQ 16] Synopsys DesignWare
         |
         |
-        +-------> I2C1 // Inter-Integrated Circuit 1 (0000:00:15.1)
+        +-------> I2C1 // Inter-Integrated Circuit 1 (0000:00:15.1) [INT3443]
         |
         |
         +-------> I2C2 // Inter-Integrated Circuit 2 (0000:00:15.2)
@@ -480,7 +480,7 @@ Extracted from: DSDT ACPI-table
         +-------> CWDT
         |
         |
-        +-------> PS2K // PS-2 Keyboard
+        +-------> PS2K // PS-2 Keyboard [LDN 0x05]
         |
         |
         +-------> BTKL // Intel Bluetooth RF Kill
