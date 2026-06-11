@@ -155,7 +155,7 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> SS10
         |
         |
-        +-------* XDCI
+        +-------* XDCI // xDCI (Direct Connect Interface)
         |
         |
         +-------* HDAS
