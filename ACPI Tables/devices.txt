@@ -44,31 +44,31 @@ Lenovo Ideapad 320 14ISK NM-B241
         +-------* LNKA // Link A
         |
         |
-        +-------* LNKB
+        +-------* LNKB // Link B
         |
         |
-        +-------* LNKC
+        +-------* LNKC // Link C
         |
         |
-        +-------* LNKD
+        +-------* LNKD // Link D
         |
         |
-        +-------* LNKE
+        +-------* LNKE // Link E
         |
         |
-        +-------* LNKF
+        +-------* LNKF // Link F
         |
         |
-        +-------* LNKG
+        +-------* LNKG // Link G
         |
         |
-        +-------* LNKH
+        +-------* LNKH // Link H
         |
         |
-        +-------* GLAN
+        +-------* GLAN // G?? LAN
         |
         |
-        +-------* XHC
+        +-------* XHC // xHC (Host Controller)
         |
         |
         +-------* RHUB // Root HUB
