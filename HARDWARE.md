@@ -21,6 +21,7 @@ and the location to prepare the debug port to connect it to FT2232HL debug probe
 |    PCH_JTAG_TDO   |  Command Output (Status)     |                       |
 |    PCH_JTAG_TMS   |                              |                       |
 |   PCH_JTAG_TRST#  |  Processor reset step-0      |                       |
+|     ITP_PMODE     |                              |                       |
 
 ### XDP (eXtended Debug) Ports
 Also, you can find the XDBG ports in the boardview of thi board's family.
@@ -38,6 +39,7 @@ This ports, in summary, give you special debug functions that old motherboards d
 |     XDP_BMP2#     |                              |                       |
 |     XDP_BMP3#     |                              |                       |
 |     XDP_PRDY#     |                              |                       |
+|   XDP_ITP_PMODE   |                              |                       |
 
 ## UART Ports
 ![Physical UART Ports Location](https://github.com/Ch3ckm4t3C1ph3r/Lenovo-Ideapad-320-14ISK-_Coreboot-Adaptation_/blob/main/Reverse%20Engineering%20Results/Hardware%20Images/UART_pads.pdf)
