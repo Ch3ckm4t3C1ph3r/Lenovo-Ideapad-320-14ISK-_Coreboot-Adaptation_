@@ -166,58 +166,48 @@ Lenovo Ideapad 320 14ISK NM-B241
         |       +-------> PXSX
         |
         |
-        * RP02
+        +-------* RP02
+        |       | 
+        |       | 
+        |       +-------> PXSX
         |
-        +----> PXSX
         |
-        * RP03
+        +-------* RP03
+        |       |
+        |       |
+        |       +-------> PXSX
         |
-        +----> PXSX
         |
-        * RP04
-        |
-        +----> PXSX
+        +-------* RP04
+        |       |
+        |       |
+        |       +-------> PXSX
         | 
-        +----RP05)
-            Device (PXSX)
-        Device (RP06)
-            Device (PXSX)
-        Device (RP07)
-            Device (PXSX)
-        Device (RP08)
-            Device (PXSX)
-        Device (RP09)
-            Device (PXSX)
-        Device (RP10)
-            Device (PXSX)
-        Device (RP11)
-            Device (PXSX)
-        Device (RP12)
-            Device (PXSX)
-        Device (RP13)
-            Device (PXSX)
-        Device (RP14)
-            Device (PXSX)
-        Device (RP15)
-            Device (PXSX)
-        Device (RP16)
-            Device (PXSX)
-        Device (RP17)
-            Device (PXSX)
-        Device (RP18)
-            Device (PXSX)
-        Device (RP19)
-            Device (PXSX)
-        Device (RP20)
-            Device (PXSX)
-        Device (RP21)
-            Device (PXSX)
-        Device (RP22)
-            Device (PXSX)
-        Device (RP23)
-            Device (PXSX)
-        Device (RP24)
-            Device (PXSX)
+        |
+        +-------* RP05
+        |       |
+        |       |
+        |       +-------> PXSX
+        |
+        |
+        +-------* RP06
+        |       |
+        |       |
+        |       +-------> PXSX
+        |
+        |
+        +-------* RP07
+        |       |
+        |       |
+        |       +-------> PXSX
+        | 
+        |
+        +-------* RP08
+        |       |
+        |       |
+        |       +-------> PXSX
+        |
+        |
         Device (SAT0)
             Device (PRT0)
             Device (PRT1)
